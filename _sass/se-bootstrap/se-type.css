@@ -1,0 +1,13 @@
+.page-header {
+  background: white;
+  margin: 0 0 1em 0;
+  padding: 2em 0 2em 0 !important; }
+  .page-header h1 {
+    margin: 0; }
+
+@media screen and (max-width: 640px) {
+  .page-header h1 {
+    font-size: 24px;
+    margin-top: 1em; } }
+
+/*# sourceMappingURL=se-type.css.map */

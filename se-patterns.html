@@ -1,0 +1,9 @@
+---
+layout: page
+title: SE Design Patterns
+---
+{% for cookie in site.se-patterns %}
+	<div class="cookie">
+		<h2><a href="{{ cookie.url }}">{{ cookie.title }}</a></h2>
+	</div>
+{% endfor %}

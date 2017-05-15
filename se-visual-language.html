@@ -1,0 +1,9 @@
+---
+layout: page
+title: SE Visual Language
+---
+{% for cookie in site.se-visual-language %}
+	<div class="cookie">
+		<h2><a href="{{ cookie.url }}">{{ cookie.title }}</a></h2>
+	</div>
+{% endfor %}

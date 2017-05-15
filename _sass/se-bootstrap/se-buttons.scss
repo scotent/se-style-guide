@@ -1,0 +1,63 @@
+@import 'se-variables.scss';
+
+/* SE style Buttons */
+
+.btn {
+  border-radius: 0;
+  font-weight: bold;
+  &:focus {
+    outline: 4px solid $highlight-blue;
+  }
+}
+
+.btn-default {
+  background: $se-blue;
+  color: white;
+  border: none;
+  &:hover, &:active, &:focus {
+    color: white;
+    background: darken($se-light-blue, 10%);
+  }
+}
+
+.btn-primary {
+  background: $accessible-green;
+  &:hover, &:active, &:focus {
+    background: darken($accessible-green, 10%);
+  }
+}
+
+.btn-success {
+  background: $se-bright-green;
+  &:hover {
+    background: darken($se-bright-green, 10%);
+  }
+}
+
+.btn-info {
+  background: $se-black;
+  &:hover {
+    background: darken($se-black, 10%);
+  }
+}
+
+.btn-warning {
+  background: $se-orange;
+  &:hover {
+    background: darken($se-orange, 10%);
+  }
+}
+
+.btn-danger {
+  background: $se-red;
+  &:hover {
+    background: darken($se-red, 10%);
+  }
+}
+
+.btn-link {
+  color: $se-blue;
+  &:hover {
+    color: darken($se-blue, 10%);
+  }
+}

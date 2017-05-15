@@ -1,0 +1,141 @@
+@import 'se-variables.scss';
+
+/* SE Form Styles */
+
+form {
+  
+  .form-group {
+    background-color: white;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+    border: none;
+    padding: 2em;
+    
+    .form-sub-group {
+      padding-left: 1em;
+      border-left: 5px solid #337ab7;
+      margin: 2em 0 0 4px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 640px) {
+    .form-group {
+      padding: 1em;
+    }
+  }
+  
+  .form-group label,
+  .form-group legend {
+    font-size: 1.25em;
+    font-weight: bold;
+    border-bottom: none;
+    display: block;
+    margin-bottom: 0;
+  }
+
+  /* Input Fields */
+
+  input.form-control[type="text"],
+  textarea.form-control {
+    border-color: $se-light-blue;
+    border-radius: 0;
+  }
+  
+  label.block-label {
+    display: inline-block;
+    width: auto;
+    border: white 1px solid;
+    background: $se-light-grey;
+    padding: 1em;
+    font-size: 1em;
+    
+    &:hover, &.checked {
+      border: $se-light-blue 1px solid;
+    }
+    
+    input[type="radio"] {
+      margin-left: 0;
+      margin-right: 0.5em;
+      position: relative;
+    }
+  }
+  
+  input[type="radio"]:checked+label{ font-weight: bold; color: red; border: $se-light-blue 1px solid;} 
+
+  
+  .input-group {
+    &.icon-left {
+      input {
+        border-left: none;
+        box-shadow: none;
+      }      
+      .input-group-addon{
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-color: $se-light-blue;
+        color: $se-light-blue;
+        font-weight: bold;
+        background: white;
+      }
+    }
+    &.icon-right {
+      input {
+        border-right: none;
+        box-shadow: none;
+      }      
+      .input-group-addon{
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-color: $se-light-blue;
+        color: $se-light-blue;
+        font-weight: bold;
+        background: white;
+      }
+    }
+  }
+  
+  
+  /* Action Buttons */
+  .form--actions {
+    label {
+        display: block;
+      span {
+        display: block;
+        font-weight: normal;
+        font-size: 1.25em;
+      }
+    }
+  }
+  
+}
+
+.form-preview {
+  header {
+    margin-bottom: 2em;
+    border-bottom: 1px solid;
+    padding-bottom: 0.5em;
+  }
+}
+
+.form-preview-row {
+  padding: 0 0 0.5em 0;
+  font-size: 18px;
+  
+  h4 {
+  font-size: 0.75em;
+  color: #666;
+  margin: 5px 0;
+  }  
+}
+
+
+#companyRegNo {
+  max-width: 120px;
+}
+
+
+section.form-preview h3 {
+  margin: 0;
+}

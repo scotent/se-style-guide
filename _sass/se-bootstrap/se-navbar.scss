@@ -1,0 +1,19 @@
+/* SE Navbar Styles */
+
+.navbar {
+  margin-bottom: 0;
+  .navbar-brand {
+    padding: 0.5em 0;
+    img {
+      max-height: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .navbar-brand {
+    img { 
+      margin-left: 1em;
+    }
+  }
+}

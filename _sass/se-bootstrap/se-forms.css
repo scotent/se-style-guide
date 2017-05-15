@@ -1,0 +1,93 @@
+/* SE Form Styles */
+form {
+  /* Input Fields */
+  /* Action Buttons */ }
+  form .form-group {
+    background-color: white;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+    border: none;
+    padding: 2em; }
+    form .form-group .form-sub-group {
+      padding-left: 1em;
+      border-left: 5px solid #337ab7;
+      margin: 2em 0 0 4px; }
+  @media screen and (max-width: 640px) {
+    form .form-group {
+      padding: 1em; } }
+  form .form-group label,
+  form .form-group legend {
+    font-size: 1.25em;
+    font-weight: bold;
+    border-bottom: none;
+    display: block;
+    margin-bottom: 0; }
+  form input.form-control[type="text"],
+  form textarea.form-control {
+    border-color: #2980B9;
+    border-radius: 0; }
+  form label.block-label {
+    display: inline-block;
+    width: auto;
+    border: white 1px solid;
+    background: #ecf0f1;
+    padding: 1em;
+    font-size: 1em; }
+    form label.block-label:hover, form label.block-label.checked {
+      border: #2980B9 1px solid; }
+    form label.block-label input[type="radio"] {
+      margin-left: 0;
+      margin-right: 0.5em;
+      position: relative; }
+  form input[type="radio"]:checked + label {
+    font-weight: bold;
+    color: red;
+    border: #2980B9 1px solid; }
+  form .input-group.icon-left input {
+    border-left: none;
+    box-shadow: none; }
+  form .input-group.icon-left .input-group-addon {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-color: #2980B9;
+    color: #2980B9;
+    font-weight: bold;
+    background: white; }
+  form .input-group.icon-right input {
+    border-right: none;
+    box-shadow: none; }
+  form .input-group.icon-right .input-group-addon {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-color: #2980B9;
+    color: #2980B9;
+    font-weight: bold;
+    background: white; }
+  form .form--actions label {
+    display: block; }
+    form .form--actions label span {
+      display: block;
+      font-weight: normal;
+      font-size: 1.25em; }
+
+.form-preview header {
+  margin-bottom: 2em;
+  border-bottom: 1px solid;
+  padding-bottom: 0.5em; }
+
+.form-preview-row {
+  padding: 0 0 0.5em 0;
+  font-size: 18px; }
+  .form-preview-row h4 {
+    font-size: 0.75em;
+    color: #666;
+    margin: 5px 0; }
+
+#companyRegNo {
+  max-width: 120px; }
+
+section.form-preview h3 {
+  margin: 0; }
+
+/*# sourceMappingURL=se-forms.css.map */

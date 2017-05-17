@@ -43,6 +43,10 @@ collections:
   se-visual-language:
     output: true
 
+repository: Gatekeeper7/Gatekeeper7.github.io
+
+github: [metadata]
+
 
 
 

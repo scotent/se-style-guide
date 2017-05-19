@@ -1,5 +1,5 @@
 body.component-library {
-  padding-top: 70px;
+    padding-top: 70px;
   .navbar-brand {
     margin-right: 1em;
   }
@@ -12,5 +12,13 @@ body.component-library {
     color: white;
     padding: 2em 0;
   }
-
+  pre{
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    margin-bottom: 10px;
+    overflow: auto;
+    width: auto;
+    padding: 5px;
+    background-color: #eee;
+    max-height: 600px;
+	}
 }

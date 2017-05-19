@@ -2226,6 +2226,9 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 .btn-link { color: #00427F; }
 .btn-link:hover { color: #00274c; }
 
+/* Scss Document */
+.se-footer-list { list-style: none; }
+
 /* SE Breadcrumbs */
 .breadcrumb { padding: 0; margin-bottom: 0; background-color: transparent; }
 

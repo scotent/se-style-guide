@@ -10,10 +10,8 @@
   <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search resu...">
 
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/styles.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/default.min.css">
-  <link rel="canonical" href="http://localhost:4000/">
-  <link rel="alternate" type="application/rss+xml" title="Your awesome title" href="/feed.xml">
-  
+  <link rel="alternate" type="application/rss+xml" title="Scottish Enterprise Living Styleguide" href="/feed.xml">
+
 </head>
 
 
@@ -26,27 +24,43 @@
       <h1>{{ page.title }}</h1>
       
       <div class="row">
+
         <div class="col-sm-12">
-          {{ content }}
-        </div>
-      </div>
-      
-      <div class="row">
-        
-        <div class="col-sm-6">
-          {{ page.html }}
-        </div>
 
-        <div class="col-sm-6">
-          {{ page.usage }}
-        </div>
+          <div class="demo-box">    
+            <!-- ### Put your element demo here ### -->
+                    
+            {{ content }} 
+              
+            <!-- ### End element demo ### -->    
+          </div>
+          
+          
+          
+          <div class="example-code">
+                          
+            <pre><code><textarea readonly>{{ content }}</textarea></code></pre>
+                    
+          </div>
+          
+          
+              
+          <div class="usage-notes">
+            <h2>Usage notes</h2>
+          
+            <!-- ### Start your usage notes here ###-->
+          
+               {{page.usage}}
+          
+            <!-- ### End usage notes ###-->
+          </div>
 
-        
+
+          
+        </div>
       </div>
 
     </div>    
-
-    
 
     {% include footer.html %}
  

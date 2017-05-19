@@ -2295,8 +2295,14 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button { display: no
 body.component-library { padding-top: 70px; }
 body.component-library .navbar-brand { margin-right: 1em; }
 body.component-library .jumbotron { background: white; }
-body.component-library footer { background: #2F3E44; color: white; padding: 2em 0; }
-body.component-library pre { font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; margin-bottom: 10px; overflow: auto; width: auto; padding: 5px; background-color: #eee; max-height: 600px; }
+body.component-library footer { background: #2F3E44; color: white; padding: 2em 0; margin-top: 1em; }
+body.component-library pre { font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; margin-bottom: 10px; width: 100%; background-color: #eee; max-height: 200px; }
+body.component-library pre textarea { width: 100%; height: 200px; border: none; background: transparent; float: left; }
+body.component-library pre textarea:focus { outline: 0; }
+body.component-library .demo-box { padding: 2em; background: white; margin-bottom: 1em; }
+body.component-library .usage-notes { padding: 2em; background: white; margin-bottom: 1em; }
+body.component-library .usage-notes p { max-width: 700px; }
+body.component-library .usage-notes h2 { margin-top: 0; font-size: 1.5em; }
 
 /*!
  * Yamm!3 - Yet another megamenu for Bootstrap 3

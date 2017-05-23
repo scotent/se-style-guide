@@ -22,8 +22,31 @@
 
 .btn-primary {
   background: $accessible-green;
+  border:none;
   &:hover, &:active, &:focus {
     background: darken($accessible-green, 10%);
+  }
+}
+
+.btn-link {
+  color: $se-blue;
+  &:hover {
+    color: darken($se-blue, 10%);
+  }
+}
+
+.btn-warning {
+  background: $se-orange;
+	border:none;
+  &:hover, &:active, &:focus {
+    background: darken($se-orange, 10%);
+  }
+}
+
+.btn-danger {
+  background: $se-red;
+  &:hover {
+    background: darken($se-red, 10%);
   }
 }
 
@@ -38,26 +61,5 @@
   background: $se-black;
   &:hover {
     background: darken($se-black, 10%);
-  }
-}
-
-.btn-warning {
-  background: $se-orange;
-  &:hover {
-    background: darken($se-orange, 10%);
-  }
-}
-
-.btn-danger {
-  background: $se-red;
-  &:hover {
-    background: darken($se-red, 10%);
-  }
-}
-
-.btn-link {
-  color: $se-blue;
-  &:hover {
-    color: darken($se-blue, 10%);
   }
 }

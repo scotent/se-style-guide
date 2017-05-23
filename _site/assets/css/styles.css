@@ -2292,7 +2292,7 @@ ol#progress--indicator li.incomplete .light { background: orange; }
   ol#progress--indicator li span { display: none; } }
 input::-webkit-outer-spin-button, input::-webkit-inner-spin-button { display: none; -webkit-appearance: none; margin: 0; /* <-- Apparently some margin are still there even though it's hidden */ }
 
-body.component-library { padding-top: 70px; }
+body.component-library { padding-top: 70px; /* Inputs */ }
 body.component-library .navbar-brand { margin-right: 1em; }
 body.component-library .jumbotron { background: white; }
 body.component-library footer { background: #2F3E44; color: white; padding: 2em 0; margin-top: 1em; }
@@ -2303,6 +2303,36 @@ body.component-library .demo-box { padding: 2em; background: white; margin-botto
 body.component-library .usage-notes { padding: 2em; background: white; margin-bottom: 1em; }
 body.component-library .usage-notes p { max-width: 700px; }
 body.component-library .usage-notes h2 { margin-top: 0; font-size: 1.5em; }
+body.component-library input { max-width: 100%; }
+body.component-library input[type="text"], body.component-library input[type="search"], body.component-library input[type="number"], body.component-library input[type="email"], body.component-library input[type="tel"], body.component-library input[type="password"], body.component-library textarea { padding: 12px 15px; padding: 0.25rem 0.5rem; font-weight: 400; border-color: #d1d3cf; border-style: solid; border-width: 3px; border-radius: 3px; background: #fff; box-shadow: 0 4px 0 -2px inset #f3f3f3, 0 4px 0 0 inset rgba(222, 223, 220, 0.43); }
+body.component-library select { padding: 0; margin: 0; text-indent: 0.5em; }
+body.component-library option { padding: 0 1.5em; }
+body.component-library .input--lede { font-size: 21px; font-size: 2.1rem; }
+body.component-library textarea { padding: 1em; }
+body.component-library .field { display: block; }
+body.component-library .field__label { display: block; margin-bottom: 10px; margin-bottom: 1rem; font-weight: 700; }
+body.component-library .field__label + .label__description { margin-top: -10px; margin-top: -1rem; margin-bottom: 12px; margin-bottom: 1.25rem; }
+body.component-library .field--error input { border-color: #e2383f; }
+body.component-library .field--error__message { color: #e2383f; }
+body.component-library .field--spaced { margin-bottom: 24px; margin-bottom: 2.4rem; }
+body.component-library .field--text { display: block; font-family: "open-sans-n7", "open-sans", sans-serif; }
+body.component-library .field__radio { margin-right: 16px; margin-right: 1.6rem; }
+body.component-library .field__radio input[type="radio"] { margin-right: 6px; margin-right: 0.6rem; }
+body.component-library .field__description { display: block; }
+body.component-library .input, body.component-library .input--mini, body.component-library .input--small, body.component-library .input--med, body.component-library .input--med-large, body.component-library .input--large, body.component-library .input--full { width: 100%; }
+body.component-library .input { display: inline-block; }
+body.component-library .input--block { display: block; }
+body.component-library .field--checkbox--reverse label { float: left; }
+body.component-library .input--mini { max-width: 250px; max-width: 25rem; }
+body.component-library .input--small { max-width: 350px; max-width: 35rem; }
+body.component-library .input--med { max-width: 450px; max-width: 45rem; }
+body.component-library .input--med-large { max-width: 550px; max-width: 55rem; }
+body.component-library .input--large { max-width: 650px; max-width: 65rem; }
+body.component-library .input-med-large--flex--four-fifths { width: 80%; max-width: 550px; }
+@media screen and (min-width: 43.75em) { body.component-library .input-med-large--flex--four-fifths { width: 87.5%; } }
+body.component-library .input--full { max-width: none; }
+body.component-library .label__description, body.component-library .message { margin: 0; font-weight: 400; color: #797979; }
+body.component-library .fieldset--invisible { padding: 0; margin: 0; border: 0; }
 
 /*!
  * Yamm!3 - Yet another megamenu for Bootstrap 3

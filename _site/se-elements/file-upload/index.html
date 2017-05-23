@@ -85,7 +85,7 @@
     
     <div class="container">
       
-      <h1>Application Form</h1>
+      <h1>File upload</h1>
       
       <div class="row">
 
@@ -94,7 +94,68 @@
           <div class="demo-box">    
             <!-- ### Put your element demo here ### -->
                     
-            
+            <style>
+
+	.fileUpload {
+		position: relative;
+		overflow: hidden;
+/*		margin:10px;*/		
+	}
+	
+	.fileUpload input.upload {
+		position:absolute;
+		top:0;
+		right:0;
+		margin:0;
+		padding:0;
+		font-size:20px;
+		cursor: pointer;
+		opacity:0;
+		filter:alpha(opacity=0);		
+	}
+	
+	
+	.upload-file-text {
+		position: relative;
+		margin: 0 0 5px 15px;
+	}
+
+</style>
+
+<!--
+<div class="form-group">
+	<label class="form-label" for="file-input">Upload a file</label>
+<div class="fileUpload btn btn-default"> <span> Choose file </span>
+  <input type="file" class="upload">
+</div>
+	<label>Upload a file</label>
+</div>
+-->
+
+<!--
+<div class="form-group">
+	<label for="form-label" class="form-label">
+		Upload a file
+	</label>
+	<input type="file" id="file-input">
+</div>
+-->
+
+
+<div class="form-group">
+	<div class="row">
+		<label class="upload-file-text" for="file-input">Upload a file</label>	
+	</div>
+	
+
+		<div class="fileUpload btn btn-default"> <span> Choose file </span>
+		  <input type="file" class="upload">
+		</div>	
+
+		<label>Upload a file</label>
+
+</div>
+
  
               
             <!-- ### End element demo ### -->    
@@ -104,7 +165,68 @@
           
           <div class="example-code">
                           
-            <pre><code><textarea readonly>
+            <pre><code><textarea readonly><style>
+
+	.fileUpload {
+		position: relative;
+		overflow: hidden;
+/*		margin:10px;*/		
+	}
+	
+	.fileUpload input.upload {
+		position:absolute;
+		top:0;
+		right:0;
+		margin:0;
+		padding:0;
+		font-size:20px;
+		cursor: pointer;
+		opacity:0;
+		filter:alpha(opacity=0);		
+	}
+	
+	
+	.upload-file-text {
+		position: relative;
+		margin: 0 0 5px 15px;
+	}
+
+</style>
+
+<!--
+<div class="form-group">
+	<label class="form-label" for="file-input">Upload a file</label>
+<div class="fileUpload btn btn-default"> <span> Choose file </span>
+  <input type="file" class="upload">
+</div>
+	<label>Upload a file</label>
+</div>
+-->
+
+<!--
+<div class="form-group">
+	<label for="form-label" class="form-label">
+		Upload a file
+	</label>
+	<input type="file" id="file-input">
+</div>
+-->
+
+
+<div class="form-group">
+	<div class="row">
+		<label class="upload-file-text" for="file-input">Upload a file</label>	
+	</div>
+	
+
+		<div class="fileUpload btn btn-default"> <span> Choose file </span>
+		  <input type="file" class="upload">
+		</div>	
+
+		<label>Upload a file</label>
+
+</div>
+
 </textarea></code></pre>
                     
           </div>
@@ -116,7 +238,7 @@
           
             <!-- ### Start your usage notes here ###-->
           
-               
+               A control that lets the user select a file for upload
           
             <!-- ### End usage notes ###-->
           </div>

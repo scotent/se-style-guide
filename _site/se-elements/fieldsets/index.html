@@ -85,7 +85,7 @@
     
     <div class="container">
       
-      <h1>Application Form</h1>
+      <h1>Fieldsets</h1>
       
       <div class="row">
 
@@ -94,7 +94,11 @@
           <div class="demo-box">    
             <!-- ### Put your element demo here ### -->
                     
-            
+            <fieldset>
+  <legend>This is a title</legend>
+  <input type="checkbox" name="checkbox" value="1">
+  <label for="checkbox">I am enabled </label>
+</fieldset>
  
               
             <!-- ### End element demo ### -->    
@@ -104,7 +108,11 @@
           
           <div class="example-code">
                           
-            <pre><code><textarea readonly>
+            <pre><code><textarea readonly><fieldset>
+  <legend>This is a title</legend>
+  <input type="checkbox" name="checkbox" value="1">
+  <label for="checkbox">I am enabled </label>
+</fieldset>
 </textarea></code></pre>
                     
           </div>
@@ -116,7 +124,7 @@
           
             <!-- ### Start your usage notes here ###-->
           
-               
+               Use fieldsets to group related form controls. The first element inside a filedset must be a legend element which describes the group
           
             <!-- ### End usage notes ###-->
           </div>

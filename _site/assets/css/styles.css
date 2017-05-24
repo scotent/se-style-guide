@@ -2335,7 +2335,9 @@ body.component-library .fieldset--invisible { padding: 0; margin: 0; border: 0; 
 /* Colour patches */
 .color-block { text-align: center; padding: 1em; }
 
-.color-block__color { display: block; float: left; width: 150px; height: 150px; padding-top: 12.5px; margin: 0 10px; border-radius: 100%; line-height: 37.5px; color: #fff; content: ""; }
+.color-block__color { display: block; float: left; width: 180px; height: 180px; padding-top: 12.5px; margin: 0 10px; border-radius: 100%; line-height: 37.5px; color: #fff; content: ""; }
+
+.color-block__color__border { display: block; float: left; width: 180px; height: 180px; padding-top: 12.5px; margin: 16px 10px; border-radius: 100%; border: 1px solid black; line-height: 37.5px; color: #000; content: ""; }
 
 .color-block__color.se-blue { background-color: #00427F; margin: 1em; }
 
@@ -2352,6 +2354,13 @@ body.component-library .fieldset--invisible { padding: 0; margin: 0; border: 0; 
 .color-block__color.se-mid-grey { background-color: #999999; margin: 1em; }
 
 .color-block__color.se-light-grey { background-color: #ecf0f1; margin: 1em; }
+
+/* Typography colours */
+.color-block__color.se-dark-grey { background-color: #333333; margin: 1em; }
+
+.color-block__color.se-body-grey { background-color: #666666; margin: 1em; }
+
+.color-block__color.se-white { background-color: #ffffff; }
 
 /*!
  * Yamm!3 - Yet another megamenu for Bootstrap 3

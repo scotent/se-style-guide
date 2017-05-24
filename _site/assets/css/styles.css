@@ -2332,6 +2332,27 @@ body.component-library .input--full { max-width: none; }
 body.component-library .label__description, body.component-library .message { margin: 0; font-weight: 400; color: #797979; }
 body.component-library .fieldset--invisible { padding: 0; margin: 0; border: 0; }
 
+/* Colour patches */
+.color-block { text-align: center; padding: 1em; }
+
+.color-block__color { display: block; float: left; width: 150px; height: 150px; padding-top: 12.5px; margin: 0 10px; border-radius: 100%; line-height: 37.5px; color: #fff; content: ""; }
+
+.color-block__color.se-blue { background-color: #00427F; margin: 1em; }
+
+.color-block__color.se-bright-green { background-color: #00cc00; margin: 1em; }
+
+.color-block__color.se-light-blue { background-color: #2980B9; margin: 1em; }
+
+.color-block__color.se-dark-green { background-color: #03634D; margin: 1em; }
+
+.color-block__color.se-orange { background-color: #D65811; margin: 1em; }
+
+.color-block__color.se-black { background-color: #2F3E44; margin: 1em; }
+
+.color-block__color.se-mid-grey { background-color: #999999; margin: 1em; }
+
+.color-block__color.se-light-grey { background-color: #ecf0f1; margin: 1em; }
+
 /*!
  * Yamm!3 - Yet another megamenu for Bootstrap 3
  * http://geedmo.github.com/yamm3

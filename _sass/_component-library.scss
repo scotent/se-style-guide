@@ -4,6 +4,10 @@ body.component-library {
     padding-top: 70px;
   .navbar-brand {
     margin-right: 1em;
+    padding: 0.5em 0;
+    img {
+      max-height: 30px;
+    }
   }
 	
   .jumbotron {
@@ -17,7 +21,7 @@ body.component-library {
     margin-top: 1em;
   }
 	
-  pre{
+  pre{ 
     font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
     margin-bottom: 10px;
     width: 100%;

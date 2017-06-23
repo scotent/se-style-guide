@@ -42,6 +42,8 @@ collections:
     output: true
   se-visual-language:
     output: true
+  se-form-elements:
+    output: true
     
 github: [metadata]
 

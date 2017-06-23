@@ -37,6 +37,15 @@
             {% endfor %}
           </ul>
         </li>
+        <!--Form elements-->
+        <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Form Elements<b class="caret"></b></a>
+          <ul role="menu" class="dropdown-menu">
+            {% for cookie in site.se-form-elements %}
+            <li><a href="{{ site.baseurl}}{{ cookie.url }}">{{ cookie.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+        
       </ul>
     </div>
   </div>

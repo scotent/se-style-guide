@@ -1,0 +1,9 @@
+---
+layout: default
+title: Form elements
+---
+{% for cookie in site.se-form-elements %}
+	<div class="cookie">
+		<h2><a href="{{ cookie.url }}">{{ cookie.title }}</a></h2>
+	</div>
+{% endfor %}

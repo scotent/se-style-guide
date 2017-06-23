@@ -3,8 +3,8 @@ layout: default
 title: Breadcrumbs
 usage: Indicate the current page’s location within a navigational hierarchy. Separators are automatically added in CSS through ::before and content.
 ---
-<ol class="breadcrumb">
+<ol class="breadcrumbs">
   <li class="breadcrumbs__item"><a href="#" class="breadcrumbs__link"><span class="breadcrumbs__title">Home</span></a></li>
   <li class="breadcrumbs__item"><a href="#" class="breadcrumbs__link"><span class="breadcrumbs__title">Grants</span></a></li>
-  <li class="breadcrumb-item">Start</li>
+  <li class="breadcrumbs__item">Start</li>
 </ol>

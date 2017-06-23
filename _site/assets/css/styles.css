@@ -1005,7 +1005,7 @@ h2 a.external:hover, h2 a.external:active, h3 a.external:hover, h3 a.external:ac
 \*------------------------------------*/
 label { clear: right; display: block; font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 300; margin: 0 0 7px; }
 
-select { background: #ffffff; border: 1px solid #b3b3b3; border-radius: 0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; height: 35px; line-height: 14px; padding: 0 5px; width: 100%; }
+select { background: white; border: 1px solid #b3b3b3; border-radius: 0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; height: 35px; line-height: 14px; padding: 0 5px; width: 100%; }
 
 select:focus, select:active { border: 1px solid #0065bd; outline: none; }
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Help text
+title: Help text *
 usage: Use help text to ...
 ---
 

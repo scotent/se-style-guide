@@ -1045,8 +1045,6 @@ fieldset { border: 0; margin: 28px 0; padding: 0; }
 .form-group.relative { position: relative; }
 
 /* end from Bootstrap */
-.input-wrapper { position: relative; }
-
 ::-webkit-input-placeholder { color: #727272; }
 
 ::-moz-placeholder { /* Firefox 19+ */ color: #727272; }

@@ -42,39 +42,11 @@
                       
                       <li><a href="/se-style-guide/se-elements/buttons/">Buttons</a></li>
                       
-                      <li><a href="/se-style-guide/se-elements/check-boxes/">Check Boxes</a></li>
-                      
-                      <li><a href="/se-style-guide/se-elements/fieldsets/">Fieldsets</a></li>
-                      
                       <li><a href="/se-style-guide/se-elements/file-upload/">File upload</a></li>
-                      
-                      <li><a href="/se-style-guide/se-elements/h1-h6/">H1 - H6</a></li>
-                      
-                      <li><a href="/se-style-guide/se-elements/inline-split-definition-list/">Inline, split definition list</a></li>
-                      
-                      <li><a href="/se-style-guide/se-elements/list/">List</a></li>
-                      
-                      <li><a href="/se-style-guide/se-elements/ordered-list/">Ordered list</a></li>
                       
                       <li><a href="/se-style-guide/se-elements/password/">Username and Password</a></li>
                       
-                      <li><a href="/se-style-guide/se-elements/radio-buttons/">Radio Buttons</a></li>
-                      
                       <li><a href="/se-style-guide/se-elements/tables/">Tables</a></li>
-                      
-                      <li><a href="/se-style-guide/se-elements/test-btn/">test buttons</a></li>
-                      
-                      <li><a href="/se-style-guide/se-elements/text-area-temp/">Text area temp</a></li>
-                      
-                      <li><a href="/se-style-guide/se-elements/text-area/">Text area</a></li>
-                      
-                      <li><a href="/se-style-guide/se-elements/text-input-with-supporting-text/">Text input with supporting text</a></li>
-                      
-                      <li><a href="/se-style-guide/se-elements/text-input/">Text input</a></li>
-                      
-                      <li><a href="/se-style-guide/se-elements/typography/">Typography</a></li>
-                      
-                      <li><a href="/se-style-guide/se-elements/validation/">Validation</a></li>
                       
                     </ul>
                    </div>
@@ -82,6 +54,16 @@
                    <div class="col-md-4 unstyled">
                       <h4>Typography</h4>
                       <ul role="menu" class="">
+                        
+                        <li><a href="/se-style-guide/se-typography/h1-h6/">H1 - H6</a></li>
+                        
+                        <li><a href="/se-style-guide/se-typography/inline-split-definition-list/">Inline, split definition list</a></li>
+                        
+                        <li><a href="/se-style-guide/se-typography/list/">List</a></li>
+                        
+                        <li><a href="/se-style-guide/se-typography/ordered-list/">Ordered list</a></li>
+                        
+                        <li><a href="/se-style-guide/se-typography/typography/">Typography</a></li>
                         
                       </ul>
                     </div>
@@ -103,7 +85,7 @@
                           
                           <li><a href="/se-style-guide/se-form-elements/error-messaging/">Error messaging *</a></li>
                           
-                          <li><a href="/se-style-guide/se-form-elements/fieldsets-and-legends/">Fieldsets and Legends</a></li>
+                          <li><a href="/se-style-guide/se-form-elements/fieldsets/">Fieldsets</a></li>
                           
                           <li><a href="/se-style-guide/se-form-elements/file-upload/">File upload</a></li>
                           
@@ -113,7 +95,7 @@
                           
                           <li><a href="/se-style-guide/se-form-elements/input-postcode/">Input postcode</a></li>
                           
-                          <li><a href="/se-style-guide/se-form-elements/input-validation/">Input validation *</a></li>
+                          <li><a href="/se-style-guide/se-form-elements/input-validation/">Input validation</a></li>
                           
                           <li><a href="/se-style-guide/se-form-elements/input-with-button/">Input with button</a></li>
                           
@@ -203,7 +185,7 @@
     
     <div class="container">
       
-      <h1>Input validation *</h1>
+      <h1>Input validation</h1>
       
       <div class="row">
 
@@ -212,24 +194,10 @@
           <div class="demo-box">    
             <!-- ### Put your element demo here ### -->
                     
-            <div class="form-group has-success">
-  <label class="form-control-label" for="inputSuccess1">Input with success</label>
-  <input type="text" class="form-control form-control-success" id="inputSuccess1" />
-  <div class="form-control-feedback">Success! You've done it.</div>
-  <small class="form-text text-muted">Example help text that remains unchanged.</small>
-</div>
-<div class="form-group has-warning">
-  <label class="form-control-label" for="inputWarning1">Input with warning</label>
-  <input type="text" class="form-control form-control-warning" id="inputWarning1" />
-  <div class="form-control-feedback">Shucks, check the formatting of that and try again.</div>
-  <small class="form-text text-muted">Example help text that remains unchanged.</small>
-</div>
-<div class="form-group has-danger">
-  <label class="form-control-label" for="inputDanger1">Input with danger</label>
-  <input type="text" class="form-control form-control-danger" id="inputDanger1" />
-  <div class="form-control-feedback">Sorry, that username's taken. Try another?</div>
-  <small class="form-text text-muted">Example help text that remains unchanged.</small>
-</div>
+            <p><label for="companyName">Business name</label></p>
+<div class="help-block" id="companyNameHelp"> Enter the name of your business as registered at Companies House. </div>
+<p><input name="companyName" class="input input--med" id="companyName" aria-describedby="companyNameHelp" required="" type="text" maxlength="255" placeholder="Enter your company name" /></p>
+<div class="se-alert alert alert-danger">Enter your company name</div>
  
               
             <!-- ### End element demo ### -->    
@@ -239,24 +207,10 @@
           
           <div class="example-code">
                           
-            <pre><code><textarea readonly><div class="form-group has-success">
-  <label class="form-control-label" for="inputSuccess1">Input with success</label>
-  <input type="text" class="form-control form-control-success" id="inputSuccess1" />
-  <div class="form-control-feedback">Success! You've done it.</div>
-  <small class="form-text text-muted">Example help text that remains unchanged.</small>
-</div>
-<div class="form-group has-warning">
-  <label class="form-control-label" for="inputWarning1">Input with warning</label>
-  <input type="text" class="form-control form-control-warning" id="inputWarning1" />
-  <div class="form-control-feedback">Shucks, check the formatting of that and try again.</div>
-  <small class="form-text text-muted">Example help text that remains unchanged.</small>
-</div>
-<div class="form-group has-danger">
-  <label class="form-control-label" for="inputDanger1">Input with danger</label>
-  <input type="text" class="form-control form-control-danger" id="inputDanger1" />
-  <div class="form-control-feedback">Sorry, that username's taken. Try another?</div>
-  <small class="form-text text-muted">Example help text that remains unchanged.</small>
-</div>
+            <pre><code><textarea readonly><p><label for="companyName">Business name</label></p>
+<div class="help-block" id="companyNameHelp"> Enter the name of your business as registered at Companies House. </div>
+<p><input name="companyName" class="input input--med" id="companyName" aria-describedby="companyNameHelp" required="" type="text" maxlength="255" placeholder="Enter your company name" /></p>
+<div class="se-alert alert alert-danger">Enter your company name</div>
 </textarea></code></pre>
                     
           </div>
@@ -268,7 +222,7 @@
           
             <!-- ### Start your usage notes here ###-->
           
-               ..
+               Checking the information entered by a person when sending information.
           
             <!-- ### End usage notes ###-->
           </div>

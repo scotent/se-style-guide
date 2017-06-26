@@ -1,52 +1,112 @@
 <div class="navbar yamm navbar-default navbar-fixed-top">
   <div class="container">
+   
     <div class="navbar-header">
       <button type="button" data-toggle="collapse" data-target="#navbar-collapse-1" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-      <a class="navbar-brand" href="{{ site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/scottish-enterprise.svg" alt="Scottish Enterprise"></a> </div>
+      <a class="navbar-brand" href="{{ site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/scottish-enterprise.svg" alt="Scottish Enterprise"></a> 
+    </div>
+    
     <div id="navbar-collapse-1" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <!-- Classic list -->
-        <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Elements <b class="caret"></b></a>
-          <ul role="menu" class="dropdown-menu">
-            {% for cookie in site.se-elements %}
-            <li><a href="{{ site.baseurl}}{{ cookie.url }}">{{ cookie.title }}</a></li>
-            {% endfor %}
+       
+        <!-- Elements Drop Down Menu -->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Elements <b class="caret"></b> </a>
+          <ul class="dropdown-menu">
+            <li>
+              <div class="yamm-content row">               
+                <div class="col-md-4 unstyled">
+                  <h4>Elements</h4>
+                  <!--Form elements-->
+                    <ul role="menu" class="">
+                      {% for cookie in site.se-elements %}
+                      <li><a href="{{ site.baseurl}}{{ cookie.url }}">{{ cookie.title }}</a></li>
+                      {% endfor %}
+                    </ul>
+                   </div>
+                   
+                   <div class="col-md-4 unstyled">
+                      <h4>Typography</h4>
+                      <ul role="menu" class="">
+                        {% for cookie in site.se-typography %}
+                        <li><a href="{{ site.baseurl}}{{ cookie.url }}">{{ cookie.title }}</a></li>
+                        {% endfor %}
+                      </ul>
+                    </div>
+                    
+                    <div class="col-md-4 unstyled">
+                      <h4>Form elements</h4>
+                      <!--Form elements-->
+                        <ul role="menu" class="">
+                          {% for cookie in site.se-form-elements %}
+                          <li><a href="{{ site.baseurl}}{{ cookie.url }}">{{ cookie.title }}</a></li>
+                          {% endfor %}
+                        </ul>
+                   </div>
+                </div>
+            </li>
           </ul>
         </li>
-        <!-- Accordion demo -->
-        <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Patterns <b class="caret"></b></a>
-          <ul role="menu" class="dropdown-menu">
-            {% for cookie in site.se-patterns %}
-            <li><a href="{{ site.baseurl}}{{ cookie.url }}">{{ cookie.title }}</a></li>
-            {% endfor %}
+
+        <!-- Components Drop Down Menu -->
+        <li class="dropdown">
+          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Components<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li>
+              <div class="yamm-content row">
+                <div class="col-md-12 unstyled">
+                  <h4>Components</h4>
+                  <ul role="menu">
+                    {% for cookie in site.se-patterns %}
+                    <li><a href="{{ site.baseurl}}{{ cookie.url }}">{{ cookie.title }}</a></li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              </div>
+            </li>
           </ul>
         </li>
-        <!-- Classic dropdown -->
-        <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Visual Language<b class="caret"></b></a>
-          <ul role="menu" class="dropdown-menu">
-            {% for cookie in site.se-visual-language %}
-            <li><a href="{{ site.baseurl}}{{ cookie.url }}">{{ cookie.title }}</a></li>
-            {% endfor %}
-          </ul>
-        </li>
-        <!-- Page Tenplates -->
-        <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Page Templates<b class="caret"></b></a>
-          <ul role="menu" class="dropdown-menu">
-            {% for cookie in site.se-templates %}
-            <li><a href="{{ site.baseurl}}{{ cookie.url }}">{{ cookie.title }}</a></li>
-            {% endfor %}
-          </ul>
-        </li>
-        <!--Form elements-->
-        <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Form Elements<b class="caret"></b></a>
-          <ul role="menu" class="dropdown-menu">
-            {% for cookie in site.se-form-elements %}
-            <li><a href="{{ site.baseurl}}{{ cookie.url }}">{{ cookie.title }}</a></li>
-            {% endfor %}
+
+        <!-- Page Patterns Drop Down Menu -->
+        <li class="dropdown">
+          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Page Patterns<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li>
+              <div class="yamm-content row">
+                <div class="col-md-12 unstyled">
+                  <h4>General page patterns</h4>
+                  <ul role="menu">
+                    {% for cookie in site.se-page-templates %}
+                    <li><a href="{{ site.baseurl}}{{ cookie.url }}">{{ cookie.title }}</a></li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              </div>
+            </li>
           </ul>
         </li>
         
+        <!-- Visual Language Drop Down Menu -->
+        <li class="dropdown">
+          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Visual Language<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li>
+              <div class="yamm-content row">
+                <div class="col-md-12 unstyled">
+                  <h4>Visual Language</h4>
+                  <ul role="menu">
+                    {% for cookie in site.se-visual-language %}
+                    <li><a href="{{ site.baseurl}}{{ cookie.url }}">{{ cookie.title }}</a></li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </li>
+
       </ul>
     </div>
+    
   </div>
 </div>

@@ -66,6 +66,7 @@
             </li>
           </ul>
         </li>
+        
 
         <!-- Page Patterns Drop Down Menu -->
         <li class="dropdown">
@@ -75,6 +76,24 @@
               <div class="yamm-content row">
                 <div class="col-md-12 unstyled">
                   <h4>General page patterns</h4>
+                  <ul role="menu">
+                    {% for cookie in site.se-page-patterns %}
+                    <li><a href="{{ site.baseurl}}{{ cookie.url }}">{{ cookie.title }}</a></li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </li>
+        
+        <li class="dropdown">
+          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Page Templates<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li>
+              <div class="yamm-content row">
+                <div class="col-md-12 unstyled">
+                  <h4>Page Templates</h4>
                   <ul role="menu">
                     {% for cookie in site.se-page-templates %}
                     <li><a href="{{ site.baseurl}}{{ cookie.url }}">{{ cookie.title }}</a></li>

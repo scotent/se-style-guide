@@ -34,11 +34,11 @@ exclude:
 permalink: pretty
   
 collections:
-  se-templates:
+  se-page-templates:
     output: true
   se-elements:
     output: true
-  se-patterns:
+  se-page-patterns:
     output: true
   se-visual-language:
     output: true
@@ -46,7 +46,7 @@ collections:
     output: true
   se-typography:
     output: true
-se-components:
+  se-components:
     output: true
     
 github: [metadata]

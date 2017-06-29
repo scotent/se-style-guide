@@ -1,0 +1,9 @@
+---
+layout: default
+title: Components
+---
+{% for cookie in site.se-components %}
+	<div class="cookie">
+		<h2><a href="{{ cookie.url }}">{{ cookie.title }}</a></h2>
+	</div>
+{% endfor %}

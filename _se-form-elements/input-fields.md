@@ -1,0 +1,61 @@
+---
+layout: default
+title: Input fields
+usage: Group form fields together into smaller chunks, this makes the form feel easier to complete and less intimidating. Labels should always be used as screen-readers will have problems if they are omitted. The wrapping label pattern is preferred over the use of the for attribute, as this requires a corresponding id on the target form input, which may change according to how it needs to be integrated with a backend system. All inputs have autocorrect="off" added for usability on mobiles and tablets.
+---
+
+
+<h2>Text input</h2>
+<div class="form-group relative">
+    <label for="name">Name</label>
+    <input aria-required="true" required="" id="name" class="grey form-control input--large dirty" type="text">
+    <ul class="current-errors"></ul>
+</div>
+
+<br/>
+
+<h2>Postcode input</h2>
+<div class="form-group relative">
+    <label for="postcode">Postcode</label>
+    <input aria-required="true" required="" id="postcode" class="grey form-control input--large dirty" type="text">
+    <ul class="current-errors"></ul>
+</div>
+
+<br/>
+
+
+<h2>Email input</h2>
+<div class="form-group relative">
+    <label for="email">Email</label>
+    <input aria-required="true" required="" id="email" class="grey form-control input--large dirty" type="email">
+    <ul class="current-errors"></ul>
+</div>
+
+<br/>
+
+<h2>Numbers input</h2>
+<div class="form-group relative">
+    <label for="phone-number">Phone number</label>
+    <input aria-required="true" required="" id="phone-number" class="grey form-control input--large dirty" type="tel">
+    <ul class="current-errors"></ul>
+</div>
+
+<br/>
+
+<h2>Input with button</h2>
+<div class="input-group">
+  <input type="text" class="form-control" placeholder="placeholder" aria-describedby="basic-addon2">
+  <span class="input-group-addon" id="basic-addon2">button text</span>
+</div>
+
+
+<div class="search-box">
+    <form class="search-box__form" method="GET" action="/search/">
+        <label class="search-box__label hidden" for="search-box">Search</label>
+        <input name="q" required="" id="search-box" class="search-box__input" type="text" placeholder="Search mygov.scot" autocomplete="off">
+        <button type="submit" title="search" class="search-box__button primary">
+<!--            <img alt="" class="search-box__icon" src="/assets/images/icons/search-white_@2x.png">-->
+            <span class="hidden">Search mygov.scot</span>
+        </button>
+    </form>
+</div>

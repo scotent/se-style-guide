@@ -31,7 +31,7 @@
        
         <!-- Elements Drop Down Menu -->
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Elements <b class="caret"></b> </a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Elements <b class="caret"></b> </a>
           <ul class="dropdown-menu">
             <li>
               <div class="yamm-content row">               
@@ -40,9 +40,13 @@
                   <!--Form elements-->
                     <ul role="menu" class="">
                       
+                      <li><a href="/se-style-guide/se-elements/breadcrumbs/">Breadcrumbs</a></li>
+                      
                       <li><a href="/se-style-guide/se-elements/buttons/">Buttons</a></li>
                       
                       <li><a href="/se-style-guide/se-elements/file-upload/">File upload</a></li>
+                      
+                      <li><a href="/se-style-guide/se-elements/grid/">Grid</a></li>
                       
                       <li><a href="/se-style-guide/se-elements/password/">Username and Password</a></li>
                       
@@ -79,6 +83,8 @@
                           
                           <li><a href="/se-style-guide/se-form-elements/checkboxes/">Checkboxes</a></li>
                           
+                          <li><a href="/se-style-guide/se-form-elements/conditional-fields-sub-fields/">Conditional fields / sub fields</a></li>
+                          
                           <li><a href="/se-style-guide/se-form-elements/conditional-fields/">Conditional fields *</a></li>
                           
                           <li><a href="/se-style-guide/se-form-elements/drop-down-list/">Drop down list</a></li>
@@ -89,11 +95,11 @@
                           
                           <li><a href="/se-style-guide/se-form-elements/file-upload/">File upload</a></li>
                           
+                          <li><a href="/se-style-guide/se-form-elements/form-navigation/">Form navigation</a></li>
+                          
                           <li><a href="/se-style-guide/se-form-elements/help-text/">Help text *</a></li>
                           
-                          <li><a href="/se-style-guide/se-form-elements/input-numbers/">Input numbers</a></li>
-                          
-                          <li><a href="/se-style-guide/se-form-elements/input-postcode/">Input postcode</a></li>
+                          <li><a href="/se-style-guide/se-form-elements/input-fields/">Input fields</a></li>
                           
                           <li><a href="/se-style-guide/se-form-elements/input-validation/">Input validation</a></li>
                           
@@ -108,8 +114,6 @@
                           <li><a href="/se-style-guide/se-form-elements/radio-buttons/">Radio buttons</a></li>
                           
                           <li><a href="/se-style-guide/se-form-elements/text-area/">Text area</a></li>
-                          
-                          <li><a href="/se-style-guide/se-form-elements/text-input/">Text input</a></li>
                           
                         </ul>
                    </div>
@@ -128,9 +132,7 @@
                   <h4>Components</h4>
                   <ul role="menu">
                     
-                    <li><a href="/se-style-guide/se-patterns/page-header/">Page Header</a></li>
-                    
-                    <li><a href="/se-style-guide/se-patterns/progress-indicator/">Progress Indicator</a></li>
+                    <li><a href="/se-style-guide"></a></li>
                     
                   </ul>
                 </div>
@@ -185,7 +187,7 @@
     
     <div class="container">
       
-      <h1>Input postcode</h1>
+      <h1>Input fields</h1>
       
       <div class="row">
 
@@ -194,10 +196,57 @@
           <div class="demo-box">    
             <!-- ### Put your element demo here ### -->
                     
-            <div class="form-group relative">
-    <label for="name">Postcode</label>
+            <h2>Text input</h2>
+<div class="form-group relative">
+    <label for="name">Name</label>
+    <input aria-required="true" required="" id="name" class="grey form-control input--large dirty" type="text" />
+    <ul class="current-errors"></ul>
+</div>
+
+<p><br /></p>
+
+<h2>Postcode input</h2>
+<div class="form-group relative">
+    <label for="postcode">Postcode</label>
     <input aria-required="true" required="" id="postcode" class="grey form-control input--large dirty" type="text" />
     <ul class="current-errors"></ul>
+</div>
+
+<p><br /></p>
+
+<h2>Email input</h2>
+<div class="form-group relative">
+    <label for="email">Email</label>
+    <input aria-required="true" required="" id="email" class="grey form-control input--large dirty" type="email" />
+    <ul class="current-errors"></ul>
+</div>
+
+<p><br /></p>
+
+<h2>Numbers input</h2>
+<div class="form-group relative">
+    <label for="phone-number">Phone number</label>
+    <input aria-required="true" required="" id="phone-number" class="grey form-control input--large dirty" type="tel" />
+    <ul class="current-errors"></ul>
+</div>
+
+<p><br /></p>
+
+<h2>Input with button</h2>
+<div class="input-group">
+  <input type="text" class="form-control" placeholder="placeholder" aria-describedby="basic-addon2" />
+  <span class="input-group-addon" id="basic-addon2">button text</span>
+</div>
+
+<div class="search-box">
+    <form class="search-box__form" method="GET" action="/search/">
+        <label class="search-box__label hidden" for="search-box">Search</label>
+        <input name="q" required="" id="search-box" class="search-box__input" type="text" placeholder="Search mygov.scot" autocomplete="off" />
+        <button type="submit" title="search" class="search-box__button primary">
+<!--            <img alt="" class="search-box__icon" src="/assets/images/icons/search-white_@2x.png">-->
+            <span class="hidden">Search mygov.scot</span>
+        </button>
+    </form>
 </div>
  
               
@@ -208,10 +257,57 @@
           
           <div class="example-code">
                           
-            <pre><code><textarea readonly><div class="form-group relative">
-    <label for="name">Postcode</label>
+            <pre><code><textarea readonly><h2>Text input</h2>
+<div class="form-group relative">
+    <label for="name">Name</label>
+    <input aria-required="true" required="" id="name" class="grey form-control input--large dirty" type="text" />
+    <ul class="current-errors"></ul>
+</div>
+
+<p><br /></p>
+
+<h2>Postcode input</h2>
+<div class="form-group relative">
+    <label for="postcode">Postcode</label>
     <input aria-required="true" required="" id="postcode" class="grey form-control input--large dirty" type="text" />
     <ul class="current-errors"></ul>
+</div>
+
+<p><br /></p>
+
+<h2>Email input</h2>
+<div class="form-group relative">
+    <label for="email">Email</label>
+    <input aria-required="true" required="" id="email" class="grey form-control input--large dirty" type="email" />
+    <ul class="current-errors"></ul>
+</div>
+
+<p><br /></p>
+
+<h2>Numbers input</h2>
+<div class="form-group relative">
+    <label for="phone-number">Phone number</label>
+    <input aria-required="true" required="" id="phone-number" class="grey form-control input--large dirty" type="tel" />
+    <ul class="current-errors"></ul>
+</div>
+
+<p><br /></p>
+
+<h2>Input with button</h2>
+<div class="input-group">
+  <input type="text" class="form-control" placeholder="placeholder" aria-describedby="basic-addon2" />
+  <span class="input-group-addon" id="basic-addon2">button text</span>
+</div>
+
+<div class="search-box">
+    <form class="search-box__form" method="GET" action="/search/">
+        <label class="search-box__label hidden" for="search-box">Search</label>
+        <input name="q" required="" id="search-box" class="search-box__input" type="text" placeholder="Search mygov.scot" autocomplete="off" />
+        <button type="submit" title="search" class="search-box__button primary">
+<!--            <img alt="" class="search-box__icon" src="/assets/images/icons/search-white_@2x.png">-->
+            <span class="hidden">Search mygov.scot</span>
+        </button>
+    </form>
 </div>
 </textarea></code></pre>
                     
@@ -224,7 +320,7 @@
           
             <!-- ### Start your usage notes here ###-->
           
-               ..
+               Group form fields together into smaller chunks, this makes the form feel easier to complete and less intimidating. Labels should always be used as screen-readers will have problems if they are omitted. The wrapping label pattern is preferred over the use of the for attribute, as this requires a corresponding id on the target form input, which may change according to how it needs to be integrated with a backend system. All inputs have autocorrect="off" added for usability on mobiles and tablets.
           
             <!-- ### End usage notes ###-->
           </div>

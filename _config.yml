@@ -46,6 +46,8 @@ collections:
     output: true
   se-typography:
     output: true
+se-components:
+    output: true
     
 github: [metadata]
 

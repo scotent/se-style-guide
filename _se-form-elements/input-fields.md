@@ -12,6 +12,16 @@ usage: Group form fields together into smaller chunks, this makes the form feel 
     <ul class="current-errors"></ul>
 </div>
 
+
+<div class="form-group relative">
+    <a id="name-link"></a>
+    <label for="name">
+    <span>*</span> Full name
+    </label>
+    <input aria-required="true" required="" id="name" class="grey form-control input--large dirty" type="text">
+    <ul class="current-errors"></ul>
+</div>
+
 <br/>
 
 <h2>Postcode input</h2>
@@ -58,4 +68,13 @@ usage: Group form fields together into smaller chunks, this makes the form feel 
             <span class="hidden">Search mygov.scot</span>
         </button>
     </form>
+</div>
+<br/>
+
+
+<h2>Currency input</h2>
+<div class="form-group relative">
+    <label for="currency">Amount</label>
+    <input aria-required="true" required="" id="currency" class="grey form-control input--large dirty" type="tel">
+    <ul class="current-errors"></ul>
 </div>

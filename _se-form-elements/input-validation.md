@@ -3,7 +3,14 @@ layout: default
 title: Input validation
 usage: Checking the information entered by a person when sending information.
 ---
-<label for="companyName">Business name</label>
-<div class="help-block" id="companyNameHelp"> Enter the name of your business as registered at Companies House. </div>
-<input name="companyName" class="input input--med" id="companyName" aria-describedby="companyNameHelp" required="" type="text" maxlength="255" placeholder="Enter your company name">
-<div class="se-alert alert alert-danger">Enter your company name</div>
+
+<div class="form-group relative">
+    <a id="name-link"></a>
+    <label for="name">
+      <span>*</span> Full name
+    </label>
+    <input aria-required="true" required="" id="name" class="grey form-control input--large dirty input-error" type="text">
+    <ul class="current-errors"><li tabindex="-1">Please enter your name</li></ul>
+</div>
+
+

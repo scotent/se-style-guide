@@ -2067,15 +2067,18 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 
 @media print { .hidden-print { display: none !important; } }
 body.component-library { padding-top: 70px; /* Inputs */ }
-body.component-library .navbar-brand { margin-right: 1em; padding: 0.5em 0; }
-body.component-library .navbar-brand img { max-height: 30px; }
+body.component-library .navbar ul { margin-left: 0; }
+body.component-library .navbar ul li { list-style-position: inside; }
+body.component-library .navbar ul li a { font-size: 16px !important; }
+body.component-library .navbar .navbar-brand { margin-right: 1em; padding: 0.5em 0; }
+body.component-library .navbar .navbar-brand img { max-height: 40px; }
 body.component-library .jumbotron { background: white; }
 body.component-library footer { background: #2F3E44; color: white; padding: 2em 0; margin-top: 1em; }
 body.component-library pre { font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif; margin-bottom: 10px; width: 100%; background-color: #eee; max-height: 200px; overflow-y: hidden; }
 body.component-library pre textarea { width: 100%; height: 200px; border: none; background-color: transparent; float: left; padding-left: 50px; resize: none; }
 body.component-library pre textarea:focus { outline: 0; }
-body.component-library .demo-box { padding: 2em; background: white; margin-bottom: 1em; }
-body.component-library .usage-notes { padding: 2em; background: white; margin-bottom: 1em; }
+body.component-library .demo-box { padding: 2em 0; background: white; margin-bottom: 1em; }
+body.component-library .usage-notes { padding: 2em 0; background: white; margin-bottom: 1em; }
 body.component-library .usage-notes p { max-width: 700px; }
 body.component-library .usage-notes h2 { margin-top: 0; font-size: 1.5em; }
 body.component-library input { max-width: 100%; }

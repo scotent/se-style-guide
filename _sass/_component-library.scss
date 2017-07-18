@@ -2,11 +2,20 @@
 
 body.component-library {
     padding-top: 70px;
-  .navbar-brand {
-    margin-right: 1em;
-    padding: 0.5em 0;
-    img {
-      max-height: 30px;
+    .navbar {
+      ul {
+        margin-left: 0;
+        li { 
+          list-style-position: inside; 
+          a {font-size: 16px !important;}
+      }
+    }
+    .navbar-brand {
+      margin-right: 1em;
+      padding: 0.5em 0;
+      img {
+        max-height: 40px;
+      }
     }
   }
 	
@@ -43,13 +52,13 @@ body.component-library {
 	}
 	
 	.demo-box {
-    padding: 2em;
+    padding: 2em 0;
   	background: white;
   	margin-bottom: 1em;
 	}
 	
 	.usage-notes {
-    padding: 2em;
+    padding: 2em 0;
   	background: white;
   	margin-bottom: 1em;
 		

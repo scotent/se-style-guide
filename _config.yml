@@ -42,6 +42,8 @@ highlighter: rouge
 collections:
   se-buttons:
     output: true
+  se-data:
+    output: true
   se-errors-validation:
     output: true
   se-typography:

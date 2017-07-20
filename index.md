@@ -41,7 +41,7 @@ layout: home
 
 <div class="row">
   <div class="link-block col-md-4">
-    <h2><a href="layout/">Data</a></h2>
+    <h2><a href="data/">Data</a></h2>
     <p>Data in a table, numeric tabular data, data visualisation.</p>
   </div>
   <div class="link-block col-md-4">

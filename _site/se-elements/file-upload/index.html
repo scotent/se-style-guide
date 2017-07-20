@@ -44,13 +44,14 @@
     
     <div class="container">
       
-      <h1>File upload</h1>
+      <h1 class="component-library">File upload</h1>
       
       <div class="row">
 
         <div class="col-sm-12">
 
-          <div class="demo-box">    
+          <div class="demo-box"> 
+          <span class="example">Example</span>   
             <!-- ### Put your element demo here ### -->
                     
             <style>
@@ -102,55 +103,50 @@
           
           
           
-          <div class="example-code">
-                          
-            <pre><code><textarea readonly><style>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">style</span><span class="o">&gt;</span>
 
-	.fileUpload {
-		position: relative;
-		overflow: hidden;
-/*		margin:10px;*/		
-	}
+	<span class="p">.</span><span class="nf">fileUpload</span> <span class="p">{</span>
+		<span class="ss">position: </span><span class="n">relative</span><span class="p">;</span>
+		<span class="ss">overflow: </span><span class="n">hidden</span><span class="p">;</span>
+<span class="sr">/*		margin:10px;*/</span>		
+	<span class="p">}</span>
 	
-	.fileUpload input.upload {
-		position:absolute;
-		top:0;
-		right:0;
-		margin:0;
-		padding:0;
-		font-size:20px;
-		cursor: pointer;
-		opacity:0;
-		filter:alpha(opacity=0);		
-	}
+	<span class="p">.</span><span class="nf">fileUpload</span> <span class="n">input</span><span class="p">.</span><span class="nf">upload</span> <span class="p">{</span>
+		<span class="n">position</span><span class="ss">:absolute</span><span class="p">;</span>
+		<span class="n">top</span><span class="p">:</span><span class="mi">0</span><span class="p">;</span>
+		<span class="n">right</span><span class="p">:</span><span class="mi">0</span><span class="p">;</span>
+		<span class="n">margin</span><span class="p">:</span><span class="mi">0</span><span class="p">;</span>
+		<span class="n">padding</span><span class="p">:</span><span class="mi">0</span><span class="p">;</span>
+		<span class="n">font</span><span class="o">-</span><span class="n">size</span><span class="p">:</span><span class="mi">20</span><span class="n">px</span><span class="p">;</span>
+		<span class="ss">cursor: </span><span class="n">pointer</span><span class="p">;</span>
+		<span class="n">opacity</span><span class="p">:</span><span class="mi">0</span><span class="p">;</span>
+		<span class="n">filter</span><span class="ss">:alpha</span><span class="p">(</span><span class="n">opacity</span><span class="o">=</span><span class="mi">0</span><span class="p">);</span>		
+	<span class="p">}</span>
 	
 	
-	.upload-file-text {
-		position: relative;
-		margin: 0 0 5px 0px;
-		font-weight:300;
-	}
+	<span class="p">.</span><span class="nf">upload</span><span class="o">-</span><span class="n">file</span><span class="o">-</span><span class="n">text</span> <span class="p">{</span>
+		<span class="ss">position: </span><span class="n">relative</span><span class="p">;</span>
+		<span class="ss">margin: </span><span class="mi">0</span> <span class="mi">0</span> <span class="mi">5</span><span class="n">px</span> <span class="mi">0</span><span class="n">px</span><span class="p">;</span>
+		<span class="n">font</span><span class="o">-</span><span class="n">weight</span><span class="p">:</span><span class="mi">300</span><span class="p">;</span>
+	<span class="p">}</span>
 	
-	.upload-file-caption {
-		position: relative;
-		margin: 0 0 5px 15px;
-	}
+	<span class="p">.</span><span class="nf">upload</span><span class="o">-</span><span class="n">file</span><span class="o">-</span><span class="n">caption</span> <span class="p">{</span>
+		<span class="ss">position: </span><span class="n">relative</span><span class="p">;</span>
+		<span class="ss">margin: </span><span class="mi">0</span> <span class="mi">0</span> <span class="mi">5</span><span class="n">px</span> <span class="mi">15</span><span class="n">px</span><span class="p">;</span>
+	<span class="p">}</span>
 
-</style>
-<div class="form-group">
-  <div class="row">
-    <label for="file-input" class="upload-file-caption">Upload a file</label>
-  </div>
-  <div class="fileUpload btn btn-default"> <span> Choose file </span>
-    <input type="file" class="upload">
-  </div>
-  <label class="upload-file-text">No file chosen</label>
-</div>
-</textarea></code></pre>
-                                       
-            <!---<button class="btn btn-primary">Copy code snippet</button>-->
-                    
-          </div>
+<span class="o">&lt;</span><span class="sr">/style&gt;
+&lt;div class="form-group"&gt;
+  &lt;div class="row"&gt;
+    &lt;label for="file-input" class="upload-file-caption"&gt;Upload a file&lt;/</span><span class="n">label</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="sr">/div&gt;
+  &lt;div class="fileUpload btn btn-default"&gt; &lt;span&gt; Choose file &lt;/s</span><span class="n">pan</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">input</span> <span class="n">type</span><span class="o">=</span><span class="s2">"file"</span> <span class="k">class</span><span class="o">=</span><span class="s2">"upload"</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="sr">/div&gt;
+  &lt;label class="upload-file-text"&gt;No file chosen&lt;/</span><span class="n">label</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="sr">/div&gt;</span></code></pre></figure>
+
+
           
           
               

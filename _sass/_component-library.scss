@@ -17,6 +17,29 @@ body.component-library {
   .link-block {
     padding-bottom: 1em;
   }
-}
-	
 
+  .highlight pre {
+    padding: 1em;
+  }
+  
+  .demo-box {
+    position: relative;
+    padding: 1em;
+    border: 1px solid #e8e8e8;
+    margin-bottom: 2em;
+
+    span.example {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: #f7f7f7;
+      padding: 0.25em 1em;;
+      font-size: 0.8em;
+    }
+
+
+  }
+  
+
+
+}

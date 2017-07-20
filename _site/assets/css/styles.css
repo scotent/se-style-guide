@@ -18,6 +18,9 @@ body.component-library .navbar ul li a { font-size: 16px !important; }
 body.component-library .navbar .navbar-brand { margin-right: 1em; }
 body.component-library .navbar .navbar-brand img { max-height: 40px; }
 body.component-library .link-block { padding-bottom: 1em; }
+body.component-library .highlight pre { padding: 1em; }
+body.component-library .demo-box { position: relative; padding: 1em; border: 1px solid #e8e8e8; margin-bottom: 2em; }
+body.component-library .demo-box span.example { position: absolute; top: 0; left: 0; background: #f7f7f7; padding: 0.25em 1em; font-size: 0.8em; }
 
 /* ========================================================================== Variables  ========================================================================== */
 /* ========================================================================== SE Custom styles for forms  ========================================================================== */

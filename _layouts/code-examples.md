@@ -6,13 +6,14 @@
     
     <div class="container">
       
-      <h1>{{ page.title }}</h1>
+      <h1 class="component-library">{{ page.title }}</h1>
       
       <div class="row">
 
         <div class="col-sm-12">
 
-          <div class="demo-box">    
+          <div class="demo-box"> 
+          <span class="example">Example</span>   
             <!-- ### Put your element demo here ### -->
                     
             {{ content }} 
@@ -22,13 +23,11 @@
           
           
           
-          <div class="example-code">
-                          
-            <pre><code><textarea readonly>{{ content }}</textarea></code></pre>
-                                       
-            <!---<button class="btn btn-primary">Copy code snippet</button>-->
-                    
-          </div>
+{% highlight ruby %}
+{{ content }}
+{% endhighlight %}
+
+
           
           
               

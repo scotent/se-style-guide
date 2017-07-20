@@ -9,6 +9,11 @@ layout: home
 
 <p>This guide provides best practice html and css for building pages for the new Scottish Enterprise services</p> 
 
+`
+<a href="#">Hello world</a>
+`​
+
+
 <div class="row">
   <div class="link-block col-md-4">
     <h2><a href="typography/">Typography</a></h2>

@@ -12,6 +12,8 @@ input.button { line-height: 70px; }
 .card { padding: 1em 1em 3em 1em; margin-bottom: 1em; background-color: #F2F2F2; position: relative; }
 .card a { display: block; position: absolute; bottom: 1em; }
 
+/* ========================================================================== These styles are specific to the component library itself.  Ensure that new styles are added within the body.component-library tag ========================================================================== */
+body.component-library { /* Colour patches */ /* Typography colours */ }
 body.component-library .navbar ul { margin-left: 0; }
 body.component-library .navbar ul li { list-style-position: inside; }
 body.component-library .navbar ul li a { font-size: 16px !important; }
@@ -21,6 +23,21 @@ body.component-library .link-block { padding-bottom: 1em; }
 body.component-library .highlight pre { padding: 1em; }
 body.component-library .demo-box { position: relative; padding: 3em 1em 1em; border: 1px solid #e8e8e8; margin-bottom: 2em; }
 body.component-library .demo-box span.example { position: absolute; top: 0; left: 0; background: #f7f7f7; padding: 0.25em 1em; font-size: 0.8em; }
+body.component-library footer { margin-top: 3em; }
+body.component-library .color-block { text-align: center; padding: 1em; }
+body.component-library .color-block__color { display: block; float: left; width: 180px; height: 180px; padding-top: 12.5px; margin: 0 10px; border-radius: 100%; line-height: 37.5px; color: #fff; content: ""; }
+body.component-library .color-block__color__border { display: block; float: left; width: 180px; height: 180px; padding-top: 12.5px; margin: 16px 10px; border-radius: 100%; border: 1px solid black; line-height: 37.5px; color: #000; content: ""; }
+body.component-library .color-block__color.se-blue { background-color: #00427F; margin: 1em; }
+body.component-library .color-block__color.se-bright-green { background-color: #00cc00; margin: 1em; }
+body.component-library .color-block__color.se-light-blue { background-color: #2980B9; margin: 1em; }
+body.component-library .color-block__color.se-dark-green { background-color: #03634D; margin: 1em; }
+body.component-library .color-block__color.se-orange { background-color: #D65811; margin: 1em; }
+body.component-library .color-block__color.se-black { background-color: #2F3E44; margin: 1em; }
+body.component-library .color-block__color.se-mid-grey { background-color: #999999; margin: 1em; }
+body.component-library .color-block__color.se-light-grey { background-color: #ecf0f1; margin: 1em; }
+body.component-library .color-block__color.se-dark-grey { background-color: #333333; margin: 1em; }
+body.component-library .color-block__color.se-body-grey { background-color: #666666; margin: 1em; }
+body.component-library .color-block__color.se-white { background-color: #ffffff; }
 
 /* ========================================================================== Variables  ========================================================================== */
 /* ========================================================================== SE Custom styles for forms  ========================================================================== */
@@ -101,14 +118,14 @@ label.inline { margin-right: 0; }
 /* ========================================================================== SE Custom styles for the progress indicator  ========================================================================== */
 ol#progress--indicator { padding: 1em; font-size: 1.1em; background: white; }
 ol#progress--indicator li { list-style: none; margin-bottom: 0.5em; color: #666; }
-ol#progress--indicator li .light { height: 15px; width: 15px; background: #999999; border-radius: 100%; display: inline-block; margin-right: 0.5em; margin-left: 0.25em; position: relative; top: 7px; }
-ol#progress--indicator li .light::before { content: ''; position: relative; display: inline-block; width: 21px; height: 21px; left: -3px; top: -3px; border: 1px solid black; border-radius: 100%; }
+ol#progress--indicator li .light { height: 17px; width: 17px; background: #999999; border-radius: 100%; display: inline-block; margin-right: 0.5em; margin-left: 0.25em; position: relative; top: 7px; }
+ol#progress--indicator li .light::before { content: ''; position: relative; display: inline-block; width: 23px; height: 23px; left: -3px; top: -3px; border: 1px solid black; border-radius: 100%; }
 ol#progress--indicator li:last-of-type { margin-bottom: 0; }
 ol#progress--indicator li.current--step { font-weight: bold; color: #000; }
 ol#progress--indicator li.current--step .light { background: #2980B9; }
 ol#progress--indicator li.complete { color: #666; }
 ol#progress--indicator li.complete .light { background: #128512; }
-ol#progress--indicator li.complete .light::after { font-family: FontAwesome; content: "\f00c"; font-size: 11px; color: white; position: absolute; top: 1px; left: 2px; }
+ol#progress--indicator li.complete .light::after { font-family: FontAwesome; content: "\f00c"; font-size: 11px; color: white; position: absolute; top: -5px; left: 3px; }
 ol#progress--indicator li.incomplete { color: #666; }
 ol#progress--indicator li.incomplete .light { background: orange; }
 

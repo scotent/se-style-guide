@@ -1,3 +1,11 @@
+
+
+/* ==========================================================================
+   These styles are specific to the component library itself. 
+   Ensure that new styles are added within the body.component-library tag
+   ========================================================================== */
+
+
 body.component-library {
     .navbar {
       ul {
@@ -36,10 +44,105 @@ body.component-library {
       padding: 0.25em 1em;;
       font-size: 0.8em;
     }
-
-
   }
   
+
+  footer {
+    margin-top: 3em;
+  }
+
+
+
+/* Colour patches */
+
+.color-block {
+   text-align: center;
+	padding: 1em;
+}
+
+.color-block__color {
+   display: block;
+   float:left;
+   width: 180px;
+   height: 180px;
+   padding-top: 12.5px;
+   margin: 0 10px;
+   border-radius: 100%;
+   line-height: 37.5px;
+   color: #fff;
+   content: "";
+}
+
+.color-block__color__border {
+   display: block;
+   float:left;
+   width: 180px;
+   height: 180px;
+   padding-top: 12.5px;
+   margin: 16px 10px;
+   border-radius: 100%;
+   border:1px solid black;
+   line-height: 37.5px;
+   color: #000;
+   content: "";
+}
+
+
+.color-block__color.se-blue{
+	background-color: $se-blue;
+	margin:1em;
+}
+
+.color-block__color.se-bright-green{
+	background-color: $se-bright-green;
+	margin:1em;
+}
+
+.color-block__color.se-light-blue{
+	background-color: $se-light-blue;
+	margin:1em;
+}
+
+.color-block__color.se-dark-green{
+	background-color: $se-dark-green;
+	margin:1em;
+}
+
+.color-block__color.se-orange{
+	background-color: $se-orange;
+	margin:1em;
+}
+
+.color-block__color.se-black{
+	background-color: $se-black;
+	margin:1em;
+}
+
+.color-block__color.se-mid-grey{
+	background-color: $se-mid-grey;
+	margin:1em;
+}
+
+.color-block__color.se-light-grey{
+	background-color: $se-light-grey;
+	margin:1em;
+}
+
+/* Typography colours */
+
+.color-block__color.se-dark-grey{
+	background-color: $se-dark-grey;
+	margin:1em;
+}
+
+.color-block__color.se-body-grey{
+	background-color: $se-body-grey;
+	margin:1em;
+}
+
+.color-block__color.se-white{
+	background-color: $se-white;
+}
 
 
 }

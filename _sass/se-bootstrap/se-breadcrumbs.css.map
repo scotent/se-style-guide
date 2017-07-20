@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": ";AAEA,WAAY;EACR,OAAO,EAAE,CAAC;EACV,aAAa,EAAE,CAAC;EAChB,gBAAgB,EAAE,WAAW;;AAGjC,oCAAqC;EACnC,WAAY;IACV,SAAS,EAAE,IAAI",
-"sources": ["se-breadcrumbs.scss"],
-"names": [],
-"file": "se-breadcrumbs.css"
-}

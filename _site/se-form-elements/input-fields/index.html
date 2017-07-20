@@ -1,210 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Scottish Enterprise Living Styleguide</title>
-  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search resu...">
-
-<link rel="stylesheet" href="https://raw.githubusercontent.com/scottishgovernment/mygov-assets/master/css/mygov-assets.css">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SE Pattern Library</title>
+<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search resu...">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://resources.mygov.scot/assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://scottishgovernment.github.io/assets/css/main_forms.css">
+<link rel="stylesheet" href="https://scottishgovernment.github.io/assets/css/form.css">
 <link rel="stylesheet" href="/se-style-guide/assets/css/styles.css">
-  <link rel="alternate" type="application/rss+xml" title="Scottish Enterprise Living Styleguide" href="/feed.xml">
-
+<link rel="canonical" href="http://localhost:4000/">
+<link rel="alternate" type="application/rss+xml" title="SE Pattern Library" href="/feed.xml">
 </head>
-
 
   <body class="component-library">
         
-    <div class="navbar yamm navbar-default navbar-fixed-top">
+    <nav class="navbar">
   <div class="container">
-   
     <div class="navbar-header">
-      <button type="button" data-toggle="collapse" data-target="#navbar-collapse-1" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
       <a class="navbar-brand" href="/se-style-guide/"><img src="/se-style-guide/assets/img/scottish-enterprise.svg" alt="Scottish Enterprise"></a> 
     </div>
     
-    <div id="navbar-collapse-1" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-       
-        <!-- Elements Drop Down Menu -->
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Elements <b class="caret"></b> </a>
-          <ul class="dropdown-menu">
-            <li>
-              <div class="yamm-content row">               
-                <div class="col-md-4 unstyled">
-                  <h4>Elements</h4>
-                  <!--Form elements-->
-                    <ul role="menu" class="">
-                      
-                      <li><a href="/se-style-guide/se-elements/breadcrumbs/">Breadcrumbs</a></li>
-                      
-                      <li><a href="/se-style-guide/se-elements/buttons/">Buttons</a></li>
-                      
-                      <li><a href="/se-style-guide/se-elements/file-upload/">File upload</a></li>
-                      
-                      <li><a href="/se-style-guide/se-elements/grid/">Grid</a></li>
-                      
-                      <li><a href="/se-style-guide/se-elements/password/">Username and Password</a></li>
-                      
-                      <li><a href="/se-style-guide/se-elements/progress-indicator/">Progress Indicator</a></li>
-                      
-                      <li><a href="/se-style-guide/se-elements/tables/">Tables</a></li>
-                      
-                    </ul>
-                   </div>
-                   
-                   <div class="col-md-4 unstyled">
-                      <h4>Typography</h4>
-                      <ul role="menu" class="">
-                        
-                        <li><a href="/se-style-guide/se-typography/h1-h6/">H1 - H6</a></li>
-                        
-                        <li><a href="/se-style-guide/se-typography/inline-split-definition-list/">Inline, split definition list</a></li>
-                        
-                        <li><a href="/se-style-guide/se-typography/list/">List</a></li>
-                        
-                        <li><a href="/se-style-guide/se-typography/ordered-list/">Ordered list</a></li>
-                        
-                        <li><a href="/se-style-guide/se-typography/typography/">Typography</a></li>
-                        
-                      </ul>
-                    </div>
-                    
-                    <div class="col-md-4 unstyled">
-                      <h4>Form elements</h4>
-                      <!--Form elements-->
-                        <ul role="menu" class="">
-                          
-                          <li><a href="/se-style-guide/se-form-elements/calendar-input/">Calendar input / Date picker</a></li>
-                          
-                          <li><a href="/se-style-guide/se-form-elements/checkboxes/">Checkboxes</a></li>
-                          
-                          <li><a href="/se-style-guide/se-form-elements/conditional-fields-sub-fields/">Conditional fields / sub fields</a></li>
-                          
-                          <li><a href="/se-style-guide/se-form-elements/drop-down-list/">Drop down list</a></li>
-                          
-                          <li><a href="/se-style-guide/se-form-elements/error-messaging/">Error messaging *</a></li>
-                          
-                          <li><a href="/se-style-guide/se-form-elements/fieldsets/">Fieldsets</a></li>
-                          
-                          <li><a href="/se-style-guide/se-form-elements/file-upload/">File upload</a></li>
-                          
-                          <li><a href="/se-style-guide/se-form-elements/form-navigation/">Form navigation</a></li>
-                          
-                          <li><a href="/se-style-guide/se-form-elements/help-text/">Help text *</a></li>
-                          
-                          <li><a href="/se-style-guide/se-form-elements/input-fields/">Input fields</a></li>
-                          
-                          <li><a href="/se-style-guide/se-form-elements/input-validation/">Input validation</a></li>
-                          
-                          <li><a href="/se-style-guide/se-form-elements/labels/">Labels *</a></li>
-                          
-                          <li><a href="/se-style-guide/se-form-elements/radio-buttons/">Radio buttons</a></li>
-                          
-                          <li><a href="/se-style-guide/se-form-elements/text-area/">Text area</a></li>
-                          
-                        </ul>
-                   </div>
-                </div>
-            </li>
-          </ul>
-        </li>
-
-        <!-- Components Drop Down Menu -->
-        <li class="dropdown">
-          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Components<b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li>
-              <div class="yamm-content row">
-                <div class="col-md-12 unstyled">
-                  <h4>Components</h4>
-                  <ul role="menu">
-                    
-                    <li><a href="/se-style-guide/se-components/application-progress-indicator/">Application progress indicator *</a></li>
-                    
-                    <li><a href="/se-style-guide/se-components/page-header/">Page Header</a></li>
-                    
-                  </ul>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </li>
-        
-
-        <!-- Page Patterns Drop Down Menu -->
-        <li class="dropdown">
-          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Page Patterns<b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li>
-              <div class="yamm-content row">
-                <div class="col-md-12 unstyled">
-                  <h4>General page patterns</h4>
-                  <ul role="menu">
-                    
-                    <li><a href="/se-style-guide/se-page-patterns/application-form/">Application Form</a></li>
-                    
-                    <li><a href="/se-style-guide/se-page-patterns/footer/">Footer</a></li>
-                    
-                    <li><a href="/se-style-guide/se-page-patterns/navigation-header/">Navigation header</a></li>
-                    
-                    <li><a href="/se-style-guide/se-page-patterns/tables/">Tables</a></li>
-                    
-                  </ul>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </li>
-        
-        <li class="dropdown">
-          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Page Templates<b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li>
-              <div class="yamm-content row">
-                <div class="col-md-12 unstyled">
-                  <h4>Page Templates</h4>
-                  <ul role="menu">
-                    
-                    <li><a href="/se-style-guide/se-page-templates/login/">Login</a></li>
-                    
-                  </ul>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </li>
-        
-        <!-- Visual Language Drop Down Menu -->
-        <li class="dropdown">
-          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Visual Language<b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li>
-              <div class="yamm-content row">
-                <div class="col-md-12 unstyled">
-                  <h4>Visual Language</h4>
-                  <ul role="menu">
-                    
-                    <li><a href="/se-style-guide/se-visual-language/colours/">SE colour palette</a></li>
-                    
-                    <li><a href="/se-style-guide/se-visual-language/typography-colours/">SE typography colours</a></li>
-                    
-                  </ul>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </li>
-
-      </ul>
-    </div>
-    
+    <div id="navbar" class="navbar-collapse collapse">
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="/se-style-guide/">Home</a></li>
+      <li><a href="/se-style-guide/about/">About</a></li>
+      <li><a href="/se-style-guide/menu/">Menu</a></li>
+    </ul>
+    </div><!--/.navbar-collapse -->
   </div>
-</div>
+</nav>
+
+    
+
     
     <div class="container">
       
@@ -220,73 +56,76 @@
             <h2>Text input</h2>
 <div class="form-group relative">
     <label for="name">Name</label>
-    <input aria-required="true" required="" id="name" class="grey form-control input--large dirty" type="text" />
+    <input aria-required="true" required="" id="name" class="grey form-control input--large dirty" type="text">
     <ul class="current-errors"></ul>
 </div>
+
 
 <div class="form-group relative">
     <a id="name-link"></a>
     <label for="name">
     <span>*</span> Full name
     </label>
-    <input aria-required="true" required="" id="name" class="grey form-control input--large dirty" type="text" />
+    <input aria-required="true" required="" id="name" class="grey form-control input--large dirty" type="text">
     <ul class="current-errors"></ul>
 </div>
 
-<p><br /></p>
+<br/>
 
 <h2>Postcode input</h2>
 <div class="form-group relative">
     <label for="postcode">Postcode</label>
-    <input aria-required="true" required="" id="postcode" class="grey form-control input--large dirty" type="text" />
+    <input aria-required="true" required="" id="postcode" class="grey form-control input--large dirty" type="text">
     <ul class="current-errors"></ul>
 </div>
 
-<p><br /></p>
+<br/>
+
 
 <h2>Email input</h2>
 <div class="form-group relative">
     <label for="email">Email</label>
-    <input aria-required="true" required="" id="email" class="grey form-control input--large dirty" type="email" />
+    <input aria-required="true" required="" id="email" class="grey form-control input--large dirty" type="email">
     <ul class="current-errors"></ul>
 </div>
 
-<p><br /></p>
+<br/>
 
 <h2>Numbers input</h2>
 <div class="form-group relative">
     <label for="phone-number">Phone number</label>
-    <input aria-required="true" required="" id="phone-number" class="grey form-control input--large dirty" type="tel" />
+    <input aria-required="true" required="" id="phone-number" class="grey form-control input--large dirty" type="tel">
     <ul class="current-errors"></ul>
 </div>
 
-<p><br /></p>
+<br/>
 
 <h2>Input with button</h2>
 <div class="input-group">
-  <input type="text" class="form-control" placeholder="placeholder" aria-describedby="basic-addon2" />
+  <input type="text" class="form-control" placeholder="placeholder" aria-describedby="basic-addon2">
   <span class="input-group-addon" id="basic-addon2">button text</span>
 </div>
+
 
 <div class="search-box">
     <form class="search-box__form" method="GET" action="/search/">
         <label class="search-box__label hidden" for="search-box">Search</label>
-        <input name="q" required="" id="search-box" class="search-box__input" type="text" placeholder="Search mygov.scot" autocomplete="off" />
+        <input name="q" required="" id="search-box" class="search-box__input" type="text" placeholder="Search mygov.scot" autocomplete="off">
         <button type="submit" title="search" class="search-box__button primary">
 <!--            <img alt="" class="search-box__icon" src="/assets/images/icons/search-white_@2x.png">-->
             <span class="hidden">Search mygov.scot</span>
         </button>
     </form>
 </div>
-<p><br /></p>
+<br/>
+
 
 <h2>Currency input</h2>
 <div class="form-group relative">
     <label for="currency">Amount</label>
-    <input aria-required="true" required="" id="currency" class="grey form-control input--large dirty" type="tel" />
+    <input aria-required="true" required="" id="currency" class="grey form-control input--large dirty" type="tel">
     <ul class="current-errors"></ul>
-</div>
- 
+</div> 
               
             <!-- ### End element demo ### -->    
           </div>
@@ -298,73 +137,76 @@
             <pre><code><textarea readonly><h2>Text input</h2>
 <div class="form-group relative">
     <label for="name">Name</label>
-    <input aria-required="true" required="" id="name" class="grey form-control input--large dirty" type="text" />
+    <input aria-required="true" required="" id="name" class="grey form-control input--large dirty" type="text">
     <ul class="current-errors"></ul>
 </div>
+
 
 <div class="form-group relative">
     <a id="name-link"></a>
     <label for="name">
     <span>*</span> Full name
     </label>
-    <input aria-required="true" required="" id="name" class="grey form-control input--large dirty" type="text" />
+    <input aria-required="true" required="" id="name" class="grey form-control input--large dirty" type="text">
     <ul class="current-errors"></ul>
 </div>
 
-<p><br /></p>
+<br/>
 
 <h2>Postcode input</h2>
 <div class="form-group relative">
     <label for="postcode">Postcode</label>
-    <input aria-required="true" required="" id="postcode" class="grey form-control input--large dirty" type="text" />
+    <input aria-required="true" required="" id="postcode" class="grey form-control input--large dirty" type="text">
     <ul class="current-errors"></ul>
 </div>
 
-<p><br /></p>
+<br/>
+
 
 <h2>Email input</h2>
 <div class="form-group relative">
     <label for="email">Email</label>
-    <input aria-required="true" required="" id="email" class="grey form-control input--large dirty" type="email" />
+    <input aria-required="true" required="" id="email" class="grey form-control input--large dirty" type="email">
     <ul class="current-errors"></ul>
 </div>
 
-<p><br /></p>
+<br/>
 
 <h2>Numbers input</h2>
 <div class="form-group relative">
     <label for="phone-number">Phone number</label>
-    <input aria-required="true" required="" id="phone-number" class="grey form-control input--large dirty" type="tel" />
+    <input aria-required="true" required="" id="phone-number" class="grey form-control input--large dirty" type="tel">
     <ul class="current-errors"></ul>
 </div>
 
-<p><br /></p>
+<br/>
 
 <h2>Input with button</h2>
 <div class="input-group">
-  <input type="text" class="form-control" placeholder="placeholder" aria-describedby="basic-addon2" />
+  <input type="text" class="form-control" placeholder="placeholder" aria-describedby="basic-addon2">
   <span class="input-group-addon" id="basic-addon2">button text</span>
 </div>
+
 
 <div class="search-box">
     <form class="search-box__form" method="GET" action="/search/">
         <label class="search-box__label hidden" for="search-box">Search</label>
-        <input name="q" required="" id="search-box" class="search-box__input" type="text" placeholder="Search mygov.scot" autocomplete="off" />
+        <input name="q" required="" id="search-box" class="search-box__input" type="text" placeholder="Search mygov.scot" autocomplete="off">
         <button type="submit" title="search" class="search-box__button primary">
 <!--            <img alt="" class="search-box__icon" src="/assets/images/icons/search-white_@2x.png">-->
             <span class="hidden">Search mygov.scot</span>
         </button>
     </form>
 </div>
-<p><br /></p>
+<br/>
+
 
 <h2>Currency input</h2>
 <div class="form-group relative">
     <label for="currency">Amount</label>
-    <input aria-required="true" required="" id="currency" class="grey form-control input--large dirty" type="tel" />
+    <input aria-required="true" required="" id="currency" class="grey form-control input--large dirty" type="tel">
     <ul class="current-errors"></ul>
-</div>
-</textarea></code></pre>
+</div></textarea></code></pre>
                                        
             <!---<button class="btn btn-primary">Copy code snippet</button>-->
                     
@@ -391,35 +233,9 @@
 
     <footer>
  
- <div class="container"> Some text for the footer 
+ <div class="container">  
 	 <div class="row">
-		<div class="col-md-4">
-			<ul class="se-footer-list">
-				<li>1</li>
-				<li>2</li>
-				<li>3</li>
-				<li>4</li>
-				<li>5</li>
-			</ul>
-		</div>
-		<div class="col-md-4">
-			 <ul class="se-footer-list">
-				<li>1</li>
-				<li>2</li>
-				<li>3</li>
-				<li>4</li>
-				<li>5</li>
-			 </ul>	 
-		</div>
-		<div class="col-md-4">
-			<ul class="se-footer-list">
-				<li>1</li>
-				<li>2</li>
-				<li>3</li>
-				<li>4</li>
-				<li>5</li>
-			</ul>
-		</div>
+  	 Some text for the footer
 	 </div>
  </div>
 

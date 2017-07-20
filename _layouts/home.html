@@ -1,35 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SE Pattern Library</title>
-<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search resu...">
-<link rel="stylesheet" href="https://resources.mygov.scot/assets/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://raw.githubusercontent.com/scottishgovernment/mygov-assets/master/css/mygov-assets.css">
-<link rel="stylesheet" href="{{site.baseurl}}/assets/css/styles.css">
-<link rel="canonical" href="http://localhost:4000/">
-<link rel="alternate" type="application/rss+xml" title="SE Pattern Library" href="/feed.xml">
-</head>
+{% include head.html %}
 
 <body class="component-library">
 {% include nav.html %}
 <div class="container"> 
   
-  <!-- Main component for a primary marketing message or call to action --> 
+  <!-- The main component for a primary marketing message or call to action --> 
   <!-- <div class="jumbotron"></div> -->
-  
-  <div>
-    <h1>Scottish Enterprise</h1>
-    <h3>A library of visual and interaction patterns for Scottish Enterprise digital interfaces</h3>
-    <p>These patterns and UI components were created during the UX design, graphic design and front-end development work for the Scottish Enterprise.</p>
-    <p>They have been developed with scalability and reuse in mind. </p>
-    <p>This site is designed to be both a front-end framework and a toolkit that can be used to develop responsive, mobile-first web interfaces for Scottish Enterprise. It contains supporting notes for designers and front-end developers.</p>
-    <p>It can be considered a <strong>living style guide</strong> – the code, demos and supporting documentation are generated from the same source files as the front-end production code. It should naturally evolve and provide long term value.</p>
-    <p>The approach taken to design and development on this project has followed the UK Government Digital Services (GDS) <a href="https://www.gov.uk/service-manual">service manual</a>. The patterns, components and pages have been tested with target users, to evaluate their validity as interface components.</p>
-    <p><a href="#">Get started!</a></p>
-  </div>
+  {{ content }}  
+
 </div>
 {% include footer.html %}
 </body>

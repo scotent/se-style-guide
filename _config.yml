@@ -32,19 +32,24 @@ exclude:
   - Gemfile
   - Gemfile.lock
 permalink: pretty
+highlighter: rouge
   
 collections:
+  se-buttons:
+    output: true
+  se-errors-validation:
+    output: true
+  se-typography:
+    output: true
   se-page-templates:
     output: true
   se-elements:
     output: true
   se-page-patterns:
     output: true
-  se-visual-language:
+  se-colour-palettes:
     output: true
   se-form-elements:
-    output: true
-  se-typography:
     output: true
   se-components:
     output: true

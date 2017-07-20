@@ -6,248 +6,97 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>SE Pattern Library</title>
 <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search resu...">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://resources.mygov.scot/assets/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://raw.githubusercontent.com/scottishgovernment/mygov-assets/master/css/mygov-assets.css">
+<link rel="stylesheet" href="https://scottishgovernment.github.io/assets/css/main_forms.css">
+<link rel="stylesheet" href="https://scottishgovernment.github.io/assets/css/form.css">
 <link rel="stylesheet" href="/se-style-guide/assets/css/styles.css">
 <link rel="canonical" href="http://localhost:4000/">
 <link rel="alternate" type="application/rss+xml" title="SE Pattern Library" href="/feed.xml">
 </head>
 
 <body class="component-library">
-<div class="navbar yamm navbar-default navbar-fixed-top">
+<nav class="navbar">
   <div class="container">
-   
     <div class="navbar-header">
-      <button type="button" data-toggle="collapse" data-target="#navbar-collapse-1" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
       <a class="navbar-brand" href="/se-style-guide/"><img src="/se-style-guide/assets/img/scottish-enterprise.svg" alt="Scottish Enterprise"></a> 
     </div>
     
-    <div id="navbar-collapse-1" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-       
-        <!-- Elements Drop Down Menu -->
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Elements <b class="caret"></b> </a>
-          <ul class="dropdown-menu">
-            <li>
-              <div class="yamm-content row">               
-                <div class="col-md-4 unstyled">
-                  <h4>Elements</h4>
-                  <!--Form elements-->
-                    <ul role="menu" class="">
-                      
-                      <li><a href="/se-style-guide/se-elements/breadcrumbs/">Breadcrumbs</a></li>
-                      
-                      <li><a href="/se-style-guide/se-elements/buttons/">Buttons</a></li>
-                      
-                      <li><a href="/se-style-guide/se-elements/file-upload/">File upload</a></li>
-                      
-                      <li><a href="/se-style-guide/se-elements/grid/">Grid</a></li>
-                      
-                      <li><a href="/se-style-guide/se-elements/password/">Username and Password</a></li>
-                      
-                      <li><a href="/se-style-guide/se-elements/progress-indicator/">Progress Indicator</a></li>
-                      
-                      <li><a href="/se-style-guide/se-elements/tables/">Tables</a></li>
-                      
-                    </ul>
-                   </div>
-                   
-                   <div class="col-md-4 unstyled">
-                      <h4>Typography</h4>
-                      <ul role="menu" class="">
-                        
-                        <li><a href="/se-style-guide/se-typography/h1-h6/">H1 - H6</a></li>
-                        
-                        <li><a href="/se-style-guide/se-typography/inline-split-definition-list/">Inline, split definition list</a></li>
-                        
-                        <li><a href="/se-style-guide/se-typography/list/">List</a></li>
-                        
-                        <li><a href="/se-style-guide/se-typography/ordered-list/">Ordered list</a></li>
-                        
-                        <li><a href="/se-style-guide/se-typography/typography/">Typography</a></li>
-                        
-                      </ul>
-                    </div>
-                    
-                    <div class="col-md-4 unstyled">
-                      <h4>Form elements</h4>
-                      <!--Form elements-->
-                        <ul role="menu" class="">
-                          
-                          <li><a href="/se-style-guide/se-form-elements/calendar-input/">Calendar input / Date picker</a></li>
-                          
-                          <li><a href="/se-style-guide/se-form-elements/checkboxes/">Checkboxes</a></li>
-                          
-                          <li><a href="/se-style-guide/se-form-elements/conditional-fields-sub-fields/">Conditional fields / sub fields</a></li>
-                          
-                          <li><a href="/se-style-guide/se-form-elements/drop-down-list/">Drop down list</a></li>
-                          
-                          <li><a href="/se-style-guide/se-form-elements/error-messaging/">Error messaging *</a></li>
-                          
-                          <li><a href="/se-style-guide/se-form-elements/fieldsets/">Fieldsets</a></li>
-                          
-                          <li><a href="/se-style-guide/se-form-elements/file-upload/">File upload</a></li>
-                          
-                          <li><a href="/se-style-guide/se-form-elements/form-navigation/">Form navigation</a></li>
-                          
-                          <li><a href="/se-style-guide/se-form-elements/help-text/">Help text *</a></li>
-                          
-                          <li><a href="/se-style-guide/se-form-elements/input-fields/">Input fields</a></li>
-                          
-                          <li><a href="/se-style-guide/se-form-elements/input-validation/">Input validation</a></li>
-                          
-                          <li><a href="/se-style-guide/se-form-elements/labels/">Labels *</a></li>
-                          
-                          <li><a href="/se-style-guide/se-form-elements/radio-buttons/">Radio buttons</a></li>
-                          
-                          <li><a href="/se-style-guide/se-form-elements/text-area/">Text area</a></li>
-                          
-                        </ul>
-                   </div>
-                </div>
-            </li>
-          </ul>
-        </li>
-
-        <!-- Components Drop Down Menu -->
-        <li class="dropdown">
-          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Components<b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li>
-              <div class="yamm-content row">
-                <div class="col-md-12 unstyled">
-                  <h4>Components</h4>
-                  <ul role="menu">
-                    
-                    <li><a href="/se-style-guide/se-components/application-progress-indicator/">Application progress indicator *</a></li>
-                    
-                    <li><a href="/se-style-guide/se-components/page-header/">Page Header</a></li>
-                    
-                  </ul>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </li>
-        
-
-        <!-- Page Patterns Drop Down Menu -->
-        <li class="dropdown">
-          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Page Patterns<b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li>
-              <div class="yamm-content row">
-                <div class="col-md-12 unstyled">
-                  <h4>General page patterns</h4>
-                  <ul role="menu">
-                    
-                    <li><a href="/se-style-guide/se-page-patterns/application-form/">Application Form</a></li>
-                    
-                    <li><a href="/se-style-guide/se-page-patterns/footer/">Footer</a></li>
-                    
-                    <li><a href="/se-style-guide/se-page-patterns/navigation-header/">Navigation header</a></li>
-                    
-                    <li><a href="/se-style-guide/se-page-patterns/tables/">Tables</a></li>
-                    
-                  </ul>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </li>
-        
-        <li class="dropdown">
-          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Page Templates<b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li>
-              <div class="yamm-content row">
-                <div class="col-md-12 unstyled">
-                  <h4>Page Templates</h4>
-                  <ul role="menu">
-                    
-                    <li><a href="/se-style-guide/se-page-templates/login/">Login</a></li>
-                    
-                  </ul>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </li>
-        
-        <!-- Visual Language Drop Down Menu -->
-        <li class="dropdown">
-          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Visual Language<b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li>
-              <div class="yamm-content row">
-                <div class="col-md-12 unstyled">
-                  <h4>Visual Language</h4>
-                  <ul role="menu">
-                    
-                    <li><a href="/se-style-guide/se-visual-language/colours/">SE colour palette</a></li>
-                    
-                    <li><a href="/se-style-guide/se-visual-language/typography-colours/">SE typography colours</a></li>
-                    
-                  </ul>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </li>
-
-      </ul>
-    </div>
-    
+    <div id="navbar" class="navbar-collapse collapse">
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="/se-style-guide/">Home</a></li>
+      <li><a href="/se-style-guide/about/">About</a></li>
+      <li><a href="/se-style-guide/menu/">Menu</a></li>
+    </ul>
+    </div><!--/.navbar-collapse -->
   </div>
-</div>
+</nav>
+
+    
+
 <div class="container"> 
   
-  <!-- Main component for a primary marketing message or call to action --> 
+  <!-- The main component for a primary marketing message or call to action --> 
   <!-- <div class="jumbotron"></div> -->
-  
-  <div>
-    <h1>Scottish Enterprise</h1>
-    <h3>A library of visual and interaction patterns for Scottish Enterprise digital interfaces</h3>
-    <p>These patterns and UI components were created during the UX design, graphic design and front-end development work for the Scottish Enterprise.</p>
-    <p>They have been developed with scalability and reuse in mind. </p>
-    <p>This site is designed to be both a front-end framework and a toolkit that can be used to develop responsive, mobile-first web interfaces for Scottish Enterprise. It contains supporting notes for designers and front-end developers.</p>
-    <p>It can be considered a <strong>living style guide</strong> – the code, demos and supporting documentation are generated from the same source files as the front-end production code. It should naturally evolve and provide long term value.</p>
-    <p>The approach taken to design and development on this project has followed the UK Government Digital Services (GDS) <a href="https://www.gov.uk/service-manual">service manual</a>. The patterns, components and pages have been tested with target users, to evaluate their validity as interface components.</p>
-    <p><a href="#">Get started!</a></p>
+  <h1>Scottish Enterprise component library</h1>
+
+<p>This guide provides best practice html and css for building pages for the new Scottish Enterprise services</p>
+
+<div class="row">
+  <div class="link-block col-md-4">
+    <h2><a href="typography/">Typography</a></h2>
+    <p>Headings, body text, links, lists, inset text, hidden text.</p>
   </div>
+  <div class="link-block col-md-4">
+    <h2><a href="form-elements/">Form elements</a></h2>
+    <p>Form fields, labels, focus states, radio buttons, checkboxes.</p>
+  </div>
+  <div class="link-block col-md-4">
+    <h2><a href="buttons/">Buttons</a></h2>
+    <p>Button text, button alignment, creating buttons.</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="link-block col-md-4">
+    <h2><a href="colour-palettes/">Colour palettes</a></h2>
+    <p>The Scottish Enterprise online brand colour palette.</p>
+  </div>
+  <div class="link-block col-md-4">
+    <h2><a href="errors-validation/">Errors and validation</a></h2>
+    <p>Summary boxes, highlighting errors in forms.</p>
+  </div>
+  <div class="link-block col-md-4">
+    <h2><a href="page-patterns/">Page layouts and patterns</a></h2>
+    <p>Page patterns for key pages</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="link-block col-md-4">
+    <h2><a href="layout/">Data</a></h2>
+    <p>Data in a table, numeric tabular data, data visualisation.</p>
+  </div>
+  <div class="link-block col-md-4">
+    <h2><a href="components/">Components</a></h2>
+    <p>Grid unit proportions, gutters and spacing.</p>
+  </div>
+
+</div>
+  
+
 </div>
 <footer>
  
- <div class="container"> Some text for the footer 
+ <div class="container">  
 	 <div class="row">
-		<div class="col-md-4">
-			<ul class="se-footer-list">
-				<li>1</li>
-				<li>2</li>
-				<li>3</li>
-				<li>4</li>
-				<li>5</li>
-			</ul>
-		</div>
-		<div class="col-md-4">
-			 <ul class="se-footer-list">
-				<li>1</li>
-				<li>2</li>
-				<li>3</li>
-				<li>4</li>
-				<li>5</li>
-			 </ul>	 
-		</div>
-		<div class="col-md-4">
-			<ul class="se-footer-list">
-				<li>1</li>
-				<li>2</li>
-				<li>3</li>
-				<li>4</li>
-				<li>5</li>
-			</ul>
-		</div>
+  	 Some text for the footer
 	 </div>
  </div>
 

@@ -2,18 +2,13 @@
 
 ---
 
-@import "bootstrap";
-@import "component-library";
-@import "mygov-assets";
-@import "yamm";
-
-
-.test css{
-    color:white;
-}
-
-
-@import "forms";
-
-
-
+@import "variables.scss";
+@import "buttons.scss";
+@import "cards.scss";
+@import "component-library.scss";
+@import "forms.scss";
+@import "images.scss";
+@import "layout.scss";
+@import "misc.scss";
+@import "navbar.scss";
+@import "se-styles.scss";

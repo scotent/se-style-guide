@@ -1,0 +1,18 @@
+---
+layout: page
+title: Errors and validation
+permalink: /errors-validation/
+---
+
+{% include breadcrumbs.html %}
+<h1>{{ page.title }}</h1>
+
+
+<div class="row">
+  {% for cookie in site.se-errors-validation %}
+  <div class="link-block col-md-4">
+    <h2><a href="{{ site.baseurl}}{{ cookie.url }}">{{ cookie.title }}</a></h2>
+    <p>Headings, body text, links, lists, inset text, hidden text.</p>
+  </div>
+  {% endfor %}
+</div>

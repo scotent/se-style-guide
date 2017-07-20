@@ -1,0 +1,124 @@
+---
+layout: page
+title: Menu
+permalink: /menu/
+---
+
+      <ul class="">
+       
+        <!-- Elements Drop Down Menu -->
+        <li class="">
+          <a href="#" class="" data-toggle="">Elements <b class="caret"></b> </a>
+          <ul class="">
+            <li>
+              <div class=" row">               
+                <div class="col-md-4 unstyled">
+                  <h4>Elements</h4>
+                  <!--Form elements-->
+                    <ul role="menu" class="">
+                      {% for cookie in site.se-elements %}
+                      <li><a href="{{ site.baseurl}}{{ cookie.url }}">{{ cookie.title }}</a></li>
+                      {% endfor %}
+                    </ul>
+                   </div>
+                   
+                   <div class="col-md-4 unstyled">
+                      <h4>Typography</h4>
+                      <ul role="menu" class="">
+                        {% for cookie in site.se-typography %}
+                        <li><a href="{{ site.baseurl}}{{ cookie.url }}">{{ cookie.title }}</a></li>
+                        {% endfor %}
+                      </ul>
+                    </div>
+                    
+                    <div class="col-md-4 unstyled">
+                      <h4>Form elements</h4>
+                      <!--Form elements-->
+                        <ul role="menu" class="">
+                          {% for cookie in site.se-form-elements %}
+                          <li><a href="{{ site.baseurl}}{{ cookie.url }}">{{ cookie.title }}</a></li>
+                          {% endfor %}
+                        </ul>
+                   </div>
+                </div>
+            </li>
+          </ul>
+        </li>
+
+        <!-- Components Drop Down Menu -->
+        <li class="">
+          <a href="#" class="">Components<b class="caret"></b></a>
+          <ul class="">
+            <li>
+              <div class=" row">
+                <div class="col-md-12 unstyled">
+                  <h4>Components</h4>
+                  <ul role="menu">
+                    {% for cookie in site.se-components %}
+                    <li><a href="{{ site.baseurl}}{{ cookie.url }}">{{ cookie.title }}</a></li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </li>
+        
+
+        <!-- Page Patterns Drop Down Menu -->
+        <li class="">
+          <a href="#" class="">Page Patterns<b class="caret"></b></a>
+          <ul class="">
+            <li>
+              <div class=" row">
+                <div class="col-md-12 unstyled">
+                  <h4>General page patterns</h4>
+                  <ul role="menu">
+                    {% for cookie in site.se-page-patterns %}
+                    <li><a href="{{ site.baseurl}}{{ cookie.url }}">{{ cookie.title }}</a></li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </li>
+        
+        <li class="">
+          <a href="#" class="">Page Templates<b class="caret"></b></a>
+          <ul class="">
+            <li>
+              <div class=" row">
+                <div class="col-md-12 unstyled">
+                  <h4>Page Templates</h4>
+                  <ul role="menu">
+                    {% for cookie in site.se-page-templates %}
+                    <li><a href="{{ site.baseurl}}{{ cookie.url }}">{{ cookie.title }}</a></li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </li>
+        
+        <!-- Visual Language Drop Down Menu -->
+        <li class="">
+          <a href="#" class="">Visual Language<b class="caret"></b></a>
+          <ul class="">
+            <li>
+              <div class=" row">
+                <div class="col-md-12 unstyled">
+                  <h4>Visual Language</h4>
+                  <ul role="menu">
+                    {% for cookie in site.se-visual-language %}
+                    <li><a href="{{ site.baseurl}}{{ cookie.url }}">{{ cookie.title }}</a></li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </li>
+
+      </ul>

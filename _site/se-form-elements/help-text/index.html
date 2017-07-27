@@ -44,7 +44,7 @@
     
     <div class="container">
       
-      <h1 class="component-library">Help text *</h1>
+      <h1 class="component-library">Help text</h1>
       
       <div class="row">
 
@@ -54,14 +54,24 @@
           <span class="example">Example</span>   
             <!-- ### Put your element demo here ### -->
                     
-             
+            <div class="form-group relative">
+    <label for="business-name">Business name</label>
+    <p>Enter the name of your business as registered at Companies House.</p>
+    <input id="business-name" class="grey form-control input--medium" type="text">
+    <ul class="current-errors"></ul>
+</div> 
               
             <!-- ### End element demo ### -->    
           </div>
           
           
           
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"></code></pre></figure>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"form-group relative"</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">label</span> <span class="k">for</span><span class="o">=</span><span class="s2">"business-name"</span><span class="o">&gt;</span><span class="no">Business</span> <span class="nb">name</span><span class="o">&lt;</span><span class="sr">/label&gt;
+    &lt;p&gt;Enter the name of your business as registered at Companies House.&lt;/</span><span class="nb">p</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">input</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"business-name"</span> <span class="k">class</span><span class="o">=</span><span class="s2">"grey form-control input--medium"</span> <span class="n">type</span><span class="o">=</span><span class="s2">"text"</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">ul</span> <span class="k">class</span><span class="o">=</span><span class="s2">"current-errors"</span><span class="o">&gt;&lt;</span><span class="sr">/ul&gt;
+&lt;/</span><span class="n">div</span><span class="o">&gt;</span></code></pre></figure>
 
 
           
@@ -72,7 +82,7 @@
           
             <!-- ### Start your usage notes here ###-->
           
-               Use help text to ...
+               Help text is used to provide guidance to the user about what we want them to enter. Use help text within &lt;p&gt; &lt;/p&gt; tags inside a form group.
           
             <!-- ### End usage notes ###-->
           </div>

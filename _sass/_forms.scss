@@ -22,6 +22,10 @@ label.fancy-checkbox, label.fancy-radio {
   white-space: normal;
 }
 
+select {
+    min-width: 110px;
+    height: 42px;
+}
 
 label.inline {
   margin-right: 0;

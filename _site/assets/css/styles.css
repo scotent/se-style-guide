@@ -56,6 +56,8 @@ div.relative input.fancy-checkbox, div.relative input.fancy-radio { position: ab
 
 label.fancy-checkbox, label.fancy-radio { white-space: normal; }
 
+select { min-width: 110px; height: 42px; }
+
 label.inline { margin-right: 0; }
 
 .form-group { padding: 0 20px 0 20px; }

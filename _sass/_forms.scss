@@ -64,6 +64,12 @@ label.inline {
   
 }
 
+.current-errors {
+  li { list-style: none;
+    &:focus {outline: none;}
+  }
+}
+
 
 	.fileUpload {
 		position: relative;

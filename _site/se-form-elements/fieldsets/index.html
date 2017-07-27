@@ -55,9 +55,13 @@
             <!-- ### Put your element demo here ### -->
                     
             <fieldset>
-  <legend>This is a title for the group of controls</legend>
-  <input type="checkbox" name="checkbox" value="1">
-  <label for="checkbox">I am enabled </label>
+  <legend>This is a legend, a title for the group of controls</legend>
+  <div class="input-wrapper">
+      <div>
+          <input name="agree" id="agree" class="fancy-checkbox" type="checkbox">
+          <label for="agree" class="inline fancy-checkbox">I agree with the above statement</label>
+      </div>
+  </div>
 </fieldset>
  
               
@@ -67,9 +71,13 @@
           
           
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">fieldset</span><span class="o">&gt;</span>
-  <span class="o">&lt;</span><span class="n">legend</span><span class="o">&gt;</span><span class="no">This</span> <span class="n">is</span> <span class="n">a</span> <span class="n">title</span> <span class="k">for</span> <span class="n">the</span> <span class="n">group</span> <span class="n">of</span> <span class="n">controls</span><span class="o">&lt;</span><span class="sr">/legend&gt;
-  &lt;input type="checkbox" name="checkbox" value="1"&gt;
-  &lt;label for="checkbox"&gt;I am enabled &lt;/</span><span class="n">label</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="n">legend</span><span class="o">&gt;</span><span class="no">This</span> <span class="n">is</span> <span class="n">a</span> <span class="n">legend</span><span class="p">,</span> <span class="n">a</span> <span class="n">title</span> <span class="k">for</span> <span class="n">the</span> <span class="n">group</span> <span class="n">of</span> <span class="n">controls</span><span class="o">&lt;</span><span class="sr">/legend&gt;
+  &lt;div class="input-wrapper"&gt;
+      &lt;div&gt;
+          &lt;input name="agree" id="agree" class="fancy-checkbox" type="checkbox"&gt;
+          &lt;label for="agree" class="inline fancy-checkbox"&gt;I agree with the above statement&lt;/</span><span class="n">label</span><span class="o">&gt;</span>
+      <span class="o">&lt;</span><span class="sr">/div&gt;
+  &lt;/</span><span class="n">div</span><span class="o">&gt;</span>
 <span class="o">&lt;</span><span class="sr">/fieldset&gt;</span></code></pre></figure>
 
 

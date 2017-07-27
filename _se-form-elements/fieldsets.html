@@ -5,7 +5,11 @@ usage: Use fieldsets to group related form controls. The first element inside a 
 
 ---
 <fieldset>
-  <legend>This is a title for the group of controls</legend>
-  <input type="checkbox" name="checkbox" value="1">
-  <label for="checkbox">I am enabled </label>
+  <legend>This is a legend, a title for the group of controls</legend>
+  <div class="input-wrapper">
+      <div>
+          <input name="agree" id="agree" class="fancy-checkbox" type="checkbox">
+          <label for="agree" class="inline fancy-checkbox">I agree with the above statement</label>
+      </div>
+  </div>
 </fieldset>

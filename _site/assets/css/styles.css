@@ -72,6 +72,14 @@ label.inline { margin-right: 0; }
 .error-summary ul { margin: 0; }
 .error-summary ul li { list-style: none; }
 
+.fileUpload { position: relative; overflow: hidden; /*		margin:10px;*/ }
+
+.fileUpload input.upload { position: absolute; top: 0; right: 0; margin: 0; padding: 0; font-size: 20px; cursor: pointer; opacity: 0; filter: alpha(opacity=0); }
+
+.upload-file-text { position: relative; margin: 0 0 5px 0px; font-weight: 300; }
+
+.upload-file-caption { position: relative; margin: 0 0 5px 15px; }
+
 /* ========================================================================== SE Custom styles for images  ========================================================================== */
 .img-fit { width: 100%; }
 

@@ -54,18 +54,28 @@
           <span class="example">Example</span>   
             <!-- ### Put your element demo here ### -->
                     
-            <div class="field field--spaced">
-    <form>
-      <label>
-        <input type="checkbox" name="checkbox" value="1">
-        I am enabled
-      </label>
-
-      <label>
-        <input type="checkbox" name="checkbox" value="2" disabled>
-        I am disabled. 
-      </label>
-    </form>
+            <div class="form-group relative">
+    <fieldset>
+        <legend>Choose which Sectors to receive information on.</legend>
+        <div class="input-wrapper">
+            <div>
+                <input name="sector" id="sector-adm" class="fancy-checkbox" type="checkbox">
+                <label for="sector-adm" class="inline fancy-checkbox">Aerospace defence and marine</label>
+            </div>
+            <div>
+                <input name="sector" id="sector-cs" class="fancy-checkbox" type="checkbox">
+                <label for="sector-cs" class="inline fancy-checkbox">Chemical sciences</label>
+            </div>
+            <div>
+                <input name="sector" id="sector-c" class="fancy-checkbox" type="checkbox">
+                <label for="sector-c" class="inline fancy-checkbox">Construction</label>
+            </div>
+            <div>
+                <input name="sector" id="sector-ci" class="fancy-checkbox" type="checkbox">
+                <label for="sector-ci" class="inline fancy-checkbox">Creative industries</label>
+            </div>
+        </div>
+    </fieldset>
 </div> 
               
             <!-- ### End element demo ### -->    
@@ -73,19 +83,29 @@
           
           
           
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"field field--spaced"</span><span class="o">&gt;</span>
-    <span class="o">&lt;</span><span class="n">form</span><span class="o">&gt;</span>
-      <span class="o">&lt;</span><span class="n">label</span><span class="o">&gt;</span>
-        <span class="o">&lt;</span><span class="n">input</span> <span class="n">type</span><span class="o">=</span><span class="s2">"checkbox"</span> <span class="nb">name</span><span class="o">=</span><span class="s2">"checkbox"</span> <span class="n">value</span><span class="o">=</span><span class="s2">"1"</span><span class="o">&gt;</span>
-        <span class="no">I</span> <span class="n">am</span> <span class="n">enabled</span>
-      <span class="o">&lt;</span><span class="sr">/label&gt;
-
-      &lt;label&gt;
-        &lt;input type="checkbox" name="checkbox" value="2" disabled&gt;
-        I am disabled. 
-      &lt;/</span><span class="n">label</span><span class="o">&gt;</span>
-    <span class="o">&lt;</span><span class="sr">/form&gt;
-&lt;/</span><span class="n">div</span><span class="o">&gt;</span></code></pre></figure>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"form-group relative"</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">fieldset</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="n">legend</span><span class="o">&gt;</span><span class="no">Choose</span> <span class="n">which</span> <span class="no">Sectors</span> <span class="n">to</span> <span class="n">receive</span> <span class="n">information</span> <span class="n">on</span><span class="p">.</span><span class="nf">&lt;</span><span class="o">/</span><span class="n">legend</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"input-wrapper"</span><span class="o">&gt;</span>
+            <span class="o">&lt;</span><span class="n">div</span><span class="o">&gt;</span>
+                <span class="o">&lt;</span><span class="n">input</span> <span class="nb">name</span><span class="o">=</span><span class="s2">"sector"</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"sector-adm"</span> <span class="k">class</span><span class="o">=</span><span class="s2">"fancy-checkbox"</span> <span class="n">type</span><span class="o">=</span><span class="s2">"checkbox"</span><span class="o">&gt;</span>
+                <span class="o">&lt;</span><span class="n">label</span> <span class="k">for</span><span class="o">=</span><span class="s2">"sector-adm"</span> <span class="k">class</span><span class="o">=</span><span class="s2">"inline fancy-checkbox"</span><span class="o">&gt;</span><span class="no">Aerospace</span> <span class="n">defence</span> <span class="n">and</span> <span class="n">marine</span><span class="o">&lt;</span><span class="sr">/label&gt;
+            &lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+            <span class="o">&lt;</span><span class="n">div</span><span class="o">&gt;</span>
+                <span class="o">&lt;</span><span class="n">input</span> <span class="nb">name</span><span class="o">=</span><span class="s2">"sector"</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"sector-cs"</span> <span class="k">class</span><span class="o">=</span><span class="s2">"fancy-checkbox"</span> <span class="n">type</span><span class="o">=</span><span class="s2">"checkbox"</span><span class="o">&gt;</span>
+                <span class="o">&lt;</span><span class="n">label</span> <span class="k">for</span><span class="o">=</span><span class="s2">"sector-cs"</span> <span class="k">class</span><span class="o">=</span><span class="s2">"inline fancy-checkbox"</span><span class="o">&gt;</span><span class="no">Chemical</span> <span class="n">sciences</span><span class="o">&lt;</span><span class="sr">/label&gt;
+            &lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+            <span class="o">&lt;</span><span class="n">div</span><span class="o">&gt;</span>
+                <span class="o">&lt;</span><span class="n">input</span> <span class="nb">name</span><span class="o">=</span><span class="s2">"sector"</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"sector-c"</span> <span class="k">class</span><span class="o">=</span><span class="s2">"fancy-checkbox"</span> <span class="n">type</span><span class="o">=</span><span class="s2">"checkbox"</span><span class="o">&gt;</span>
+                <span class="o">&lt;</span><span class="n">label</span> <span class="k">for</span><span class="o">=</span><span class="s2">"sector-c"</span> <span class="k">class</span><span class="o">=</span><span class="s2">"inline fancy-checkbox"</span><span class="o">&gt;</span><span class="no">Construction</span><span class="o">&lt;</span><span class="sr">/label&gt;
+            &lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+            <span class="o">&lt;</span><span class="n">div</span><span class="o">&gt;</span>
+                <span class="o">&lt;</span><span class="n">input</span> <span class="nb">name</span><span class="o">=</span><span class="s2">"sector"</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"sector-ci"</span> <span class="k">class</span><span class="o">=</span><span class="s2">"fancy-checkbox"</span> <span class="n">type</span><span class="o">=</span><span class="s2">"checkbox"</span><span class="o">&gt;</span>
+                <span class="o">&lt;</span><span class="n">label</span> <span class="k">for</span><span class="o">=</span><span class="s2">"sector-ci"</span> <span class="k">class</span><span class="o">=</span><span class="s2">"inline fancy-checkbox"</span><span class="o">&gt;</span><span class="no">Creative</span> <span class="n">industries</span><span class="o">&lt;</span><span class="sr">/label&gt;
+            &lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="sr">/div&gt;
+    &lt;/</span><span class="n">fieldset</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="sr">/div&gt;</span></code></pre></figure>
 
 
           

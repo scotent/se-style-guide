@@ -4,10 +4,18 @@ title: Radio buttons
 usage: Radio buttons let a user select ONE of a limited number of choices 
 --- 
 
-<form action="">
-  <input type="radio" name="group-name" value="option 1">Option 1<br>
-  <input type="radio" name="group-name" value="option 2">Option 2<br>
-</form>
-
-
-<p><b>Note:</b> When a user clicks on a radio-button, it becomes checked, all other radio-buttons with equal name become unchecked.</p>
+<div class="form-group relative" id="radio">
+    <fieldset aria-required="true" id="radio-link">
+        <legend>
+          <span>*</span>
+          Do you wish to subscribe to our newsletter?
+        </legend>
+        <div>
+            <input required="true" id="yes" name="newsletter" class="grey form-control fancy-radio" type="radio">
+            <label for="yes" class="inline fancy-radio">Yes</label>
+            <input required="true" id="no" name="newsletter" class="grey form-control fancy-radio" type="radio">
+            <label for="no" class="inline fancy-radio">No</label>
+            <ul class="current-errors"></ul>
+        </div>
+    </fieldset>
+</div>

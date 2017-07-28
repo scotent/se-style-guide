@@ -5,6 +5,8 @@
     {% include nav.html %}
     
     <div class="container">
+
+      {% include code-page-breadcrumbs.html %}
       
       <h1 class="component-library">{{ page.title }}</h1>
       

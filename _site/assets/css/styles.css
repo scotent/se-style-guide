@@ -13,6 +13,9 @@
 
 .button.secondary { line-height: 56px; }
 
+.button--tertiary { background: transparent; color: #0065bd; padding: 0.5em 0; }
+.button--tertiary:hover { color: #00437e; }
+
 a.button { width: auto !important; }
 
 input.button { line-height: 70px; }
@@ -50,7 +53,9 @@ body.component-library .color-block__color.se-white { background-color: #ffffff;
 
 /* ========================================================================== Variables  ========================================================================== */
 /* ========================================================================== SE Custom styles for forms  ========================================================================== */
-input[type=text], input[type=password], input[type=email] { margin-top: 7px; font-size: 16px; height: 42px; border: 1px solid #727272; border-radius: 0px; }
+input[type=text], input[type=number], input[type=password], input[type=email] { margin-top: 7px; font-size: 16px; height: 42px; border: 1px solid #727272; border-radius: 0px; }
+
+.input-group input[type="number"].grey { margin-top: 0; }
 
 div.relative input.fancy-checkbox, div.relative input.fancy-radio { position: absolute; }
 
@@ -69,6 +74,7 @@ select { min-width: 110px; height: 42px; }
 .error-summary h2, .error-summary a { color: #d32205; margin-top: 0; }
 .error-summary ul { margin: 0; }
 .error-summary ul li { list-style: none; }
+.error-summary:focus { outline: none; }
 
 .current-errors li { list-style: none; }
 .current-errors li:focus { outline: none; }

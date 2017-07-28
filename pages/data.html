@@ -1,5 +1,6 @@
 ---
 layout: page
+collection-name: Datas
 title: Data
 permalink: /data/
 ---
@@ -9,9 +10,10 @@ permalink: /data/
 
 
 <div class="row">
-  {% for cookie in site.se-data %}
+  {% for cookie in site.datas %}
   <div class="link-block col-md-4">
     <h2><a href="{{ site.baseurl}}{{ cookie.url }}">{{ cookie.title }}</a></h2>
+    <p>Headings, body text, links, lists, inset text, hidden text.</p>
   </div>
   {% endfor %}
 </div>

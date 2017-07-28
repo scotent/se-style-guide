@@ -15,6 +15,17 @@
     line-height: 56px;
 }
 
+
+.button--tertiary {
+   background: transparent;
+   color: #0065bd;
+   padding: 0.5em 0;
+   
+   &:hover {
+     color: #00437e;
+   }
+}
+
 a.button {
   width: auto!important;
 }

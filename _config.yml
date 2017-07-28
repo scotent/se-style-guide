@@ -18,7 +18,7 @@ author: Jen Thomson
 email: jen.thomson@scotent.co.uk
 description: > # this means to ignore newlines until "baseurl:"
   Living Style Guide for Scottish Enterprise
-repository: "scotent/se-style-guide"
+repository: "scotent/style-guide"
 url: "https://scotent.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/se-style-guide"
 github_username:  scotent
@@ -40,25 +40,25 @@ permalink: pretty
 highlighter: rouge
   
 collections:
-  se-buttons:
+  buttons:
     output: true
-  se-data:
+  datas:
     output: true
-  se-errors-validation:
+  errors-validation:
     output: true
-  se-typography:
+  typography:
     output: true
-  se-page-templates:
+  page-templates:
     output: true
-  se-elements:
+  elements:
     output: true
-  se-page-patterns:
+  page-patterns:
     output: true
-  se-colour-palettes:
+  colour-palettes:
     output: true
-  se-form-elements:
+  form-elements:
     output: true
-  se-components:
+  components:
     output: true
     
 github: [metadata]

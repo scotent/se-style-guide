@@ -167,8 +167,11 @@ body { margin-bottom: 0; }
 
 footer { padding-top: 3em; border-top: #ebebeb 1px solid; }
 footer .navbar { margin: 2em 0; border-bottom: none; }
-footer .navbar ul { margin: 0px; padding: 0; }
+footer .navbar ul { margin: 0; padding: 0; }
 footer .navbar ul li { display: inline-block; margin-right: 1em; }
+
+a { color: #00427F; -webkit-transition: color 0.5s; -moz-transition: color 0.5s; -ms-transition: color 0.5s; -o-transition: color 0.5s; transition: color 0.5s; }
+a:hover { color: #2980B9; -webkit-transition: color 0.5s; -moz-transition: color 0.5s; -ms-transition: color 0.5s; -o-transition: color 0.5s; transition: color 0.5s; }
 
 #logo-block { margin-left: -1em; }
 

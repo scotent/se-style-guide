@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SE Pattern Library</title>
+<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search resu...">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://resources.mygov.scot/assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://scottishgovernment.github.io/assets/css/main_forms.css">
+<link rel="stylesheet" href="https://scottishgovernment.github.io/assets/css/form.css">
+<link rel="stylesheet" href="/se-style-guide/assets/css/styles.css">
+<link rel="canonical" href="http://localhost:4000/">
+<link rel="alternate" type="application/rss+xml" title="SE Pattern Library" href="/feed.xml">
+</head>
+
+  <body class="component-library">
+        
+    <nav class="navbar">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/se-style-guide/"><img src="/se-style-guide/assets/img/scottish-enterprise.svg" alt="Scottish Enterprise"></a> 
+    </div>
+    
+    <div id="navbar" class="navbar-collapse collapse">
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="/se-style-guide/">Home</a></li>
+      <li><a href="/se-style-guide/about/">About</a></li>
+      <li><a href="/se-style-guide/menu/">Menu</a></li>
+    </ul>
+    </div><!--/.navbar-collapse -->
+  </div>
+</nav>
+
+    
+
+    
+    <div class="container">
+
+      <ol id="breadcrumbs" role="navigation" class="breadcrumbs">
+    <li class="breadcrumbs__item" itemprop="url">
+        <a class="breadcrumbs__link" href="/se-style-guide/" data-gtm="bread-0">
+            <span class="breadcrumbs__title" itemprop="title">Home</span><!--
+        --></a>
+    </li>
+    <li class="breadcrumbs__item" itemprop="url">
+        <a class="breadcrumbs__link" href="/se-style-guide/components/" data-gtm="bread-0">
+            <span class="breadcrumbs__title" itemprop="title"></span><!--
+        --></a>
+    </li>
+    <li id="MYGOV-70" class="breadcrumbs__item" itemprop="url">
+            <span class="breadcrumbs__title" itemprop="title">Accordions</span>
+    </li>
+</ol>
+      
+      <h1 class="component-library">Accordions</h1>
+      
+      <div class="row">
+
+        <div class="col-sm-12">
+
+          <div class="demo-box"> 
+          <span class="example">Example</span>   
+            <!-- ### Put your element demo here ### -->
+                    
+            <div id="accordion" class="panel-group">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">1. Section title one</a>
+            </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse">
+            <div class="panel-body">
+                <p>
+                    This is where to place the content to be shown or hidden by the accordion functionality.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">2. Section title two</a>
+            </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse in">
+            <div class="panel-body">
+                <p>
+                    This is where to place the content to be shown or hidden by the accordion functionality.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">3. Section title three</a>
+            </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse">
+            <div class="panel-body">
+                <p>
+                    This is where to place the content to be shown or hidden by the accordion functionality.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+ 
+              
+            <!-- ### End element demo ### -->    
+          </div>
+          
+          
+          
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">div</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"accordion"</span> <span class="k">class</span><span class="o">=</span><span class="s2">"panel-group"</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"panel panel-default"</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"panel-heading"</span><span class="o">&gt;</span>
+            <span class="o">&lt;</span><span class="n">h4</span> <span class="k">class</span><span class="o">=</span><span class="s2">"panel-title"</span><span class="o">&gt;</span>
+                <span class="o">&lt;</span><span class="n">a</span> <span class="n">data</span><span class="o">-</span><span class="n">toggle</span><span class="o">=</span><span class="s2">"collapse"</span> <span class="n">data</span><span class="o">-</span><span class="n">parent</span><span class="o">=</span><span class="s2">"#accordion"</span> <span class="n">href</span><span class="o">=</span><span class="s2">"#collapseOne"</span><span class="o">&gt;</span><span class="mi">1</span><span class="o">.</span> <span class="no">Section</span> <span class="n">title</span> <span class="n">one</span><span class="o">&lt;</span><span class="sr">/a&gt;
+            &lt;/</span><span class="n">h4</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="sr">/div&gt;
+        &lt;div id="collapseOne" class="panel-collapse collapse"&gt;
+            &lt;div class="panel-body"&gt;
+                &lt;p&gt;
+                    This is where to place the content to be shown or hidden by the accordion functionality.
+                &lt;/</span><span class="nb">p</span><span class="o">&gt;</span>
+            <span class="o">&lt;</span><span class="sr">/div&gt;
+        &lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="sr">/div&gt;
+    &lt;div class="panel panel-default"&gt;
+        &lt;div class="panel-heading"&gt;
+            &lt;h4 class="panel-title"&gt;
+                &lt;a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"&gt;2. Section title two&lt;/</span><span class="n">a</span><span class="o">&gt;</span>
+            <span class="o">&lt;</span><span class="sr">/h4&gt;
+        &lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="n">div</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"collapseTwo"</span> <span class="k">class</span><span class="o">=</span><span class="s2">"panel-collapse collapse in"</span><span class="o">&gt;</span>
+            <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"panel-body"</span><span class="o">&gt;</span>
+                <span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span>
+                    <span class="no">This</span> <span class="n">is</span> <span class="n">where</span> <span class="n">to</span> <span class="n">place</span> <span class="n">the</span> <span class="n">content</span> <span class="n">to</span> <span class="n">be</span> <span class="n">shown</span> <span class="n">or</span> <span class="n">hidden</span> <span class="n">by</span> <span class="n">the</span> <span class="n">accordion</span> <span class="n">functionality</span><span class="p">.</span>
+                <span class="nf">&lt;</span><span class="o">/</span><span class="nb">p</span><span class="o">&gt;</span>
+            <span class="o">&lt;</span><span class="sr">/div&gt;
+        &lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="sr">/div&gt;
+    &lt;div class="panel panel-default"&gt;
+        &lt;div class="panel-heading"&gt;
+            &lt;h4 class="panel-title"&gt;
+                &lt;a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"&gt;3. Section title three&lt;/</span><span class="n">a</span><span class="o">&gt;</span>
+            <span class="o">&lt;</span><span class="sr">/h4&gt;
+        &lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="n">div</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"collapseThree"</span> <span class="k">class</span><span class="o">=</span><span class="s2">"panel-collapse collapse"</span><span class="o">&gt;</span>
+            <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"panel-body"</span><span class="o">&gt;</span>
+                <span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span>
+                    <span class="no">This</span> <span class="n">is</span> <span class="n">where</span> <span class="n">to</span> <span class="n">place</span> <span class="n">the</span> <span class="n">content</span> <span class="n">to</span> <span class="n">be</span> <span class="n">shown</span> <span class="n">or</span> <span class="n">hidden</span> <span class="n">by</span> <span class="n">the</span> <span class="n">accordion</span> <span class="n">functionality</span><span class="p">.</span>
+                <span class="nf">&lt;</span><span class="o">/</span><span class="nb">p</span><span class="o">&gt;</span>
+            <span class="o">&lt;</span><span class="sr">/div&gt;
+        &lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="sr">/div&gt;
+&lt;/</span><span class="n">div</span><span class="o">&gt;</span></code></pre></figure>
+
+
+          
+          
+              
+          <div class="usage-notes">
+            <h2>Usage notes</h2>
+          
+            <!-- ### Start your usage notes here ###-->
+          
+               Setting up an Accordion
+          
+            <!-- ### End usage notes ###-->
+          </div>
+
+
+          
+        </div>
+      </div>
+
+    </div>    
+
+    <footer>
+ 
+ <div class="container">  
+	 <div class="row">
+  	 Some text for the footer
+	 </div>
+ </div>
+
+ 
+</footer>
+
+<!-- Bootstrap core JavaScript--> 
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script> 
+<script src="/se-style-guide/assets/javascripts/bootstrap.min.js"></script> 
+<script src="/se-style-guide/assets/javascripts/calendar.js"></script> 
+
+ 
+  </body>
+
+</html>

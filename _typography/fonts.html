@@ -1,21 +1,29 @@
 ---
 layout: code-examples
 collection-name: Typography
-title: Body copy
-usage: ...
+title: Font usage
+sub-title: Font usage for standard text and FontAwesome for icons.
+usage: Font usage for standard text and FontAwesome for icons.
 --- 
 
 
-<p class="leader">Oversized text for leader paragraphs or sections</p>
+<p class="leader">Fonts being used 'Roboto' for all body text and 'FontAwesome' for icons.</p>
 
-<p>Regular body text for paragraphs of copy </p>
+<p>Body font family with fall-backs..</p>
+<p>
+    body {
+        font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+    }
+</p>
+<br />
+<p>
+    <i class="fa fa-mobile fa-2x"></i> <- Mobile phone icon
+    <br />
+    <a href="http://fontawesome.io/icons/">Complete icon list here..</a>
 
-<blockquote><p>This is a blockquote. Use this to highlight some information that is important to make it more prominent</p></blockquote>
-
-<p class="emphasis">This is some body copy which has been classed with 'emphasis' it adds a blue highlight to the top and uses a bold font.</p>
-
-<p><small>This is small text. Use it for information that needs to be visible but not prominent</small></p>
+</p>
 
 
 
-<a href="#">Link text - how an anchor / href tag will be displayed</a>

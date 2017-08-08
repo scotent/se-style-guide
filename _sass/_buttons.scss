@@ -13,6 +13,9 @@
     @include transition(background-color 0.5s, color 0.5s);
     &.button--primary {
         background-color: $se-blue;
+        &.disabled {
+            background-color: $se-dis-primary;
+        }
         &:not(.disabled):hover {
             background-color: $se-white;
             color: $se-blue;
@@ -23,6 +26,9 @@
     }
     &.button--secondary {
         background-color: $se-light-blue;
+        &.disabled {
+            background-color: $se-dis-secondary;
+        }
         &:not(.disabled):hover {
             background-color: $se-white;
             color: $se-light-blue;
@@ -32,7 +38,6 @@
         }
     }
     &.disabled {
-        @include Opacity(0.50);
         &:hover {
             cursor: default;
         }

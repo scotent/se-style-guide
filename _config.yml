@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Scottish Enterprise Visual Style Guide
-author: Jen Thomson
-email: jen.thomson@scotent.co.uk
+author: Graeme Laurenson
+email: graeme.laurenson@scotent.co.uk
 description: > # this means to ignore newlines until "baseurl:"
   Living Style Guide for Scottish Enterprise
 repository: "scotent/style-guide"
@@ -62,9 +62,3 @@ collections:
     output: true
     
 github: [metadata]
-
-
-
-
-
-

@@ -31,6 +31,7 @@ footer {
 
 a {
     color: $se-blue;
+    text-decoration: none;
     @include transition(color 0.5s);
     &:hover {
         color: $se-light-blue;

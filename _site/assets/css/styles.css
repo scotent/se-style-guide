@@ -44,6 +44,10 @@ h1, h2, h3, h4, h5, h6 { font-weight: 700; }
 .button.button--tertiary { background-color: transparent; color: #00427F; padding: 0.5em 0; }
 .button.button--tertiary:not(.disabled):hover { color: #2980B9; }
 
+article a[href^="//"]:not(.button), article a[href^="http://"]:not(.button), article a[href^="https://"]:not(.button) { background-image: none; }
+
+article a[href^="//"]:hover:not(.button), article a[href^="//"]:active:not(.button), article a[href^="http://"]:hover:not(.button), article a[href^="http://"]:active:not(.button), article a[href^="https://"]:hover:not(.button), article a[href^="https://"]:active:not(.button) { background-image: none; }
+
 /* ========================================================================== SE Custom styles for card layouts  ========================================================================== */
 .card { padding: 1em 1em 3em 1em; margin-bottom: 1em; background-color: #F2F2F2; position: relative; }
 .card a { display: block; position: absolute; bottom: 1em; }
@@ -191,7 +195,7 @@ footer .navbar { margin: 2em 0; border-bottom: none; }
 footer .navbar ul { margin: 0; padding: 0; }
 footer .navbar ul li { display: inline-block; margin-right: 1em; }
 
-a { color: #00427F; -webkit-transition: color 0.5s; -moz-transition: color 0.5s; -ms-transition: color 0.5s; -o-transition: color 0.5s; transition: color 0.5s; }
+a { color: #00427F; text-decoration: none; -webkit-transition: color 0.5s; -moz-transition: color 0.5s; -ms-transition: color 0.5s; -o-transition: color 0.5s; transition: color 0.5s; }
 a:hover { color: #2980B9; -webkit-transition: color 0.5s; -moz-transition: color 0.5s; -ms-transition: color 0.5s; -o-transition: color 0.5s; transition: color 0.5s; }
 
 #logo-block { margin-left: -1em; }

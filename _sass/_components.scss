@@ -1,0 +1,33 @@
+/* ==========================================================================
+   SE Custom styles for Components
+   ========================================================================== */
+
+#accordion {
+    h4.panel-title a {
+        color: $se-blue;
+        @include transition(color 0.5s);
+    }
+    .panel-default {
+        border-color: $se-light-blue;
+        & > .panel-heading {
+            background-color: $se-light-grey;
+            border-color: $se-light-grey;
+            @include transition(background-color 0.5s);
+            & + .panel-collapse > .panel-body {
+                border-top-color: $se-light-blue;
+            }
+            &:hover {
+                @include transition(background-color 0.5s);
+                background-color: darken($se-light-grey, 5%);
+                cursor: pointer;
+                a {
+                    color: $se-black;
+                    @include transition(color 0.5s);
+                }
+            }
+        }
+    }
+}
+
+
+

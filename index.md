@@ -19,8 +19,8 @@ layout: home
     <p>Form fields, labels, focus states, radio buttons, checkboxes.</p>
   </div>
   <div class="link-block col-md-4">
-    <h2><a href="buttons/">Buttons</a></h2>
-    <p>Button text, button alignment, creating buttons.</p>
+    <h2><a href="buttons/">Buttons and Links</a></h2>
+    <p>Button and Links: text, alignment and creation.</p>
   </div>
 </div>
 
@@ -46,6 +46,10 @@ layout: home
   </div>
   <div class="link-block col-md-4">
     <h2><a href="components/">Components</a></h2>
+    <p>Accordions, Tabs, Progress indicators etc.</p>
+  </div>
+  <div class="link-block col-md-4">
+    <h2><a href="grid/">Grid</a></h2>
     <p>Grid unit proportions, gutters and spacing.</p>
   </div>
 

@@ -80,6 +80,14 @@ body.component-library .color-block__color.se-dark-grey { background-color: #333
 body.component-library .color-block__color.se-body-grey { background-color: #666666; margin: 1em; }
 body.component-library .color-block__color.se-white { background-color: #ffffff; }
 
+/* ========================================================================== SE Custom styles for Components ========================================================================== */
+#accordion h4.panel-title a { color: #00427F; -webkit-transition: color 0.5s; -moz-transition: color 0.5s; -ms-transition: color 0.5s; -o-transition: color 0.5s; transition: color 0.5s; }
+#accordion .panel-default { border-color: #2980B9; }
+#accordion .panel-default > .panel-heading { background-color: #ecf0f1; border-color: #ecf0f1; -webkit-transition: background-color 0.5s; -moz-transition: background-color 0.5s; -ms-transition: background-color 0.5s; -o-transition: background-color 0.5s; transition: background-color 0.5s; }
+#accordion .panel-default > .panel-heading + .panel-collapse > .panel-body { border-top-color: #2980B9; }
+#accordion .panel-default > .panel-heading:hover { -webkit-transition: background-color 0.5s; -moz-transition: background-color 0.5s; -ms-transition: background-color 0.5s; -o-transition: background-color 0.5s; transition: background-color 0.5s; background-color: #dde4e6; cursor: pointer; }
+#accordion .panel-default > .panel-heading:hover a { color: #2F3E44; -webkit-transition: color 0.5s; -moz-transition: color 0.5s; -ms-transition: color 0.5s; -o-transition: color 0.5s; transition: color 0.5s; }
+
 /* ========================================================================== Variables  ========================================================================== */
 /* ========================================================================== SE Custom styles for forms  ========================================================================== */
 input[type=text], input[type=number], input[type=password], input[type=email] { margin-top: 7px; font-size: 16px; height: 42px; border: 1px solid #727272; border-radius: 0px; }

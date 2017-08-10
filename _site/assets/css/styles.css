@@ -32,6 +32,13 @@ h6 { font-size: 16px; line-height: 22px; }
 
 h1, h2, h3, h4, h5, h6 { font-weight: 700; }
 
+.emphasis:before { background-color: #00427F; }
+
+.breadcrumbs { font-size: 14px; margin: 14px 0 13px; color: #727272; padding-left: 0; }
+.breadcrumbs .breadcrumbs__item { display: inline-block; margin-bottom: 0; margin-left: 0; padding: 0; }
+.breadcrumbs .breadcrumbs__item:after { font-family: FontAwesome; content: "\f105"; font-size: 16px; color: #727272; font-weight: 300; padding: 0 3px 0 8px; line-height: 14px; }
+.breadcrumbs .breadcrumbs__item:last-of-type:after { content: none; }
+
 /* ========================================================================== SE Custom styles for buttons and links ========================================================================== */
 .button { line-height: 1.5; height: auto; padding-top: 1em; padding-bottom: 1em; width: auto !important; text-transform: none; font-weight: 400; -webkit-transition: background-color 0.5s, color 0.5s; -moz-transition: background-color 0.5s, color 0.5s; -ms-transition: background-color 0.5s, color 0.5s; -o-transition: background-color 0.5s, color 0.5s; transition: background-color 0.5s, color 0.5s; }
 .button.button--primary { background-color: #00427F; }
@@ -47,6 +54,8 @@ h1, h2, h3, h4, h5, h6 { font-weight: 700; }
 article a[href^="//"]:not(.button), article a[href^="http://"]:not(.button), article a[href^="https://"]:not(.button) { background-image: none; }
 
 article a[href^="//"]:hover:not(.button), article a[href^="//"]:active:not(.button), article a[href^="http://"]:hover:not(.button), article a[href^="http://"]:active:not(.button), article a[href^="https://"]:hover:not(.button), article a[href^="https://"]:active:not(.button) { background-image: none; }
+
+input[type="button"], input[type="submit"] { padding: 1em 40px; }
 
 /* ========================================================================== SE Custom styles for card layouts  ========================================================================== */
 .card { padding: 1em 1em 3em 1em; margin-bottom: 1em; background-color: #F2F2F2; position: relative; }

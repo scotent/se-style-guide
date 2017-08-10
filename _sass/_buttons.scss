@@ -53,7 +53,7 @@
 }
 
 
-// Override Scot Gov styling //
+// Overrides for Scot Gov styling //
 article a[href^="//"]:not(.button),
 article a[href^="http://"]:not(.button),
 article a[href^="https://"]:not(.button) {
@@ -67,4 +67,9 @@ article a[href^="http://"]:active:not(.button),
 article a[href^="https://"]:hover:not(.button),
 article a[href^="https://"]:active:not(.button) {
     background-image: none;
+}
+
+input[type="button"],
+input[type="submit"] {
+    padding: 1em 40px;
 }

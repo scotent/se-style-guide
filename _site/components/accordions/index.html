@@ -70,12 +70,14 @@
           <span class="example">Example</span>   
             <!-- ### Put your element demo here ### -->
                     
-            <div id="accordion" class="panel-group">
+            <div id="accordion" class="panel-group accordion">
     <div class="panel panel-default">
-        <div class="panel-heading">
-            <h4 class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                <a>1. Section title one</a>
-            </h4>
+        <div class="panel-heading collapsed" data-toggle="collapse" href="#collapseOne">
+
+                <h3>Section title one</h3>
+                <p class="sub-title">Subtitle text here</p>
+                <span class="header-panel-icon"></span>
+
         </div>
         <div id="collapseOne" class="panel-collapse collapse">
             <div class="panel-body">
@@ -86,10 +88,12 @@
         </div>
     </div>
     <div class="panel panel-default">
-        <div class="panel-heading">
-            <h4 class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                <a>2. Section title two [open by default]</a>
-            </h4>
+        <div class="panel-heading" data-toggle="collapse" href="#collapseTwo">
+
+                <h3>Section title two [open by default]</h3>
+                <p class="sub-title">Subtitle text here</p>
+                <span class="header-panel-icon"></span>
+
         </div>
         <div id="collapseTwo" class="panel-collapse collapse in">
             <div class="panel-body">
@@ -100,10 +104,12 @@
         </div>
     </div>
     <div class="panel panel-default">
-        <div class="panel-heading">
-            <h4 class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                <a>3. Section title three</a>
-            </h4>
+        <div class="panel-heading collapsed" data-toggle="collapse" href="#collapseThree">
+
+                <h3>Section title three</h3>
+                <p class="sub-title">Subtitle text here</p>
+                <span class="header-panel-icon"></span>
+
         </div>
         <div id="collapseThree" class="panel-collapse collapse">
             <div class="panel-body">
@@ -114,10 +120,11 @@
         </div>
     </div>
     <div class="panel panel-default">
-        <div class="panel-heading">
-            <h4 class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-                <a>4. Section title four</a>
-            </h4>
+        <div class="panel-heading collapsed" data-toggle="collapse" href="#collapseFour">
+
+                <h3>Section title four</h3>
+                <p class="sub-title">Subtitle text here</p>
+                <span class="header-panel-icon"></span>
         </div>
         <div id="collapseFour" class="panel-collapse collapse">
             <div class="panel-body">
@@ -128,7 +135,6 @@
         </div>
     </div>
 </div>
-
  
               
             <!-- ### End element demo ### -->    
@@ -136,14 +142,32 @@
           
           
           
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">div</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"accordion"</span> <span class="k">class</span><span class="o">=</span><span class="s2">"panel-group"</span><span class="o">&gt;</span>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">div</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"accordion"</span> <span class="k">class</span><span class="o">=</span><span class="s2">"panel-group accordion"</span><span class="o">&gt;</span>
     <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"panel panel-default"</span><span class="o">&gt;</span>
-        <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"panel-heading"</span><span class="o">&gt;</span>
-            <span class="o">&lt;</span><span class="n">h4</span> <span class="k">class</span><span class="o">=</span><span class="s2">"panel-title"</span> <span class="n">data</span><span class="o">-</span><span class="n">toggle</span><span class="o">=</span><span class="s2">"collapse"</span> <span class="n">data</span><span class="o">-</span><span class="n">parent</span><span class="o">=</span><span class="s2">"#accordion"</span> <span class="n">href</span><span class="o">=</span><span class="s2">"#collapseOne"</span><span class="o">&gt;</span>
-                <span class="o">&lt;</span><span class="n">a</span><span class="o">&gt;</span><span class="mi">1</span><span class="o">.</span> <span class="no">Section</span> <span class="n">title</span> <span class="n">one</span><span class="o">&lt;</span><span class="sr">/a&gt;
-            &lt;/</span><span class="n">h4</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"panel-heading collapsed"</span> <span class="n">data</span><span class="o">-</span><span class="n">toggle</span><span class="o">=</span><span class="s2">"collapse"</span> <span class="n">href</span><span class="o">=</span><span class="s2">"#collapseOne"</span><span class="o">&gt;</span>
+
+                <span class="o">&lt;</span><span class="n">h3</span><span class="o">&gt;</span><span class="no">Section</span> <span class="n">title</span> <span class="n">one</span><span class="o">&lt;</span><span class="sr">/h3&gt;
+                &lt;p class="sub-title"&gt;Subtitle text here&lt;/</span><span class="nb">p</span><span class="o">&gt;</span>
+                <span class="o">&lt;</span><span class="n">span</span> <span class="k">class</span><span class="o">=</span><span class="s2">"header-panel-icon"</span><span class="o">&gt;&lt;</span><span class="sr">/span&gt;
+
+        &lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="n">div</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"collapseOne"</span> <span class="k">class</span><span class="o">=</span><span class="s2">"panel-collapse collapse"</span><span class="o">&gt;</span>
+            <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"panel-body"</span><span class="o">&gt;</span>
+                <span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span>
+                    <span class="no">This</span> <span class="n">is</span> <span class="n">where</span> <span class="n">to</span> <span class="n">place</span> <span class="n">the</span> <span class="n">content</span> <span class="n">to</span> <span class="n">be</span> <span class="n">shown</span> <span class="n">or</span> <span class="n">hidden</span> <span class="n">by</span> <span class="n">the</span> <span class="n">accordion</span> <span class="n">functionality</span><span class="p">.</span>
+                <span class="nf">&lt;</span><span class="o">/</span><span class="nb">p</span><span class="o">&gt;</span>
+            <span class="o">&lt;</span><span class="sr">/div&gt;
+        &lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="sr">/div&gt;
+    &lt;div class="panel panel-default"&gt;
+        &lt;div class="panel-heading" data-toggle="collapse" href="#collapseTwo"&gt;
+
+                &lt;h3&gt;Section title two [open by default]&lt;/</span><span class="n">h3</span><span class="o">&gt;</span>
+                <span class="o">&lt;</span><span class="nb">p</span> <span class="k">class</span><span class="o">=</span><span class="s2">"sub-title"</span><span class="o">&gt;</span><span class="no">Subtitle</span> <span class="n">text</span> <span class="n">here</span><span class="o">&lt;</span><span class="sr">/p&gt;
+                &lt;span class="header-panel-icon"&gt;&lt;/s</span><span class="n">pan</span><span class="o">&gt;</span>
+
         <span class="o">&lt;</span><span class="sr">/div&gt;
-        &lt;div id="collapseOne" class="panel-collapse collapse"&gt;
+        &lt;div id="collapseTwo" class="panel-collapse collapse in"&gt;
             &lt;div class="panel-body"&gt;
                 &lt;p&gt;
                     This is where to place the content to be shown or hidden by the accordion functionality.
@@ -152,44 +176,33 @@
         &lt;/</span><span class="n">div</span><span class="o">&gt;</span>
     <span class="o">&lt;</span><span class="sr">/div&gt;
     &lt;div class="panel panel-default"&gt;
-        &lt;div class="panel-heading"&gt;
-            &lt;h4 class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"&gt;
-                &lt;a&gt;2. Section title two [open by default]&lt;/</span><span class="n">a</span><span class="o">&gt;</span>
-            <span class="o">&lt;</span><span class="sr">/h4&gt;
-        &lt;/</span><span class="n">div</span><span class="o">&gt;</span>
-        <span class="o">&lt;</span><span class="n">div</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"collapseTwo"</span> <span class="k">class</span><span class="o">=</span><span class="s2">"panel-collapse collapse in"</span><span class="o">&gt;</span>
-            <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"panel-body"</span><span class="o">&gt;</span>
-                <span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span>
-                    <span class="no">This</span> <span class="n">is</span> <span class="n">where</span> <span class="n">to</span> <span class="n">place</span> <span class="n">the</span> <span class="n">content</span> <span class="n">to</span> <span class="n">be</span> <span class="n">shown</span> <span class="n">or</span> <span class="n">hidden</span> <span class="n">by</span> <span class="n">the</span> <span class="n">accordion</span> <span class="n">functionality</span><span class="p">.</span>
-                <span class="nf">&lt;</span><span class="o">/</span><span class="nb">p</span><span class="o">&gt;</span>
+        &lt;div class="panel-heading collapsed" data-toggle="collapse" href="#collapseThree"&gt;
+
+                &lt;h3&gt;Section title three&lt;/</span><span class="n">h3</span><span class="o">&gt;</span>
+                <span class="o">&lt;</span><span class="nb">p</span> <span class="k">class</span><span class="o">=</span><span class="s2">"sub-title"</span><span class="o">&gt;</span><span class="no">Subtitle</span> <span class="n">text</span> <span class="n">here</span><span class="o">&lt;</span><span class="sr">/p&gt;
+                &lt;span class="header-panel-icon"&gt;&lt;/s</span><span class="n">pan</span><span class="o">&gt;</span>
+
+        <span class="o">&lt;</span><span class="sr">/div&gt;
+        &lt;div id="collapseThree" class="panel-collapse collapse"&gt;
+            &lt;div class="panel-body"&gt;
+                &lt;p&gt;
+                    This is where to place the content to be shown or hidden by the accordion functionality.
+                &lt;/</span><span class="nb">p</span><span class="o">&gt;</span>
             <span class="o">&lt;</span><span class="sr">/div&gt;
         &lt;/</span><span class="n">div</span><span class="o">&gt;</span>
     <span class="o">&lt;</span><span class="sr">/div&gt;
     &lt;div class="panel panel-default"&gt;
-        &lt;div class="panel-heading"&gt;
-            &lt;h4 class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"&gt;
-                &lt;a&gt;3. Section title three&lt;/</span><span class="n">a</span><span class="o">&gt;</span>
-            <span class="o">&lt;</span><span class="sr">/h4&gt;
-        &lt;/</span><span class="n">div</span><span class="o">&gt;</span>
-        <span class="o">&lt;</span><span class="n">div</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"collapseThree"</span> <span class="k">class</span><span class="o">=</span><span class="s2">"panel-collapse collapse"</span><span class="o">&gt;</span>
-            <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"panel-body"</span><span class="o">&gt;</span>
-                <span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span>
-                    <span class="no">This</span> <span class="n">is</span> <span class="n">where</span> <span class="n">to</span> <span class="n">place</span> <span class="n">the</span> <span class="n">content</span> <span class="n">to</span> <span class="n">be</span> <span class="n">shown</span> <span class="n">or</span> <span class="n">hidden</span> <span class="n">by</span> <span class="n">the</span> <span class="n">accordion</span> <span class="n">functionality</span><span class="p">.</span>
-                <span class="nf">&lt;</span><span class="o">/</span><span class="nb">p</span><span class="o">&gt;</span>
-            <span class="o">&lt;</span><span class="sr">/div&gt;
-        &lt;/</span><span class="n">div</span><span class="o">&gt;</span>
-    <span class="o">&lt;</span><span class="sr">/div&gt;
-    &lt;div class="panel panel-default"&gt;
-        &lt;div class="panel-heading"&gt;
-            &lt;h4 class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#collapseFour"&gt;
-                &lt;a&gt;4. Section title four&lt;/</span><span class="n">a</span><span class="o">&gt;</span>
-            <span class="o">&lt;</span><span class="sr">/h4&gt;
-        &lt;/</span><span class="n">div</span><span class="o">&gt;</span>
-        <span class="o">&lt;</span><span class="n">div</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"collapseFour"</span> <span class="k">class</span><span class="o">=</span><span class="s2">"panel-collapse collapse"</span><span class="o">&gt;</span>
-            <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"panel-body"</span><span class="o">&gt;</span>
-                <span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span>
-                    <span class="no">This</span> <span class="n">is</span> <span class="n">where</span> <span class="n">to</span> <span class="n">place</span> <span class="n">the</span> <span class="n">content</span> <span class="n">to</span> <span class="n">be</span> <span class="n">shown</span> <span class="n">or</span> <span class="n">hidden</span> <span class="n">by</span> <span class="n">the</span> <span class="n">accordion</span> <span class="n">functionality</span><span class="p">.</span>
-                <span class="nf">&lt;</span><span class="o">/</span><span class="nb">p</span><span class="o">&gt;</span>
+        &lt;div class="panel-heading collapsed" data-toggle="collapse" href="#collapseFour"&gt;
+
+                &lt;h3&gt;Section title four&lt;/</span><span class="n">h3</span><span class="o">&gt;</span>
+                <span class="o">&lt;</span><span class="nb">p</span> <span class="k">class</span><span class="o">=</span><span class="s2">"sub-title"</span><span class="o">&gt;</span><span class="no">Subtitle</span> <span class="n">text</span> <span class="n">here</span><span class="o">&lt;</span><span class="sr">/p&gt;
+                &lt;span class="header-panel-icon"&gt;&lt;/s</span><span class="n">pan</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="sr">/div&gt;
+        &lt;div id="collapseFour" class="panel-collapse collapse"&gt;
+            &lt;div class="panel-body"&gt;
+                &lt;p&gt;
+                    This is where to place the content to be shown or hidden by the accordion functionality.
+                &lt;/</span><span class="nb">p</span><span class="o">&gt;</span>
             <span class="o">&lt;</span><span class="sr">/div&gt;
         &lt;/</span><span class="n">div</span><span class="o">&gt;</span>
     <span class="o">&lt;</span><span class="sr">/div&gt;
@@ -204,7 +217,7 @@
           
             <!-- ### Start your usage notes here ###-->
           
-               Setting up an Accordion.... Must be wrapped with '&lt;id="accordion"&gt;' .. Must use the data toggles and parents as shown in the code.
+               Setting up an Accordion.... Must be wrapped with '&lt;id="accordion"&gt;' .. Must use the data toggles and parents as shown in the code. All id's MUST be unique. If multiple Accordions are on the same page - the id for Accordions must be unique.
           
             <!-- ### End usage notes ###-->
           </div>
@@ -232,8 +245,8 @@
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script> 
-<script src="/se-style-guide/assets/javascripts/bootstrap.min.js"></script> 
-<script src="/se-style-guide/assets/javascripts/calendar.js"></script> 
+<script src="/se-style-guide/assets/javascripts/bootstrap.min.js"></script>
+<script src="/se-style-guide/assets/javascripts/calendar.js"></script>
 
  
   </body>

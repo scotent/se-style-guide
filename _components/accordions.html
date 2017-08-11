@@ -1,16 +1,18 @@
 ---
 layout: code-examples
 title: Accordions
-usage: Setting up an Accordion.... Must be wrapped with '&lt;id="accordion"&gt;' .. Must use the data toggles and parents as shown in the code.
+usage: Setting up an Accordion.... Must be wrapped with '&lt;id="accordion"&gt;' .. Must use the data toggles and parents as shown in the code. All id's MUST be unique. If multiple Accordions are on the same page - the id for Accordions must be unique.
 ---
 
 
-<div id="accordion" class="panel-group">
+<div id="accordion" class="panel-group accordion">
     <div class="panel panel-default">
-        <div class="panel-heading">
-            <h4 class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                <a>1. Section title one</a>
-            </h4>
+        <div class="panel-heading collapsed" data-toggle="collapse" href="#collapseOne">
+
+                <h3>Section title one</h3>
+                <p class="sub-title">Subtitle text here</p>
+                <span class="header-panel-icon"></span>
+
         </div>
         <div id="collapseOne" class="panel-collapse collapse">
             <div class="panel-body">
@@ -21,10 +23,12 @@ usage: Setting up an Accordion.... Must be wrapped with '&lt;id="accordion"&gt;'
         </div>
     </div>
     <div class="panel panel-default">
-        <div class="panel-heading">
-            <h4 class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                <a>2. Section title two [open by default]</a>
-            </h4>
+        <div class="panel-heading" data-toggle="collapse" href="#collapseTwo">
+
+                <h3>Section title two [open by default]</h3>
+                <p class="sub-title">Subtitle text here</p>
+                <span class="header-panel-icon"></span>
+
         </div>
         <div id="collapseTwo" class="panel-collapse collapse in">
             <div class="panel-body">
@@ -35,10 +39,12 @@ usage: Setting up an Accordion.... Must be wrapped with '&lt;id="accordion"&gt;'
         </div>
     </div>
     <div class="panel panel-default">
-        <div class="panel-heading">
-            <h4 class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                <a>3. Section title three</a>
-            </h4>
+        <div class="panel-heading collapsed" data-toggle="collapse" href="#collapseThree">
+
+                <h3>Section title three</h3>
+                <p class="sub-title">Subtitle text here</p>
+                <span class="header-panel-icon"></span>
+
         </div>
         <div id="collapseThree" class="panel-collapse collapse">
             <div class="panel-body">
@@ -49,10 +55,11 @@ usage: Setting up an Accordion.... Must be wrapped with '&lt;id="accordion"&gt;'
         </div>
     </div>
     <div class="panel panel-default">
-        <div class="panel-heading">
-            <h4 class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-                <a>4. Section title four</a>
-            </h4>
+        <div class="panel-heading collapsed" data-toggle="collapse" href="#collapseFour">
+
+                <h3>Section title four</h3>
+                <p class="sub-title">Subtitle text here</p>
+                <span class="header-panel-icon"></span>
         </div>
         <div id="collapseFour" class="panel-collapse collapse">
             <div class="panel-body">
@@ -63,4 +70,3 @@ usage: Setting up an Accordion.... Must be wrapped with '&lt;id="accordion"&gt;'
         </div>
     </div>
 </div>
-

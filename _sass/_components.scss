@@ -4,6 +4,7 @@
 
 .accordion {
     position: relative;
+    border-bottom: 1px solid $se-light-mid-grey;
     .panel-default {
         border-color: $se-light-mid-grey;
         border-radius: 0;

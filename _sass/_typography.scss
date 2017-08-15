@@ -72,12 +72,15 @@ h1,h2,h3,h4,h5,h6 {
   margin: 14px 0 13px;
   color: $se-grey;
   padding-left: 0;
-  .breadcrumbs__item {
+  // TODO refactor to be just .breadcrumbs-item //
+  .breadcrumbs__item,
+  .breadcrumb-item {
     display: inline-block;
     margin-bottom: 0;
     margin-left: 0;
     padding: 0;
     position: relative;
+    text-transform: capitalize;
     &:after {
       font-family: FontAwesome;
       content: "\f105";
@@ -90,15 +93,12 @@ h1,h2,h3,h4,h5,h6 {
       position: relative;
       top: 1px;
     }
+    &:before {
+      content: "";
+      padding: 0;
+    }
     &:last-of-type:after {
       content: none;
     }
   }
 }
-
-
-
-
-
-
-

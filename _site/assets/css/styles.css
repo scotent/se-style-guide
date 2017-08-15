@@ -35,9 +35,10 @@ h1, h2, h3, h4, h5, h6 { font-weight: 700; }
 .emphasis:before { background-color: #00427F; }
 
 .breadcrumbs { font-size: 14px; margin: 14px 0 13px; color: #727272; padding-left: 0; }
-.breadcrumbs .breadcrumbs__item { display: inline-block; margin-bottom: 0; margin-left: 0; padding: 0; position: relative; }
-.breadcrumbs .breadcrumbs__item:after { font-family: FontAwesome; content: "\f105"; font-size: 16px; color: #727272; font-weight: 300; padding: 0 3px 0 8px; line-height: 14px; box-sizing: inherit; position: relative; top: 1px; }
-.breadcrumbs .breadcrumbs__item:last-of-type:after { content: none; }
+.breadcrumbs .breadcrumbs__item, .breadcrumbs .breadcrumb-item { display: inline-block; margin-bottom: 0; margin-left: 0; padding: 0; position: relative; text-transform: capitalize; }
+.breadcrumbs .breadcrumbs__item:after, .breadcrumbs .breadcrumb-item:after { font-family: FontAwesome; content: "\f105"; font-size: 16px; color: #727272; font-weight: 300; padding: 0 3px 0 8px; line-height: 14px; box-sizing: inherit; position: relative; top: 1px; }
+.breadcrumbs .breadcrumbs__item:before, .breadcrumbs .breadcrumb-item:before { content: ""; padding: 0; }
+.breadcrumbs .breadcrumbs__item:last-of-type:after, .breadcrumbs .breadcrumb-item:last-of-type:after { content: none; }
 
 /* ========================================================================== SE Custom styles for buttons and links ========================================================================== */
 .button { line-height: 1.5; height: auto; padding-top: 1em; padding-bottom: 1em; width: auto !important; text-transform: none; font-weight: 400; -webkit-transition: background-color 0.5s, color 0.5s; -moz-transition: background-color 0.5s, color 0.5s; -ms-transition: background-color 0.5s, color 0.5s; -o-transition: background-color 0.5s, color 0.5s; transition: background-color 0.5s, color 0.5s; }

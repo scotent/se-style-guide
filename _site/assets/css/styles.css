@@ -240,3 +240,6 @@ a:active ::-moz-focus-inner { border: 0; }
 button::-moz-focus-inner { border: 0; }
 button::-moz-focus-inner focus { outline: none; }
 button::-moz-focus-inner ::-moz-focus-inner { border: 0; }
+
+.style-guide-styled .row { background-color: #dddddd; margin-top: 20px; }
+.style-guide-styled .row .col-inner { background-color: #93BFBD; border: 1px solid #00427F; text-align: center; margin: 5px 0; }

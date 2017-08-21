@@ -11,6 +11,36 @@ layout: home
 
 <div class="row">
   <div class="link-block col-md-4">
+    <h2><a href="structure/">Structure</a></h2>
+    <p>Grid / Header / Footer / Content</p>
+  </div>
+  <div class="link-block col-md-4">
+    <h2><a href="colours/">Colours</a></h2>
+    <p>Colours used across the portal.</p>
+  </div>
+  <div class="link-block col-md-4">
+    <h2><a href="Typography/">Typography</a></h2>
+    <p>	Body / Headings / Iconography / Info notes / Lists</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="link-block col-md-4">
+    <h2><a href="content-navigation/">Content navigation</a></h2>
+    <p>	Breadcrumbs / Buttons / Links / Pagination</p>
+  </div>
+  <div class="link-block col-md-4">
+    <h2><a href="form-elements/">Form elements</a></h2>
+    <p>	Checkboxes / Fieldset / File upload / Help text / Input fields / Errors / Validation / Labels / Radio buttons / Select / Dropdowns / Textarea / Calendar / Pre-loaders / Progress indicators</p>
+  </div>
+  <div class="link-block col-md-4">
+    <h2><a href="images/">Images</a></h2>
+    <p>Image usage across the portal</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="link-block col-md-4">
     <h2><a href="typography/">Typography</a></h2>
     <p>Headings, body text, links, lists, inset text, hidden text.</p>
   </div>

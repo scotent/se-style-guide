@@ -84,3 +84,15 @@ button::-moz-focus-inner {
 }
 
 
+.style-guide-styled {
+    .row {
+        background-color: $se-light-mid-grey;
+        margin-top: 20px;
+        .col-inner {
+            background-color: $se-dis-secondary;
+            border: 1px solid $se-blue;
+            text-align: center;
+            margin: 5px 0;
+        }
+    }
+}

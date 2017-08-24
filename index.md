@@ -41,6 +41,17 @@ layout: home
 
 <div class="row">
   <div class="link-block col-md-4">
+    <h2><a href="components/">Components</a></h2>
+    <p>Tables / Accordions / Tabs / Tooltips</p>
+  </div>
+</div>
+
+<br /><br />
+<hr><hr>
+<br /><br />
+
+<div class="row">
+  <div class="link-block col-md-4">
     <h2><a href="typography/">Typography</a></h2>
     <p>Headings, body text, links, lists, inset text, hidden text.</p>
   </div>

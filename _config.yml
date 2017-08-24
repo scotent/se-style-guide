@@ -62,5 +62,9 @@ collections:
     output: true
   grid:
     output: true
+  structure:
+    output: true
+  colours:
+    output: true
     
 github: [metadata]

@@ -2,7 +2,7 @@
 /*------------------------------------------------------------Footer Section*/
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
-.footer { overflow: hidden; width: 100%; border-top: 1px solid #bbbbbb; background: white; margin-top: 0; padding-top: 0; }
+.footer { overflow: hidden; width: 100%; border-top: 1px solid #bbbbbb; background: white; margin-top: 0; padding-top: 0; position: relative; }
 .footer ul { list-style: none; margin: 0; padding: 0; }
 .footer.fixed { position: absolute; bottom: 0px; left: 0px; }
 .footer.alone { border-top: 0px; }

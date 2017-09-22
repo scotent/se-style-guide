@@ -17,8 +17,8 @@
 </head>
 
 
-  <body class="component-library">
-        
+<body class="component-library">
+
     <nav class="navbar">
   <div class="container">
     <div class="navbar-header">
@@ -43,10 +43,10 @@
 
     
 
-    
+
     <div class="container">
 
-      
+        
 
 
 <ol id="breadcrumbs" role="navigation" class="breadcrumbs">
@@ -67,18 +67,14 @@
     </li>
 </ol>
 
-      
-      <h1 class="component-library">Text area</h1>
-      
-      <div class="row">
 
-        <div class="col-sm-12">
+        <h1 class="component-library">Text area</h1>
 
-          <div class="demo-box"> 
-          <span class="example">Example</span>   
-            <!-- ### Put your element demo here ### -->
-                    
-            <div class="form-group relative">
+        <div class="row">
+            <div class="col-sm-12">            
+               
+                <div class="demo-box">
+                    <span class="example">Example</span> <div class="form-group relative">
     <label for="comments">Project description</label>
     <p>Describe your project. Tell us the aim of the project and what you want to achieve. Use up to 1000 characters, which is about 200 words.</p>
     <div class="input-wrapper">
@@ -87,14 +83,14 @@
         <ul class="current-errors"></ul>
     </div>
 </div>
- 
-              
-            <!-- ### End element demo ### -->    
-          </div>
-          
-          
-          
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"form-group relative"</span><span class="o">&gt;</span>
+
+                </div>
+                
+                <button class="btn btn-primary margin-bottom" onclick="copyToClipboard('#code-snippet')">Copy HTML to clipboard</button>
+
+                <!--html code snippet-->
+                <div id="code-snippet">          
+                    <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">                    <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"form-group relative"</span><span class="o">&gt;</span>
     <span class="o">&lt;</span><span class="n">label</span> <span class="k">for</span><span class="o">=</span><span class="s2">"comments"</span><span class="o">&gt;</span><span class="no">Project</span> <span class="n">description</span><span class="o">&lt;</span><span class="sr">/label&gt;
     &lt;p&gt;Describe your project. Tell us the aim of the project and what you want to achieve. Use up to 1000 characters, which is about 200 words.&lt;/</span><span class="nb">p</span><span class="o">&gt;</span>
     <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"input-wrapper"</span><span class="o">&gt;</span>
@@ -102,28 +98,20 @@
         &lt;p class="word-count"&gt;&lt;span&gt;50&lt;/s</span><span class="n">pan</span><span class="o">&gt;</span> <span class="n">characters</span> <span class="n">remaining</span><span class="o">&lt;</span><span class="sr">/p&gt;
         &lt;ul class="current-errors"&gt;&lt;/u</span><span class="n">l</span><span class="o">&gt;</span>
     <span class="o">&lt;</span><span class="sr">/div&gt;
-&lt;/</span><span class="n">div</span><span class="o">&gt;</span></code></pre></figure>
+&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
 
+                    </code></pre></figure>
+                </div>
 
-          
-          
-              
-          <div class="usage-notes">
-            <h2>Usage notes</h2>
-          
-            <!-- ### Start your usage notes here ###-->
-          
-               A textarea allows a user to enter multiple lines of text. Make the height of a textarea proportional to the amount of text to be entered and tell the user the maximum text you expect them to write. Use a word count below the text area to show the user how many characters are remaining of the limit.
-          
-            <!-- ### End usage notes ###-->
-          </div>
+                <div class="usage-notes">
+                    <h2>Usage notes</h2>
+                    A textarea allows a user to enter multiple lines of text. Make the height of a textarea proportional to the amount of text to be entered and tell the user the maximum text you expect them to write. Use a word count below the text area to show the user how many characters are remaining of the limit.
+                </div>
 
-
-          
+            </div>
         </div>
-      </div>
 
-    </div>    
+    </div>
 
     <!--<footer>-->
 <!---->
@@ -252,9 +240,9 @@
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
 <script src="/se-style-guide/assets/javascripts/bootstrap.min.js"></script>
-<script src="/se-style-guide/assets/javascripts/calendar.js"></script>
+<script src="/se-style-guide/assets/javascripts/main.js"></script>
 
- 
-  </body>
+
+</body>
 
 </html>

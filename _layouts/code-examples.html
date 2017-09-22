@@ -1,0 +1,43 @@
+{% include head.html %}
+
+<body class="component-library">
+
+    {% include nav.html %}
+
+    <div class="container">
+
+        {% include code-page-breadcrumbs.html %}
+
+        <h1 class="component-library">{{ page.title }}</h1>
+
+        <div class="row">
+            <div class="col-sm-12">            
+               
+                <div class="demo-box">
+                    <span class="example">Example</span> {{ content }}
+                </div>
+                
+                <button class="btn btn-primary margin-bottom" onclick="copyToClipboard('#code-snippet')">Copy HTML to clipboard</button>
+
+                <!--html code snippet-->
+                <div id="code-snippet">          
+                    {% highlight ruby %}
+                    {{ content }}
+                    {% endhighlight %}
+                </div>
+
+                <div class="usage-notes">
+                    <h2>Usage notes</h2>
+                    {{page.usage}}
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>

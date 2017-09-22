@@ -79,13 +79,12 @@
             <!-- ### Put your element demo here ### -->
                     
             <div class="form-group">
-  <div class="row">
-    <label for="file-input" class="upload-file-caption">Upload a file</label>
-  </div>
-  <div class="fileUpload btn btn-default"> <span> Choose file </span>
-    <input type="file" class="upload">
-  </div>
-  <label class="upload-file-text">No file chosen</label>
+ <form action="upload">
+   <div class="fileUpload btn btn-default"> <span> Choose file </span>
+    <label for="file-upload" class="sr-only">file upload</label>
+    <input id="file-upload" type="file" class="upload">
+  </div>    
+ </form>
 </div>
  
               
@@ -95,14 +94,13 @@
           
           
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"form-group"</span><span class="o">&gt;</span>
-  <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"row"</span><span class="o">&gt;</span>
-    <span class="o">&lt;</span><span class="n">label</span> <span class="k">for</span><span class="o">=</span><span class="s2">"file-input"</span> <span class="k">class</span><span class="o">=</span><span class="s2">"upload-file-caption"</span><span class="o">&gt;</span><span class="no">Upload</span> <span class="n">a</span> <span class="n">file</span><span class="o">&lt;</span><span class="sr">/label&gt;
-  &lt;/</span><span class="n">div</span><span class="o">&gt;</span>
-  <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"fileUpload btn btn-default"</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="n">span</span><span class="o">&gt;</span> <span class="no">Choose</span> <span class="n">file</span> <span class="o">&lt;</span><span class="sr">/span&gt;
-    &lt;input type="file" class="upload"&gt;
-  &lt;/</span><span class="n">div</span><span class="o">&gt;</span>
-  <span class="o">&lt;</span><span class="n">label</span> <span class="k">class</span><span class="o">=</span><span class="s2">"upload-file-text"</span><span class="o">&gt;</span><span class="no">No</span> <span class="n">file</span> <span class="n">chosen</span><span class="o">&lt;</span><span class="sr">/label&gt;
-&lt;/</span><span class="n">div</span><span class="o">&gt;</span></code></pre></figure>
+ <span class="o">&lt;</span><span class="n">form</span> <span class="n">action</span><span class="o">=</span><span class="s2">"upload"</span><span class="o">&gt;</span>
+   <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"fileUpload btn btn-default"</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="n">span</span><span class="o">&gt;</span> <span class="no">Choose</span> <span class="n">file</span> <span class="o">&lt;</span><span class="sr">/span&gt;
+    &lt;label for="file-upload" class="sr-only"&gt;file upload&lt;/</span><span class="n">label</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">input</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"file-upload"</span> <span class="n">type</span><span class="o">=</span><span class="s2">"file"</span> <span class="k">class</span><span class="o">=</span><span class="s2">"upload"</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="sr">/div&gt;    
+ &lt;/</span><span class="n">form</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="sr">/div&gt;</span></code></pre></figure>
 
 
           
@@ -113,7 +111,7 @@
           
             <!-- ### Start your usage notes here ###-->
           
-               A control that lets the user select a file for upload
+               A control that lets the user select a file for upload (we could use https://codepen.io/accessabilly/pen/qNpZJg)
           
             <!-- ### End usage notes ###-->
           </div>

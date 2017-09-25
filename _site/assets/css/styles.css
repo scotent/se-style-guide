@@ -256,7 +256,7 @@ ol#progress--indicator li.current--step { font-weight: bold; color: #000; }
 ol#progress--indicator li.current--step .light { background: #2980B9; }
 ol#progress--indicator li.complete { color: #666; }
 ol#progress--indicator li.complete .light { background: #128512; }
-ol#progress--indicator li.complete .light::after { font-family: FontAwesome; content: "\f00c"; font-size: 11px; color: white; position: absolute; top: -5px; left: 3px; }
+ol#progress--indicator li.complete .light::after { font-family: FontAwesome; content: "\f00c"; font-size: 11px; color: white; position: absolute; top: -3px; left: 3px; }
 ol#progress--indicator li.incomplete { color: #666; }
 ol#progress--indicator li.incomplete .light { background: orange; }
 

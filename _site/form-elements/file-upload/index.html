@@ -86,10 +86,16 @@
                 </div>
                 
                 <button class="btn btn-primary margin-bottom" onclick="copyToClipboard('#code-snippet')">Copy to clipboard</button>
+                
+              <button class="btn btn-primary margin-bottom" onclick="copyToClipboard('#test')">Copy test</button>
+                
+                <button class="btn btn-warning margin-bottom" data-clipboard-target="#test">clipboard js</button>
 
                 <!--html code snippet-->
                 <div id="code-snippet">          
-                    <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">                    <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"form-group"</span><span class="o">&gt;</span>
+                    <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">                    
+                    <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"test"</span><span class="o">&gt;</span>                       
+                        <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"form-group"</span><span class="o">&gt;</span>
  <span class="o">&lt;</span><span class="n">form</span> <span class="n">action</span><span class="o">=</span><span class="s2">"upload"</span><span class="o">&gt;</span>
    <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"fileUpload btn btn-default"</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="n">span</span><span class="o">&gt;</span> <span class="no">Choose</span> <span class="n">file</span> <span class="o">&lt;</span><span class="sr">/span&gt;
     &lt;label for="file-upload" class="sr-only"&gt;file upload&lt;/</span><span class="n">label</span><span class="o">&gt;</span>
@@ -98,7 +104,8 @@
  &lt;/</span><span class="n">form</span><span class="o">&gt;</span>
 <span class="o">&lt;</span><span class="sr">/div&gt;
 
-                    </span></code></pre></figure>
+                    &lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+                    </code></pre></figure>
                 </div>
 
                 <div class="usage-notes">
@@ -218,10 +225,11 @@
 </footer>
 
 
-<script
-        src="https://code.jquery.com/jquery-3.2.1.min.js"
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+
 <script src="/se-style-guide/assets/javascripts/bootstrap.min.js"></script>
 <script src="/se-style-guide/assets/javascripts/main.js"></script>
 

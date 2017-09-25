@@ -118,10 +118,16 @@ xxs : 320px
                 </div>
                 
                 <button class="btn btn-primary margin-bottom" onclick="copyToClipboard('#code-snippet')">Copy to clipboard</button>
+                
+              <button class="btn btn-primary margin-bottom" onclick="copyToClipboard('#test')">Copy test</button>
+                
+                <button class="btn btn-warning margin-bottom" data-clipboard-target="#test">clipboard js</button>
 
                 <!--html code snippet-->
                 <div id="code-snippet">          
-                    <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">                    <span class="no">We</span> <span class="n">are</span> <span class="n">using</span> <span class="n">a</span> <span class="mi">12</span> <span class="n">column</span> <span class="n">responsive</span> <span class="n">grid</span><span class="o">.</span>
+                    <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">                    
+                    <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"test"</span><span class="o">&gt;</span>                       
+                        <span class="no">We</span> <span class="n">are</span> <span class="n">using</span> <span class="n">a</span> <span class="mi">12</span> <span class="n">column</span> <span class="n">responsive</span> <span class="n">grid</span><span class="o">.</span>
 <span class="no">This</span> <span class="n">gives</span> <span class="n">us</span> <span class="n">the</span> <span class="n">ability</span> <span class="n">to</span> <span class="n">support</span> <span class="n">all</span> <span class="n">screen</span> <span class="n">sizes</span> <span class="n">from</span> <span class="n">widescreen</span> <span class="n">to</span> <span class="n">mobile</span> <span class="n">device</span><span class="o">.</span>
 <span class="no">We</span> <span class="n">are</span> <span class="n">using</span> <span class="mi">5</span> <span class="n">breakpoints</span> <span class="n">which</span> <span class="n">allow</span> <span class="n">us</span> <span class="n">to</span> <span class="n">make</span> <span class="n">content</span> <span class="nb">display</span> <span class="n">optimally</span> <span class="k">for</span> <span class="n">different</span> <span class="n">viewports</span><span class="o">.</span>
 
@@ -162,7 +168,8 @@ xxs : 320px
 
 
 
-                    </code></pre></figure>
+                    <span class="o">&lt;</span><span class="sr">/div&gt;
+                    </span></code></pre></figure>
                 </div>
 
                 <div class="usage-notes">
@@ -282,10 +289,11 @@ xxs : 320px
 </footer>
 
 
-<script
-        src="https://code.jquery.com/jquery-3.2.1.min.js"
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+
 <script src="/se-style-guide/assets/javascripts/bootstrap.min.js"></script>
 <script src="/se-style-guide/assets/javascripts/main.js"></script>
 

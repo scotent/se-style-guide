@@ -90,10 +90,16 @@
                 </div>
                 
                 <button class="btn btn-primary margin-bottom" onclick="copyToClipboard('#code-snippet')">Copy to clipboard</button>
+                
+              <button class="btn btn-primary margin-bottom" onclick="copyToClipboard('#test')">Copy test</button>
+                
+                <button class="btn btn-warning margin-bottom" data-clipboard-target="#test">clipboard js</button>
 
                 <!--html code snippet-->
                 <div id="code-snippet">          
-                    <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">                    <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"error-summary"</span> <span class="n">role</span><span class="o">=</span><span class="s2">"group"</span> <span class="n">aria</span><span class="o">-</span><span class="n">labelledby</span><span class="o">=</span><span class="s2">"error-summary-heading-example-2"</span> <span class="n">tabindex</span><span class="o">=</span><span class="s2">"-1"</span><span class="o">&gt;</span>
+                    <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">                    
+                    <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"test"</span><span class="o">&gt;</span>                       
+                        <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"error-summary"</span> <span class="n">role</span><span class="o">=</span><span class="s2">"group"</span> <span class="n">aria</span><span class="o">-</span><span class="n">labelledby</span><span class="o">=</span><span class="s2">"error-summary-heading-example-2"</span> <span class="n">tabindex</span><span class="o">=</span><span class="s2">"-1"</span><span class="o">&gt;</span>
 
   <span class="o">&lt;</span><span class="n">h2</span> <span class="k">class</span><span class="o">=</span><span class="s2">"heading-medium error-summary-heading"</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"error-summary-heading-example-2"</span><span class="o">&gt;</span>
     <span class="no">The</span> <span class="n">email</span> <span class="n">and</span> <span class="n">password</span> <span class="n">combination</span> <span class="n">you</span> <span class="n">entered</span> <span class="n">did</span> <span class="n">not</span> <span class="n">match</span><span class="p">.</span>
@@ -106,7 +112,8 @@
   &lt;/u</span><span class="n">l</span><span class="o">&gt;</span>
 
 <span class="o">&lt;</span><span class="sr">/div&gt;
-                    </span></code></pre></figure>
+                    &lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+                    </code></pre></figure>
                 </div>
 
                 <div class="usage-notes">
@@ -226,10 +233,11 @@
 </footer>
 
 
-<script
-        src="https://code.jquery.com/jquery-3.2.1.min.js"
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+
 <script src="/se-style-guide/assets/javascripts/bootstrap.min.js"></script>
 <script src="/se-style-guide/assets/javascripts/main.js"></script>
 

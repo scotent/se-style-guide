@@ -11,21 +11,51 @@ input[type=email] {
     margin-top: 7px;
     font-size: 16px;
     height: 42px;
-    border: 1px solid #727272;
-    border-radius:0px; 
+    border: 1px solid $se-grey;
+    border-radius: 0;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    display: inline-block;
+    width: 1px;
+    font-size: 40px;
+    margin: 0 0 0 10px;
 }
 
 .input-group input[type="number"].grey {
-  margin-top: 0;
+    margin-top: 0;
 }
 
-
-div.relative input.fancy-checkbox, div.relative input.fancy-radio {
-  position: absolute;
+div.relative input.fancy-checkbox,
+div.relative input.fancy-radio {
+    position: absolute;
 }
 
-label.fancy-checkbox, label.fancy-radio {
-  white-space: normal;
+label {
+    margin-bottom: 7px;
+    font-family: din-mediumregular, Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    @media all and (max-width: $screen-xxs-max) {
+        font-size: 16px;
+    }
+}
+
+label.fancy-checkbox,
+label.fancy-radio {
+    white-space: normal;
+    @media all and (max-width: $screen-xxs-max) {
+        margin-top: 0;
+    }
+}
+
+// This doesn't work when we have multiple on one line..
+// So - added rule //
+// May need responsive update //
+label.inline {
+    margin-right: 0;
+    &:not(:last-of-type) {
+        margin-right: 30px;
+    }
 }
 
 select {
@@ -34,75 +64,112 @@ select {
 }
 
 .form-group {
-  padding: 0 20px 0 20px;;
+    padding: 0 20px 0 0;
+    &:first-of-type {
+        margin-top: 28px;
+    }
 }
 
 .form-group:first-of-type {
-  margin-top: 28px;
+    margin-top: 28px;
 }
 
 .form-group-error {
-  border-left: $error-red 5px solid;
-  padding-left: 15px;
-  label {
-    color: $error-red;
-  }
+    border-left: $error-red 5px solid;
+    padding-left: 15px;
+    label {
+        color: $error-red;
+    }
 }
 
 .error-summary {
     border: 5px solid $error-red;
     margin-top: 30px;
     margin-bottom: 30px;
-    padding: 15px 15px 10px;  
+    padding: 15px 15px 10px;
     h2, a {
-      color: $error-red;
-      margin-top: 0;
+        color: $error-red;
+        margin-top: 0;
     }
-
     ul {
-      margin: 0;
-      li { list-style: none;}
+        margin: 0;
+        li {
+            list-style: none;
+        }
     }
-    
-    &:focus {outline: none;}
-  
+    &:focus {
+        outline: none;
+    }
 }
 
 .current-errors {
-  li { list-style: none;
-    &:focus {outline: none;}
-  }
+    li {
+        list-style: none;
+        &:focus {
+            outline: none;
+        }
+    }
 }
 
+textarea {
+    margin-bottom: 0;
+    @include border-radius(0);
+}
 
-	.fileUpload {
-		position: relative;
-		overflow: hidden;
-/*		margin:10px;*/		
-	}
-	
-	.fileUpload input.upload {
-		position:absolute;
-		top:0;
-		right:0;
-		margin:0;
-		padding:0;
-		font-size:20px;
-		cursor: pointer;
-		opacity:0;
-		filter:alpha(opacity=0);		
-	}
-	
-	
-	.upload-file-text {
-		position: relative;
-		margin: 0 0 5px 0px;
-		font-weight:300;
-	}
-	
-	.upload-file-caption {
-		position: relative;
-		margin: 0 0 5px 15px;
-	}
+.input-wrapper label {
+    display: inline-block;
+    font-weight: normal;
+    margin-right: 30px;
+    line-height: 22px;
+}
 
+.input-small {
+    width: 100%;
+    @media all and (min-width: 480px) {
+        width: 41.6666%;
+    }
+    @media all and (min-width: 768px) {
+        width: 40%;
+    }
+    @media all and (min-width: 992px) {
+        Width: 37.5%;
+    }
+}
 
+.input-medium {
+    width: 100%;
+    @media all and (min-width: 480px) {
+        width: 50%;
+    }
+}
+
+.input-large {
+    width: 100%;
+}
+
+.char-count {
+    font-size: 14px !important;
+    color: $se-mid-grey;
+}
+
+.change-link {
+    text-align: right !important;
+}
+
+input + label.fancy-checkbox::before {
+    top: -4px;
+    @media all and (max-width: 568px) {
+        left: 2px;
+        top: 4px;
+    }
+}
+
+@media all and (max-width: 610px) {
+    label.fancy-checkbox,
+    label.fancy-radio {
+        position: relative;
+        padding-left: 50px;
+        margin-top: 21px;
+        margin-left: 0;
+    }
+}

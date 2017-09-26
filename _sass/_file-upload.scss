@@ -1,0 +1,164 @@
+
+/* ==========================================================================
+   SE Custom styles for File upload
+   ========================================================================== */
+
+.file-upload-list {
+    .file-upload-wrapper {
+        padding: 10px 0;
+        margin: 0;
+        border-bottom: 1px solid $se-grey;
+        position: relative;
+        &:first-of-type {
+            border-top: 1px solid $se-grey;
+        }
+        &:last-of-type {
+            border-bottom: 3px solid $se-orange;
+            border-bottom: 3px solid $se-mid-grey;
+            border-top: none;
+            margin-bottom: 20px;
+        }
+        .file-details-wrapper {
+            padding-left: 0;
+        }
+        .file-name {
+            display: inline;
+            width: calc(100% - 70px);
+        }
+        .file-remove-wrapper {
+            padding-right: 0;
+        }
+        .file-remove {
+            right: 0;
+            top: 10px;
+            text-align: right;
+            width: 100%;
+            display: inline-block;
+        }
+        &.empty {
+            color: $se-mid-grey;
+            border-top: none;
+            padding: 0 0 10px;
+        }
+        &.failed {
+            .failed-text {
+                color: $se-red;
+                display: block;
+                padding-left: 35px;
+            }
+        }
+    }
+
+    .file-upload-wrapper {
+        .form-file {
+            label {
+                font-weight: 300;
+                font-style: italic;
+                font-size: 16px;
+            }
+            input {
+                background-color: $se-white;
+                height: auto;
+                border: 1px solid $se-blue;
+                width: 100%;
+                padding: 9px 15px;
+                @include border-radius(0);
+            }
+        }
+    }
+}
+
+.key-wrapper {
+    float: left;
+    clear: both;
+    width: 100%;
+    padding: 0 0 20px;
+    margin: 0 0 20px;
+    border-bottom: 3px solid $se-mid-grey;
+    .key-status {
+        .key {
+            display: inline-block;
+            margin-right: 20px;
+            @media all and (max-width: $screen-xxs-max) {
+                float: left;
+                clear: left;
+            }
+        }
+    }
+}
+
+.file-status {
+    &:before {
+        font-family: FontAwesome;
+        padding: 0 10px 0 0;
+    }
+}
+
+.success {
+    .fa {
+        margin-right: 10px;
+        color: $se-bright-green;
+    }
+    .file-status {
+        &:before {
+            color: $se-bright-green;
+            content: "\f00c";
+        }
+    }
+}
+
+.processing {
+    .fa {
+        margin-right: 10px;
+        color: $se-amber;
+    }
+    .file-status {
+        &:before {
+            color: $se-amber;
+            content: "\f021";
+        }
+    }
+}
+
+.failed {
+    .fa {
+        margin-right: 10px;
+        color: $se-red;
+    }
+    .file-status {
+        &:before {
+            color: $se-red;
+            content: "\f06a";
+        }
+    }
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    /*margin:10px;*/
+}
+
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.upload-file-text {
+    position: relative;
+    margin: 0 0 5px 0px;
+    font-weight: 300;
+}
+
+.upload-file-caption {
+    position: relative;
+    margin: 0 0 5px 15px;
+}
+

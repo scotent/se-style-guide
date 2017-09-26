@@ -1,0 +1,82 @@
+
+/* ==========================================================================
+   SE Custom styles for tables
+   ========================================================================== */
+
+
+
+table.table-striped tbody tr {
+    &:first-child td:first-child {
+        //padding: 0;
+    }
+    &:first-child td:last-child {
+        //padding-right: 0;
+    }
+
+    td {
+        //padding: 0;
+        a {
+            display: block;
+            //padding: 8px;
+        }
+    }
+    thead + tbody tr:nth-child(2n-1) td {
+        background: $se-light-grey;
+    }
+    &:hover td {
+        background: $se-grey-hover !important;
+    }
+}
+
+table.plain {
+    margin: 0;
+    tr:first-child td:first-child {
+        padding: 8px 15px 8px 0;
+        @media all and (max-width: $screen-sm-max) {
+            padding: 8px 8px 8px 0;
+        }
+    }
+    tr:first-child td, th {
+        border-bottom: 1px solid $se-mid-grey;
+        font-weight: 700;
+        padding: 8px 15px 8px 0;
+        text-align: left;
+        vertical-align: top;
+    }
+    tr:first-child td:not(:first-child) {
+        padding-left: 8px;
+    }
+    tr td {
+        background: none;
+        border-bottom: 1px solid $se-mid-grey;
+        font-weight: 700;
+        &:not(:first-child) {
+            font-weight: 300;
+        }
+    }
+    tr {
+        &:hover {
+            background: none;
+        }
+    }
+    thead + tbody tr:nth-child(2n-1) td {
+        background: none;
+    }
+    tr > :first-child {
+        padding-left: 0;
+    }
+}
+
+td.title {
+    font-size: 19px;
+}
+
+tr:first-child td:first-child {
+    padding: 8px;
+}
+
+td, thead + tbody tr:first-child td {
+    border-bottom: 1px solid #ebebeb;
+    padding: 8px;
+    vertical-align: top;
+}

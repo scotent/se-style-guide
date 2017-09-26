@@ -1,3 +1,4 @@
+@import 'mixins.scss';
 @import 'variables.scss';
 
 /* ==========================================================================
@@ -39,6 +40,13 @@ a {
     }
 }
 
+.inline {
+    display: inline;
+    &:not(:last-of-type) {
+        margin-right: 30px;
+    }
+}
+
 #logo-block {
     margin-left: -1em;
 }
@@ -66,23 +74,6 @@ a {
         }
     }
 }
-
-*,
-*:active {
-    outline: none;
-    focus {outline:none;} ::-moz-focus-inner {border:0;}
-}
-
-a:active {
-    outline: none;
-    focus {outline:none;} ::-moz-focus-inner {border:0;}
-}
-
-button::-moz-focus-inner {
-    border: 0;
-    focus {outline:none;} ::-moz-focus-inner {border:0;}
-}
-
 
 .style-guide-styled {
     .row {

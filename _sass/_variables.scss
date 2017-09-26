@@ -18,76 +18,81 @@ $black:             #000000;
 // SE Colour Pallette
 $se-red:            #d60000;
 $se-orange:         #D65811;
+$se-amber:          #FF9900;
 $se-dark-green:     #03634D;
 $accessible-green:  #128512;
 $se-bright-green:   #00cc00;
 $highlight-blue:    #00B4FF;
-$se-light-blue:     #2980B9;
+$se-light-blue:     #2A7CB2;
 $se-blue:           #00427F;
 
 // SE Greyscale
-$se-white:          #ffffff;
-$se-light-grey:     #ecf0f1;
-$se-lighter-grey:   #bbbbbb;
-$se-light-mid-grey: #dddddd;
-$se-mid-grey:       #999999;
-$se-grey:           #727272;
-$se-body-grey:      #666666;
-$se-dark-grey:      #333333;
-$se-black:          #2F3E44;
+$se-white:              #ffffff;
+$se-grey-hover:         #f1f1f1;
+$se-light-grey:         #ecf0f1;
+$se-lighter-grey:       #bbbbbb;
+$se-light-mid-grey:     #dddddd;
+$se-mid-grey:           #999999;
+$se-grey:               #727272;
+$se-body-grey:          #666666;
+$se-dark-grey:          #333333;
+$se-black:              #2F3E44;
 
 $alert-padding: 0 0 0 7px;
 $line-height-computed: 10px 0 0 0;
 
 
 // Defining Breakpoints
-$screen-xxs-min: 320px;
-
-$screen-xs-min: 480px;
-$screen-xxs-max: ($screen-xs-min - 1);
-
-$screen-sm-min: 768px;
-$screen-xs-max: ($screen-sm-min - 1);
-
-$screen-md-min: 992px;
-$screen-sm-max: ($screen-md-min - 1);
 
 $screen-lg-min: 1170px;
 $screen-md-max: ($screen-lg-min - 1);
 
+$screen-md-min: 992px;
+$screen-sm-max: ($screen-md-min - 1);
 
-// Usage
+$screen-sm-min: 768px;
+$screen-xs-max: ($screen-sm-min - 1);
+
+$screen-xs-min: 480px;
+$screen-xxs-max: ($screen-xs-min - 1);
+
+$screen-xxs-min: 320px;
+
+// Usage examples
 //@media (max-width: $screen-xs-max) { ... }
 //@media (min-width: $screen-sm-min) { ... }
 //@media (max-width: $screen-sm-max) { ... }
 //@media (min-width: $screen-md-min) { ... }
 //@media (max-width: $screen-md-max) { ... }
 //@media (min-width: $screen-lg-min) { ... }
-
-// Example
 //
-//Over 1170
-//@media (min-width: $screen-lg-min) {
+// Window width over 1170
+//@media (min-width: $screen-lg-min + 1) {
 //    body {
 //        background-color: blue;
 //    }
 //}
-//Between 992 and 1169
-//@media (max-width: $screen-md-max) {
+// Window width 1170 and under
+//@media (max-width: $screen-lg-min) {
 //    body {
 //        background-color: green;
 //    }
 //}
-//Between 768 and 991
-//@media (max-width: $screen-xs-max) {
+// Window width 992 and under
+//@media (max-width: $screen-md-min) {
 //    body {
 //        background-color: yellow;
 //    }
 //}
-//Between 320 and 767
-//@media (max-width: $screen-xxs-max) {
+// Window width 768 and under
+//@media (max-width: $screen-sm-min) {
 //    body {
 //        background-color: pink;
 //    }
 //}
-
+// Window width 480 and under
+//@media (max-width: $screen-xs-min) {
+//    body {
+//        background-color: beige;
+//    }
+//}

@@ -17,8 +17,8 @@
 </head>
 
 
-  <body class="component-library">
-        
+<body class="component-library">
+
     <nav class="navbar">
   <div class="container">
     <div class="navbar-header">
@@ -43,10 +43,10 @@
 
     
 
-    
+
     <div class="container">
 
-      
+        
 
 
 <ol id="breadcrumbs" role="navigation" class="breadcrumbs">
@@ -67,18 +67,14 @@
     </li>
 </ol>
 
-      
-      <h1 class="component-library">H1 - H6</h1>
-      
-      <div class="row">
 
-        <div class="col-sm-12">
+        <h1 class="component-library">H1 - H6</h1>
 
-          <div class="demo-box"> 
-          <span class="example">Example</span>   
-            <!-- ### Put your element demo here ### -->
-                    
-            <h1>h1 Bold heading 49px/56px</h1>
+        <div class="row">
+            <div class="col-sm-12">            
+               
+                <div class="demo-box">
+                    <span class="example">Example</span> <h1>h1 Bold heading 49px/56px</h1>
 
 <h2>h2 Bold heading 26px/35px</h2>
 
@@ -89,14 +85,20 @@
 <h5>h5 Bold heading 14px/23px</h5>
 
 <h6>h6 Bold heading 12px/20px</h6>
- 
-              
-            <!-- ### End element demo ### -->    
-          </div>
-          
-          
-          
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">h1</span><span class="o">&gt;</span><span class="n">h1</span> <span class="no">Bold</span> <span class="n">heading</span> <span class="mi">49</span><span class="n">px</span><span class="o">/</span><span class="mi">56</span><span class="n">px</span><span class="o">&lt;</span><span class="sr">/h1&gt;
+
+                </div>
+                
+                <button class="btn btn-primary margin-bottom" onclick="copyToClipboard('#code-snippet')">Copy to clipboard</button>
+                
+              <button class="btn btn-primary margin-bottom" onclick="copyToClipboard('#test')">Copy test</button>
+                
+                <button class="btn btn-warning margin-bottom" data-clipboard-target="#test">clipboard js</button>
+
+                <!--html code snippet-->
+                <div id="code-snippet">          
+                    <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">                    
+                    <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"test"</span><span class="o">&gt;</span>                       
+                        <span class="o">&lt;</span><span class="n">h1</span><span class="o">&gt;</span><span class="n">h1</span> <span class="no">Bold</span> <span class="n">heading</span> <span class="mi">49</span><span class="n">px</span><span class="o">/</span><span class="mi">56</span><span class="n">px</span><span class="o">&lt;</span><span class="sr">/h1&gt;
 
 &lt;h2&gt;h2 Bold heading 26px/</span><span class="mi">35</span><span class="n">px</span><span class="o">&lt;</span><span class="sr">/h2&gt;
 
@@ -106,44 +108,23 @@
 
 &lt;h5&gt;h5 Bold heading 14px/</span><span class="mi">23</span><span class="n">px</span><span class="o">&lt;</span><span class="sr">/h5&gt;
 
-&lt;h6&gt;h6 Bold heading 12px/</span><span class="mi">20</span><span class="n">px</span><span class="o">&lt;</span><span class="sr">/h6&gt;</span></code></pre></figure>
+&lt;h6&gt;h6 Bold heading 12px/</span><span class="mi">20</span><span class="n">px</span><span class="o">&lt;</span><span class="sr">/h6&gt;
 
+                    &lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+                    </code></pre></figure>
+                </div>
 
-          
-          
-              
-          <div class="usage-notes">
-            <h2>Usage notes</h2>
-          
-            <!-- ### Start your usage notes here ###-->
-          
-               H1 to H6 styles
-          
-            <!-- ### End usage notes ###-->
-          </div>
+                <div class="usage-notes">
+                    <h2>Usage notes</h2>
+                    H1 to H6 styles
+                </div>
 
-
-          
+            </div>
         </div>
-      </div>
 
-    </div>    
+    </div>
 
-    <!--<footer>-->
-<!---->
-<!--<div class="container">  -->
-<!--<div class="row">-->
-<!--Some text for the footer-->
-<!--</div>-->
-<!--</div>-->
-
-<!---->
-<!--</footer>-->
-
-
-<!-- FOOTER -->
-<footer id="se-footer" class="footer" role="contentinfo">
-
+    <footer id="se-footer" class="footer" role="contentinfo">
 
     <section class="social-footer">
         <div class="container">
@@ -250,15 +231,15 @@
 </footer>
 
 
-<!-- Bootstrap core JavaScript-->
-<script
-        src="https://code.jquery.com/jquery-3.2.1.min.js"
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
-<script src="/se-style-guide/assets/javascripts/bootstrap.min.js"></script>
-<script src="/se-style-guide/assets/javascripts/calendar.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
 
- 
-  </body>
+<script src="/se-style-guide/assets/javascripts/bootstrap.min.js"></script>
+<script src="/se-style-guide/assets/javascripts/main.js"></script>
+
+
+</body>
 
 </html>

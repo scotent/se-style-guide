@@ -17,8 +17,8 @@
 </head>
 
 
-  <body class="component-library">
-        
+<body class="component-library">
+
     <nav class="navbar">
   <div class="container">
     <div class="navbar-header">
@@ -43,10 +43,10 @@
 
     
 
-    
+
     <div class="container">
 
-      
+        
 
 
 <ol id="breadcrumbs" role="navigation" class="breadcrumbs">
@@ -67,18 +67,14 @@
     </li>
 </ol>
 
-      
-      <h1 class="component-library">Body copy</h1>
-      
-      <div class="row">
 
-        <div class="col-sm-12">
+        <h1 class="component-library">Body copy</h1>
 
-          <div class="demo-box"> 
-          <span class="example">Example</span>   
-            <!-- ### Put your element demo here ### -->
-                    
-            <p class="leader">Oversized text for leader paragraphs or sections</p>
+        <div class="row">
+            <div class="col-sm-12">            
+               
+                <div class="demo-box">
+                    <span class="example">Example</span> <p class="leader">Oversized text for leader paragraphs or sections</p>
 
 <p>Regular body text for paragraphs of copy </p>
 
@@ -91,14 +87,20 @@
 
 
 <a href="#">Link text - how an anchor / href tag will be displayed</a>
- 
-              
-            <!-- ### End element demo ### -->    
-          </div>
-          
-          
-          
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="nb">p</span> <span class="k">class</span><span class="o">=</span><span class="s2">"leader"</span><span class="o">&gt;</span><span class="no">Oversized</span> <span class="n">text</span> <span class="k">for</span> <span class="n">leader</span> <span class="n">paragraphs</span> <span class="n">or</span> <span class="n">sections</span><span class="o">&lt;</span><span class="sr">/p&gt;
+
+                </div>
+                
+                <button class="btn btn-primary margin-bottom" onclick="copyToClipboard('#code-snippet')">Copy to clipboard</button>
+                
+              <button class="btn btn-primary margin-bottom" onclick="copyToClipboard('#test')">Copy test</button>
+                
+                <button class="btn btn-warning margin-bottom" data-clipboard-target="#test">clipboard js</button>
+
+                <!--html code snippet-->
+                <div id="code-snippet">          
+                    <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">                    
+                    <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"test"</span><span class="o">&gt;</span>                       
+                        <span class="o">&lt;</span><span class="nb">p</span> <span class="k">class</span><span class="o">=</span><span class="s2">"leader"</span><span class="o">&gt;</span><span class="no">Oversized</span> <span class="n">text</span> <span class="k">for</span> <span class="n">leader</span> <span class="n">paragraphs</span> <span class="n">or</span> <span class="n">sections</span><span class="o">&lt;</span><span class="sr">/p&gt;
 
 &lt;p&gt;Regular body text for paragraphs of copy &lt;/</span><span class="nb">p</span><span class="o">&gt;</span>
 
@@ -110,44 +112,23 @@
 
 
 
-<span class="o">&lt;</span><span class="n">a</span> <span class="n">href</span><span class="o">=</span><span class="s2">"#"</span><span class="o">&gt;</span><span class="no">Link</span> <span class="n">text</span> <span class="o">-</span> <span class="n">how</span> <span class="n">an</span> <span class="n">anchor</span> <span class="o">/</span> <span class="n">href</span> <span class="n">tag</span> <span class="n">will</span> <span class="n">be</span> <span class="n">displayed</span><span class="o">&lt;</span><span class="sr">/a&gt;</span></code></pre></figure>
+<span class="o">&lt;</span><span class="n">a</span> <span class="n">href</span><span class="o">=</span><span class="s2">"#"</span><span class="o">&gt;</span><span class="no">Link</span> <span class="n">text</span> <span class="o">-</span> <span class="n">how</span> <span class="n">an</span> <span class="n">anchor</span> <span class="o">/</span> <span class="n">href</span> <span class="n">tag</span> <span class="n">will</span> <span class="n">be</span> <span class="n">displayed</span><span class="o">&lt;</span><span class="sr">/a&gt;
 
+                    &lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+                    </code></pre></figure>
+                </div>
 
-          
-          
-              
-          <div class="usage-notes">
-            <h2>Usage notes</h2>
-          
-            <!-- ### Start your usage notes here ###-->
-          
-               How to use tags to display text with variations in weight and height.
-          
-            <!-- ### End usage notes ###-->
-          </div>
+                <div class="usage-notes">
+                    <h2>Usage notes</h2>
+                    How to use tags to display text with variations in weight and height.
+                </div>
 
-
-          
+            </div>
         </div>
-      </div>
 
-    </div>    
+    </div>
 
-    <!--<footer>-->
-<!---->
-<!--<div class="container">  -->
-<!--<div class="row">-->
-<!--Some text for the footer-->
-<!--</div>-->
-<!--</div>-->
-
-<!---->
-<!--</footer>-->
-
-
-<!-- FOOTER -->
-<footer id="se-footer" class="footer" role="contentinfo">
-
+    <footer id="se-footer" class="footer" role="contentinfo">
 
     <section class="social-footer">
         <div class="container">
@@ -254,15 +235,15 @@
 </footer>
 
 
-<!-- Bootstrap core JavaScript-->
-<script
-        src="https://code.jquery.com/jquery-3.2.1.min.js"
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
-<script src="/se-style-guide/assets/javascripts/bootstrap.min.js"></script>
-<script src="/se-style-guide/assets/javascripts/calendar.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
 
- 
-  </body>
+<script src="/se-style-guide/assets/javascripts/bootstrap.min.js"></script>
+<script src="/se-style-guide/assets/javascripts/main.js"></script>
+
+
+</body>
 
 </html>

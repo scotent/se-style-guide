@@ -17,8 +17,8 @@
 </head>
 
 
-  <body class="component-library">
-        
+<body class="component-library">
+
     <nav class="navbar">
   <div class="container">
     <div class="navbar-header">
@@ -43,10 +43,10 @@
 
     
 
-    
+
     <div class="container">
 
-      
+        
 
 
 <ol id="breadcrumbs" role="navigation" class="breadcrumbs">
@@ -67,18 +67,14 @@
     </li>
 </ol>
 
-      
-      <h1 class="component-library">Accordions</h1>
-      
-      <div class="row">
 
-        <div class="col-sm-12">
+        <h1 class="component-library">Accordions</h1>
 
-          <div class="demo-box"> 
-          <span class="example">Example</span>   
-            <!-- ### Put your element demo here ### -->
-                    
-            <div id="accordion" class="panel-group accordion">
+        <div class="row">
+            <div class="col-sm-12">            
+               
+                <div class="demo-box">
+                    <span class="example">Example</span> <div id="accordion" class="panel-group accordion">
     <div class="panel panel-default">
         <div class="panel-heading collapsed" data-toggle="collapse" href="#collapseOne">
 
@@ -143,14 +139,20 @@
         </div>
     </div>
 </div>
- 
-              
-            <!-- ### End element demo ### -->    
-          </div>
-          
-          
-          
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">div</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"accordion"</span> <span class="k">class</span><span class="o">=</span><span class="s2">"panel-group accordion"</span><span class="o">&gt;</span>
+
+                </div>
+                
+                <button class="btn btn-primary margin-bottom" onclick="copyToClipboard('#code-snippet')">Copy to clipboard</button>
+                
+              <button class="btn btn-primary margin-bottom" onclick="copyToClipboard('#test')">Copy test</button>
+                
+                <button class="btn btn-warning margin-bottom" data-clipboard-target="#test">clipboard js</button>
+
+                <!--html code snippet-->
+                <div id="code-snippet">          
+                    <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">                    
+                    <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"test"</span><span class="o">&gt;</span>                       
+                        <span class="o">&lt;</span><span class="n">div</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"accordion"</span> <span class="k">class</span><span class="o">=</span><span class="s2">"panel-group accordion"</span><span class="o">&gt;</span>
     <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"panel panel-default"</span><span class="o">&gt;</span>
         <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"panel-heading collapsed"</span> <span class="n">data</span><span class="o">-</span><span class="n">toggle</span><span class="o">=</span><span class="s2">"collapse"</span> <span class="n">href</span><span class="o">=</span><span class="s2">"#collapseOne"</span><span class="o">&gt;</span>
 
@@ -214,44 +216,23 @@
             <span class="o">&lt;</span><span class="sr">/div&gt;
         &lt;/</span><span class="n">div</span><span class="o">&gt;</span>
     <span class="o">&lt;</span><span class="sr">/div&gt;
-&lt;/</span><span class="n">div</span><span class="o">&gt;</span></code></pre></figure>
+&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
 
+                    <span class="o">&lt;</span><span class="sr">/div&gt;
+                    </span></code></pre></figure>
+                </div>
 
-          
-          
-              
-          <div class="usage-notes">
-            <h2>Usage notes</h2>
-          
-            <!-- ### Start your usage notes here ###-->
-          
-               Setting up an Accordion.... Must be wrapped with '&lt;id="accordion"&gt;' .. Must use the data toggles and parents as shown in the code. All id's MUST be unique. If multiple Accordions are on the same page - the id for Accordions must be unique.
-          
-            <!-- ### End usage notes ###-->
-          </div>
+                <div class="usage-notes">
+                    <h2>Usage notes</h2>
+                    Setting up an Accordion.... Must be wrapped with '&lt;id="accordion"&gt;' .. Must use the data toggles and parents as shown in the code. All id's MUST be unique. If multiple Accordions are on the same page - the id for Accordions must be unique.
+                </div>
 
-
-          
+            </div>
         </div>
-      </div>
 
-    </div>    
+    </div>
 
-    <!--<footer>-->
-<!---->
-<!--<div class="container">  -->
-<!--<div class="row">-->
-<!--Some text for the footer-->
-<!--</div>-->
-<!--</div>-->
-
-<!---->
-<!--</footer>-->
-
-
-<!-- FOOTER -->
-<footer id="se-footer" class="footer" role="contentinfo">
-
+    <footer id="se-footer" class="footer" role="contentinfo">
 
     <section class="social-footer">
         <div class="container">
@@ -358,15 +339,15 @@
 </footer>
 
 
-<!-- Bootstrap core JavaScript-->
-<script
-        src="https://code.jquery.com/jquery-3.2.1.min.js"
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
-<script src="/se-style-guide/assets/javascripts/bootstrap.min.js"></script>
-<script src="/se-style-guide/assets/javascripts/calendar.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
 
- 
-  </body>
+<script src="/se-style-guide/assets/javascripts/bootstrap.min.js"></script>
+<script src="/se-style-guide/assets/javascripts/main.js"></script>
+
+
+</body>
 
 </html>

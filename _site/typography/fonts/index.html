@@ -17,8 +17,8 @@
 </head>
 
 
-  <body class="component-library">
-        
+<body class="component-library">
+
     <nav class="navbar">
   <div class="container">
     <div class="navbar-header">
@@ -43,10 +43,10 @@
 
     
 
-    
+
     <div class="container">
 
-      
+        
 
 
 <ol id="breadcrumbs" role="navigation" class="breadcrumbs">
@@ -67,18 +67,14 @@
     </li>
 </ol>
 
-      
-      <h1 class="component-library">Font usage</h1>
-      
-      <div class="row">
 
-        <div class="col-sm-12">
+        <h1 class="component-library">Font usage</h1>
 
-          <div class="demo-box"> 
-          <span class="example">Example</span>   
-            <!-- ### Put your element demo here ### -->
-                    
-            <p class="leader">This is 'leader' text .. Our standard font is: 'Roboto' for all body text and we are using 'FontAwesome' for icons.</p>
+        <div class="row">
+            <div class="col-sm-12">            
+               
+                <div class="demo-box">
+                    <span class="example">Example</span> <p class="leader">This is 'leader' text .. Our standard font is: 'Roboto' for all body text and we are using 'FontAwesome' for icons.</p>
 
 <p>Body font family with fall-backs..</p>
 <p>
@@ -96,14 +92,20 @@
     <a href="http://fontawesome.io/icons/">The complete FontAwesome icon list is here..<i class="fa fa-external-link"></i></a>
 
 </p>
- 
-              
-            <!-- ### End element demo ### -->    
-          </div>
-          
-          
-          
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="nb">p</span> <span class="k">class</span><span class="o">=</span><span class="s2">"leader"</span><span class="o">&gt;</span><span class="no">This</span> <span class="n">is</span> <span class="s1">'leader'</span> <span class="n">text</span> <span class="p">.</span><span class="nf">.</span> <span class="no">Our</span> <span class="n">standard</span> <span class="n">font</span> <span class="ss">is: </span><span class="s1">'Roboto'</span> <span class="k">for</span> <span class="n">all</span> <span class="n">body</span> <span class="n">text</span> <span class="n">and</span> <span class="n">we</span> <span class="n">are</span> <span class="n">using</span> <span class="s1">'FontAwesome'</span> <span class="k">for</span> <span class="n">icons</span><span class="p">.</span><span class="nf">&lt;</span><span class="o">/</span><span class="nb">p</span><span class="o">&gt;</span>
+
+                </div>
+                
+                <button class="btn btn-primary margin-bottom" onclick="copyToClipboard('#code-snippet')">Copy to clipboard</button>
+                
+              <button class="btn btn-primary margin-bottom" onclick="copyToClipboard('#test')">Copy test</button>
+                
+                <button class="btn btn-warning margin-bottom" data-clipboard-target="#test">clipboard js</button>
+
+                <!--html code snippet-->
+                <div id="code-snippet">          
+                    <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">                    
+                    <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"test"</span><span class="o">&gt;</span>                       
+                        <span class="o">&lt;</span><span class="nb">p</span> <span class="k">class</span><span class="o">=</span><span class="s2">"leader"</span><span class="o">&gt;</span><span class="no">This</span> <span class="n">is</span> <span class="s1">'leader'</span> <span class="n">text</span> <span class="p">.</span><span class="nf">.</span> <span class="no">Our</span> <span class="n">standard</span> <span class="n">font</span> <span class="ss">is: </span><span class="s1">'Roboto'</span> <span class="k">for</span> <span class="n">all</span> <span class="n">body</span> <span class="n">text</span> <span class="n">and</span> <span class="n">we</span> <span class="n">are</span> <span class="n">using</span> <span class="s1">'FontAwesome'</span> <span class="k">for</span> <span class="n">icons</span><span class="p">.</span><span class="nf">&lt;</span><span class="o">/</span><span class="nb">p</span><span class="o">&gt;</span>
 
 <span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span><span class="no">Body</span> <span class="n">font</span> <span class="n">family</span> <span class="n">with</span> <span class="n">fall</span><span class="o">-</span><span class="n">backs</span><span class="p">.</span><span class="nf">.</span><span class="o">&lt;</span><span class="sr">/p&gt;
 &lt;p&gt;
@@ -120,44 +122,23 @@
     <span class="o">&lt;</span><span class="n">br</span> <span class="sr">/&gt;
     &lt;a href="http:/</span><span class="o">/</span><span class="n">fontawesome</span><span class="p">.</span><span class="nf">io</span><span class="o">/</span><span class="n">icons</span><span class="o">/</span><span class="s2">"&gt;The complete FontAwesome icon list is here..&lt;i class="</span><span class="n">fa</span> <span class="n">fa</span><span class="o">-</span><span class="n">external</span><span class="o">-</span><span class="n">link</span><span class="s2">"&gt;&lt;/i&gt;&lt;/a&gt;
 
-&lt;/p&gt;</span></code></pre></figure>
+&lt;/p&gt;
 
+                    &lt;/div&gt;
+                    </span></code></pre></figure>
+                </div>
 
-          
-          
-              
-          <div class="usage-notes">
-            <h2>Usage notes</h2>
-          
-            <!-- ### Start your usage notes here ###-->
-          
-               Font usage for standard text and FontAwesome for icons.
-          
-            <!-- ### End usage notes ###-->
-          </div>
+                <div class="usage-notes">
+                    <h2>Usage notes</h2>
+                    Font usage for standard text and FontAwesome for icons.
+                </div>
 
-
-          
+            </div>
         </div>
-      </div>
 
-    </div>    
+    </div>
 
-    <!--<footer>-->
-<!---->
-<!--<div class="container">  -->
-<!--<div class="row">-->
-<!--Some text for the footer-->
-<!--</div>-->
-<!--</div>-->
-
-<!---->
-<!--</footer>-->
-
-
-<!-- FOOTER -->
-<footer id="se-footer" class="footer" role="contentinfo">
-
+    <footer id="se-footer" class="footer" role="contentinfo">
 
     <section class="social-footer">
         <div class="container">
@@ -264,15 +245,15 @@
 </footer>
 
 
-<!-- Bootstrap core JavaScript-->
-<script
-        src="https://code.jquery.com/jquery-3.2.1.min.js"
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
-<script src="/se-style-guide/assets/javascripts/bootstrap.min.js"></script>
-<script src="/se-style-guide/assets/javascripts/calendar.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
 
- 
-  </body>
+<script src="/se-style-guide/assets/javascripts/bootstrap.min.js"></script>
+<script src="/se-style-guide/assets/javascripts/main.js"></script>
+
+
+</body>
 
 </html>

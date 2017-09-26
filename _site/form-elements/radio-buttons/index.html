@@ -17,8 +17,8 @@
 </head>
 
 
-  <body class="component-library">
-        
+<body class="component-library">
+
     <nav class="navbar">
   <div class="container">
     <div class="navbar-header">
@@ -43,10 +43,10 @@
 
     
 
-    
+
     <div class="container">
 
-      
+        
 
 
 <ol id="breadcrumbs" role="navigation" class="breadcrumbs">
@@ -67,18 +67,14 @@
     </li>
 </ol>
 
-      
-      <h1 class="component-library">Radio buttons</h1>
-      
-      <div class="row">
 
-        <div class="col-sm-12">
+        <h1 class="component-library">Radio buttons</h1>
 
-          <div class="demo-box"> 
-          <span class="example">Example</span>   
-            <!-- ### Put your element demo here ### -->
-                    
-            <div class="form-group relative" id="radio">
+        <div class="row">
+            <div class="col-sm-12">            
+               
+                <div class="demo-box">
+                    <span class="example">Example</span> <div class="form-group relative" id="radio">
     <fieldset aria-required="true" id="radio-link">
         <legend>
           Do you wish to subscribe to our newsletter?
@@ -91,14 +87,20 @@
             <ul class="current-errors"></ul>
         </div>
     </fieldset>
-</div> 
-              
-            <!-- ### End element demo ### -->    
-          </div>
-          
-          
-          
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"form-group relative"</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"radio"</span><span class="o">&gt;</span>
+</div>
+                </div>
+                
+                <button class="btn btn-primary margin-bottom" onclick="copyToClipboard('#code-snippet')">Copy to clipboard</button>
+                
+              <button class="btn btn-primary margin-bottom" onclick="copyToClipboard('#test')">Copy test</button>
+                
+                <button class="btn btn-warning margin-bottom" data-clipboard-target="#test">clipboard js</button>
+
+                <!--html code snippet-->
+                <div id="code-snippet">          
+                    <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">                    
+                    <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"test"</span><span class="o">&gt;</span>                       
+                        <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"form-group relative"</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"radio"</span><span class="o">&gt;</span>
     <span class="o">&lt;</span><span class="n">fieldset</span> <span class="n">aria</span><span class="o">-</span><span class="n">required</span><span class="o">=</span><span class="s2">"true"</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"radio-link"</span><span class="o">&gt;</span>
         <span class="o">&lt;</span><span class="n">legend</span><span class="o">&gt;</span>
           <span class="no">Do</span> <span class="n">you</span> <span class="n">wish</span> <span class="n">to</span> <span class="n">subscribe</span> <span class="n">to</span> <span class="n">our</span> <span class="n">newsletter?</span>
@@ -111,44 +113,22 @@
             &lt;ul class="current-errors"&gt;&lt;/u</span><span class="n">l</span><span class="o">&gt;</span>
         <span class="o">&lt;</span><span class="sr">/div&gt;
     &lt;/</span><span class="n">fieldset</span><span class="o">&gt;</span>
-<span class="o">&lt;</span><span class="sr">/div&gt;</span></code></pre></figure>
+<span class="o">&lt;</span><span class="sr">/div&gt;
+                    &lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+                    </code></pre></figure>
+                </div>
 
+                <div class="usage-notes">
+                    <h2>Usage notes</h2>
+                    Radio buttons let a user select ONE of a limited number of choices
+                </div>
 
-          
-          
-              
-          <div class="usage-notes">
-            <h2>Usage notes</h2>
-          
-            <!-- ### Start your usage notes here ###-->
-          
-               Radio buttons let a user select ONE of a limited number of choices
-          
-            <!-- ### End usage notes ###-->
-          </div>
-
-
-          
+            </div>
         </div>
-      </div>
 
-    </div>    
+    </div>
 
-    <!--<footer>-->
-<!---->
-<!--<div class="container">  -->
-<!--<div class="row">-->
-<!--Some text for the footer-->
-<!--</div>-->
-<!--</div>-->
-
-<!---->
-<!--</footer>-->
-
-
-<!-- FOOTER -->
-<footer id="se-footer" class="footer" role="contentinfo">
-
+    <footer id="se-footer" class="footer" role="contentinfo">
 
     <section class="social-footer">
         <div class="container">
@@ -255,15 +235,15 @@
 </footer>
 
 
-<!-- Bootstrap core JavaScript-->
-<script
-        src="https://code.jquery.com/jquery-3.2.1.min.js"
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
-<script src="/se-style-guide/assets/javascripts/bootstrap.min.js"></script>
-<script src="/se-style-guide/assets/javascripts/calendar.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
 
- 
-  </body>
+<script src="/se-style-guide/assets/javascripts/bootstrap.min.js"></script>
+<script src="/se-style-guide/assets/javascripts/main.js"></script>
+
+
+</body>
 
 </html>

@@ -337,56 +337,7 @@ input + label.fancy-checkbox::before { top: -4px; }
 
 .grey-bg { background-color: #F2F2F2; }
 
-a { color: #00427F; }
-
-.breadcrumbs ~ header div h1 { margin-top: 10px; }
-
-.breadcrumbs { font-size: 14px; margin: 14px 0 13px; color: #727272; padding-left: 0; }
-.breadcrumbs .breadcrumbs__item, .breadcrumbs .breadcrumb-item { display: inline-block; margin-bottom: 0; margin-left: 0; padding: 0; position: relative; }
-.breadcrumbs .breadcrumbs__item:after, .breadcrumbs .breadcrumb-item:after { font-family: FontAwesome; content: "\f105"; font-size: 16px; color: #727272; font-weight: 300; padding: 0 3px 0 8px; line-height: 14px; box-sizing: inherit; position: relative; top: 1px; }
-.breadcrumbs .breadcrumbs__item:before, .breadcrumbs .breadcrumb-item:before { content: ""; padding: 0; }
-.breadcrumbs .breadcrumbs__item:last-of-type:after, .breadcrumbs .breadcrumb-item:last-of-type:after { content: none; }
-
-.right-align { float: right; }
-.right-align.right-link-inline { position: relative; top: 50px; }
-
-.panel-grey { background-color: #dddddd; padding: 20px; margin-bottom: 30px; }
-
-.imrs-enquiry textarea { margin-bottom: 0; }
-
-.declaration .input-wrapper { border: solid #727272; border-width: 1px 0; padding: 10px 0; }
-.declaration .input-wrapper input { margin: 0; }
-.declaration .input-wrapper label { margin: 0; }
-@media all and (max-width: 992px) { .declaration .input-wrapper input { position: absolute; height: 1px; } }
-
-.confirm-wrapper { background-color: #03634D; text-align: center; padding: 20px; color: #ffffff; margin: 25px 0 20px; }
-
-.portal-panel { min-height: 200px; margin-bottom: 20px; }
-.portal-panel .panel-header h2 { font-weight: 300; border-bottom: 1px solid #727272; margin-top: 15px; }
-.portal-panel .panel-inner { background-color: #ecf0f1; min-height: 200px; padding: 12px; }
-.portal-panel .panel-content { padding-bottom: 2em; }
-
-.contact-panel { min-height: 100px; margin-bottom: 20px; }
-.contact-panel .card-view { margin-bottom: 10px; }
-.contact-panel .contact-panel-inner { background: none; min-height: 100px; padding: 0 0 15px; width: 100%; }
-.contact-panel .contact-panel-inner.grey { background-color: #ecf0f1; }
-@media all and (max-width: 479px) { .contact-panel .contact-panel-inner .row > div { margin-bottom: 20px; } }
-.contact-panel .contact-panel-inner .contact-panel-header { font-size: 20px; border-bottom: 1px solid #ecf0f1; padding: 0 0 10px; margin: 0 0 10px; }
-.contact-panel .contact-panel-inner .contact-name { font-weight: 700; }
-.contact-panel .contact-panel-inner .contact-position { margin-bottom: 15px; }
-.contact-panel .contact-panel-inner .hours-title { font-weight: 700; }
-.contact-panel .contact-panel-inner .hours { margin-bottom: 15px; }
-
-.contact-panel .location-title { font-weight: 700; margin-bottom: 10px; }
-.contact-panel .location-co-name { font-weight: 700; }
-
-.other-service-wrapper .service-image { max-width: 300px; margin-bottom: 15px; }
-.other-service-wrapper .service-image img { height: 198px; }
-
-.evidence-header { font-size: 18px; font-weight: 700; margin: 0 0 10px; }
-
-.evidence-item { border-top: 1px solid #727272; padding: 5px 0; }
-.evidence-item:last-of-type { border-bottom: 1px solid #727272; margin: 0 0 20px; }
+.margin-bottom { margin-bottom: 20px; }
 
 /* ========================================================================== SE Custom styles for tables ========================================================================== */
 table.table-striped tbody tr td a { display: block; }
@@ -466,7 +417,7 @@ ol#progress--indicator li.current--step { font-weight: bold; color: #000; }
 ol#progress--indicator li.current--step .light { background: #2A7CB2; }
 ol#progress--indicator li.complete { color: #666; }
 ol#progress--indicator li.complete .light { background: #128512; }
-ol#progress--indicator li.complete .light::after { font-family: FontAwesome; content: "\f00c"; font-size: 11px; color: white; position: absolute; top: -5px; left: 3px; }
+ol#progress--indicator li.complete .light::after { font-family: FontAwesome; content: "\f00c"; font-size: 11px; color: white; position: absolute; top: -3px; left: 3px; }
 ol#progress--indicator li.incomplete { color: #666; }
 ol#progress--indicator li.incomplete .light { background: orange; }
 

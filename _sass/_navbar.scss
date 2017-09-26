@@ -1,57 +1,65 @@
-
 /* ==========================================================================
-   SE Custom styles for navbar 
+   SE Custom styles for navbar
    ========================================================================== */
 
 .navbar {
-  border-bottom: 1px solid #ebebeb;
-  background: white;
-
-  .navbar-brand {
-    height: auto;
-  }
-  
-  .navbar-nav li {
-    padding-top: 0;
-    & > a {
-      padding: 15px;
-      line-height: 46px;
-      text-decoration: none;
+    border-bottom: 1px solid #ebebeb;
+    background: white;
+    margin-bottom: 20px;
+    .navbar-brand {
+        height: auto;
     }
-  }
 
-  .navbar-toggle {
-    border-color: #ddd;
-      
-    .icon-bar {
-        background-color: #888;
+    .navbar-nav li {
+        padding-top: 0;
+        & > a {
+            padding: 15px;
+            line-height: 46px;
+            text-decoration: none;
+        }
     }
-  }
+
+    .navbar-toggle {
+        border-color: #ddd;
+        .icon-bar {
+            background-color: #888;
+        }
+    }
 }
-
 
 @media (max-width: 768px) {
 
-  .navbar {
-    .navbar-brand {
-      padding: 0.5em;
-      max-width: 230px;
-      & > img {
-        display: block;
-        height: 100%;
-        width: auto;
-      }
-    }
-    
-    .navbar-nav li {
+    .navbar {
+        .navbar-brand {
+            padding: 0.5em;
+            max-width: 230px;
+            width: 100%;
+            & > img {
+                display: block;
+                height: 100%;
+                width: 100%;
+            }
+        }
 
-    & > a {
-      padding: 5px 10px;
-      line-height: auto;
+        .navbar-nav li {
+            & > a {
+                padding: 5px 10px;
+                line-height: auto;
+            }
+        }
     }
-  } 
-    
-  }
-
 }
 
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+
+    .navbar {
+        .navbar-brand {
+            max-width: 260px;
+            height: auto;
+            & > img {
+                display: block;
+                width: auto;
+            }
+        }
+    }
+}

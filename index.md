@@ -12,7 +12,7 @@ layout: home
 <div class="row">
   <div class="link-block col-md-4">
     <h2><a href="structure/">Structure</a></h2>
-    <p>Grid / Header / Footer / Content</p>
+    <p><a href="structure/grid/">Grid</a> / <a href="structure/header/">Header</a> / <a href="structure/footer/">Footer</a> / <a href="structure/content/">Content</a></p>
   </div>
   <div class="link-block col-md-4">
     <h2><a href="colours/">Colours</a></h2>
@@ -20,18 +20,18 @@ layout: home
   </div>
   <div class="link-block col-md-4">
     <h2><a href="Typography/">Typography</a></h2>
-    <p>	Body / Headings / Iconography / Info notes / Lists</p>
+    <p><a href="typography/body-copy">Body</a> / <a href="typography/h1-h6">Headings</a> / <a href="typography/fonts">Fonts</a> / <a href="typography/icons">Icons</a> / <a href="typography/info-notes">Info notes</a> / <a href="typography/Ordered list">Ordered lists</a> / <a href="typography/Unordered list">Unordered lists</a></p>
   </div>
 </div>
 
 <div class="row">
   <div class="link-block col-md-4">
     <h2><a href="content-navigation/">Content navigation</a></h2>
-    <p>	Breadcrumbs / Buttons / Links / Pagination</p>
+    <p><a href="content-nav/breadcrumbs">Breadcrumbs</a> / <a href="content-nav/buttons">Buttons</a> / <a href="content-nav/links">Links</a> / <a href="content-nav/pagination">Pagination</a></p>
   </div>
   <div class="link-block col-md-4">
     <h2><a href="form-elements/">Form elements</a></h2>
-    <p>	Checkboxes / Fieldset / File upload / Help text / Input fields / Errors / Validation / Labels / Radio buttons / Select / Dropdowns / Textarea / Calendar / Pre-loaders / Progress indicators</p>
+    <p><a href="form-elements/fieldsets/">Fieldsets</a> / <a href="form-elements/labels">Labels</a> / <a href="form-elements/checkboxes">Checkboxes</a> / <a href="form-elements/radio-buttons">Radios</a> / <a href="form-elements/file-upload">File upload</a> / <a href="form-elements/help-text">Help text</a> / <a href="form-elements/input-fields">Input fields</a> / <a href="form-elements/errors">Errors</a> / <a href="form-elements/input-validation">Validation</a> / <a href="form-elements/select-menu">Select</a> / <a href="form-elements/dropdowns">Dropdowns</a> / <a href="form-elements/text-area">Textarea</a></p>
   </div>
   <div class="link-block col-md-4">
     <h2><a href="images/">Images</a></h2>
@@ -42,7 +42,7 @@ layout: home
 <div class="row">
   <div class="link-block col-md-4">
     <h2><a href="components/">Components</a></h2>
-    <p>Tables / Accordions / Tabs / Tooltips</p>
+    <p><a href="">Tables</a> / <a href="">Accordions</a> / <a href="">Calendar</a> / <a href="">Tabs</a> / <a href="">Tooltips</a> / <a href="form-elements/">Pre-loaders</a> / <a href="components/progress-indicator/">Progress indicator</a> / <a href="components/application-progress-indicator/">Application progress indicator</a></p>
   </div>
 </div>
 

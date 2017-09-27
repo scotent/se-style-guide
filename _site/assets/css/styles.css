@@ -137,7 +137,6 @@ caption { margin-left: 8px !important; }
 .upload-wrapper .info-note.caution + fieldset input + label.fancy-checkbox::before { left: -6px; top: -4px; }
 @media all and (max-width: 568px) { .upload-wrapper .info-note.caution + fieldset input + label.fancy-checkbox::before { left: 2px; top: 3px; } }
 
-/* ========================================================================== SE Custom styles for buttons and links ========================================================================== */
 *:active, .link:active { outline: none !important; }
 
 *, *:active { outline: none; }
@@ -178,7 +177,6 @@ article a[href^="//"]:hover:not(.button), article a[href^="//"]:active:not(.butt
 
 input[type="button"], input[type="submit"] { padding: 1em 40px; }
 
-/* ========================================================================== SE Custom styles for card layouts  ========================================================================== */
 .card { padding: 1em 1em 3em 1em; margin-bottom: 1em; background-color: #F2F2F2; position: relative; }
 .card a { display: block; position: absolute; bottom: 1em; }
 
@@ -188,7 +186,6 @@ input[type="button"], input[type="submit"] { padding: 1em 40px; }
 
 .account-portal-wrapper .card-view { padding: 30px 10px; }
 
-/* ========================================================================== These styles are specific to the component library itself.  Ensure that new styles are added within the body.component-library tag ========================================================================== */
 body.component-library { /* Colour patches */ /* Typography colours */ }
 body.component-library .navbar ul { margin-left: 0; }
 body.component-library .navbar ul li { list-style-position: inside; }
@@ -216,7 +213,6 @@ body.component-library .color-block__color.se-dark-grey { background-color: #333
 body.component-library .color-block__color.se-body-grey { background-color: #666666; margin: 1em; }
 body.component-library .color-block__color.se-white { background-color: #ffffff; }
 
-/* ========================================================================== SE Custom styles for Components ========================================================================== */
 .accordion { position: relative; border-bottom: 1px solid #dddddd; }
 .accordion .panel-default { border-color: #dddddd; border-radius: 0; border-width: 1px 0 0; }
 .accordion .panel-default > .panel-heading { background-color: #ffffff; border-color: #ecf0f1; border-width: 1px 1px 0 1px; padding: 0; position: relative; -webkit-transition: background-color 0.5s; -moz-transition: background-color 0.5s; -ms-transition: background-color 0.5s; -o-transition: background-color 0.5s; transition: background-color 0.5s; }
@@ -229,7 +225,6 @@ body.component-library .color-block__color.se-white { background-color: #ffffff;
 .accordion .panel-default > .panel-heading:hover a { color: #2F3E44; -webkit-transition: color 0.5s; -moz-transition: color 0.5s; -ms-transition: color 0.5s; -o-transition: color 0.5s; transition: color 0.5s; }
 .accordion.panel-group .panel + .panel { margin-top: 0; }
 
-/* ========================================================================== SE Custom styles for File upload ========================================================================== */
 .file-upload-list .file-upload-wrapper { padding: 10px 0; margin: 0; border-bottom: 1px solid #727272; position: relative; }
 .file-upload-list .file-upload-wrapper:first-of-type { border-top: 1px solid #727272; }
 .file-upload-list .file-upload-wrapper:last-of-type { border-bottom: 3px solid #D65811; border-bottom: 3px solid #999999; border-top: none; margin-bottom: 20px; }

@@ -20,7 +20,7 @@ layout: home
   </div>
   <div class="link-block col-md-4">
     <h2><a href="Typography/">Typography</a></h2>
-    <p><a href="typography/body-copy">Body</a> / <a href="typography/h1-h6">Headings</a> / <a href="typography/fonts">Fonts</a> / <a href="typography/icons">Icons</a> / <a href="typography/info-notes">Info notes</a> / <a href="typography/Ordered list">Ordered lists</a> / <a href="typography/Unordered list">Unordered lists</a></p>
+    <p><a href="typography/body-copy">Body</a> / <a href="typography/h1-h6">Headings</a> / <a href="typography/fonts">Fonts</a> / <a href="typography/icons">Icons</a> / <a href="typography/info-notes">Info notes</a> / <a href="typography/Ordered-list">Ordered lists</a> / <a href="typography/Unordered-list">Unordered lists</a></p>
   </div>
 </div>
 

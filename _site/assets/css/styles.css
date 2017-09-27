@@ -137,20 +137,6 @@ caption { margin-left: 8px !important; }
 .upload-wrapper .info-note.caution + fieldset input + label.fancy-checkbox::before { left: -6px; top: -4px; }
 @media all and (max-width: 568px) { .upload-wrapper .info-note.caution + fieldset input + label.fancy-checkbox::before { left: 2px; top: 3px; } }
 
-*:active, .link:active { outline: none !important; }
-
-*, *:active { outline: none; }
-* :focus, *:active :focus { outline: none; }
-* ::-moz-focus-inner, *:active ::-moz-focus-inner { border: 0; }
-
-a:active { outline: none; }
-a:active :focus { outline: none; }
-a:active ::-moz-focus-inner { border: 0; }
-
-button::-moz-focus-inner { border: 0; }
-button::-moz-focus-inner :focus { outline: none; }
-button::-moz-focus-inner ::-moz-focus-inner { border: 0; }
-
 .button { line-height: 1.5; height: auto; padding-top: 1em; padding-bottom: 1em; width: auto !important; text-transform: none; font-weight: 400; margin-bottom: 15px; -webkit-transition: background-color 0.5s, color 0.5s; -moz-transition: background-color 0.5s, color 0.5s; -ms-transition: background-color 0.5s, color 0.5s; -o-transition: background-color 0.5s, color 0.5s; transition: background-color 0.5s, color 0.5s; }
 .button.button-primary { background-color: #00427F; }
 .button.button-primary.disabled { background-color: #7E9FBE; }
@@ -293,10 +279,8 @@ select { min-width: 110px; height: 42px; }
 .error-summary h2, .error-summary a { color: #d32205; margin-top: 0; }
 .error-summary ul { margin: 0; }
 .error-summary ul li { list-style: none; }
-.error-summary:focus { outline: none; }
 
 .current-errors li { list-style: none; }
-.current-errors li:focus { outline: none; }
 
 textarea { margin-bottom: 0; -webkit-border-radius: 0; border-radius: 0; background-clip: padding-box; /* stops bg color from leaking outside the border: */ }
 

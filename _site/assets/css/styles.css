@@ -66,10 +66,8 @@ h1 { font-size: 49px; line-height: 56px; }
 
 form h2 { margin-top: inherit; font-size: 26px; }
 
-h2 { font-size: 26px; line-height: 35px; }
-@media all and (max-width: 479px) { h2 { font-size: 20px; line-height: 28px; } }
-
-h2 ~ table { margin-top: 0; }
+h2 { font-size: 30px; line-height: 40px; }
+@media all and (max-width: 479px) { h2 { font-size: 24px; line-height: 30px; } }
 
 h3 { font-size: 19px; line-height: 28px; }
 @media all and (max-width: 479px) { h3 { font-size: 16px; line-height: 25px; } }
@@ -80,7 +78,9 @@ h5 { font-size: 14px; line-height: 23px; }
 
 h6 { font-size: 12px; line-height: 20px; }
 
-h1, h2, h3, h4, h5, h6 { font-family: din-mediumregular, Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+h1 { font-family: din-regularregular, Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif; letter-spacing: -1px; }
+
+h2, h3, h4, h5, h6 { font-family: din-mediumregular, Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif; letter-spacing: -1px; }
 
 h1 { font-weight: 700; }
 
@@ -93,8 +93,8 @@ h2, h3, h4, h5, h6 { font-weight: 500; }
 
 .container > .row > div > .leader { margin-top: 15px; }
 
-.emphasis { display: inline-block; font-weight: 500; padding-top: 20px; position: relative; }
-.emphasis:before { background-color: #00427F; border-radius: 8px; content: ''; height: 8px; left: 0; position: absolute; right: 0; top: 0; }
+.emphasis { display: inline-block; font-weight: 500; padding-top: 15px; position: relative; margin: 20px 0 15px; }
+.emphasis:before { background-color: #00427F; border-radius: 8px; content: ''; height: 7px; left: 0; position: absolute; right: 0; top: 0; }
 @media all and (max-width: 479px) { .emphasis:before { height: 6px; } }
 @media all and (max-width: 479px) { .emphasis { padding-top: 12px; }
   .emphasis:before { height: 6px; } }
@@ -360,6 +360,8 @@ td.title { font-size: 19px; }
 tr:first-child td:first-child { padding: 8px; }
 
 td, thead + tbody tr:first-child td { border-bottom: 1px solid #ebebeb; padding: 8px; vertical-align: top; }
+
+h2 ~ table { margin-top: 0; }
 
 /* ========================================================================== Variables  ========================================================================== */
 /* ========================================================================== SE Custom styles for misceleaneous elements ========================================================================== */

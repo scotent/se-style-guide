@@ -20,16 +20,12 @@ form h2 {
 }
 
 h2 {
-    font-size: 26px;
-    line-height: 35px;
+    font-size: 30px;
+    line-height: 40px;
     @media all and (max-width: $screen-xxs-max) {
-        font-size: 20px;
-        line-height: 28px;
+        font-size: 24px;
+        line-height: 30px;
     }
-}
-
-h2 ~ table {
-    margin-top: 0;
 }
 
 h3 {
@@ -62,8 +58,14 @@ h6 {
     }
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
+    font-family: din-regularregular, Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: -1px;
+}
+
+h2, h3, h4, h5, h6 {
     font-family: din-mediumregular, Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: -1px;
 }
 
 h1 {
@@ -100,13 +102,14 @@ h2, h3, h4, h5, h6 {
 .emphasis {
     display: inline-block;
     font-weight: 500;
-    padding-top: 20px;
+    padding-top: 15px;
     position: relative;
+    margin: 20px 0 15px;
     &:before {
         background-color: $se-blue;
         border-radius: 8px;
         content: '';
-        height: 8px;
+        height: 7px;
         left: 0;
         position: absolute;
         right: 0;

@@ -66,5 +66,7 @@ collections:
     output: true
   colours:
     output: true
+  content-nav:
+    output: true
     
 github: [metadata]

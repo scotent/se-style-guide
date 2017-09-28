@@ -150,8 +150,7 @@ caption { margin-left: 8px !important; }
 .button.button-tertiary { background-color: transparent; color: #00427F; padding: 0.5em 0; }
 .button.button-tertiary:not(.disabled):hover { color: #2A7CB2; }
 .button.inline { padding: 1em; position: relative; top: -2px; display: inline-block; }
-
-@media all and (max-width: 479px) { .button { width: 100% !important; margin-right: 0 !important; } }
+@media screen and (max-width: 480px) { .button { width: 100% !important; margin-right: 0 !important; } }
 
 .button.button-back { background: none; color: #00427F; padding-left: 0; }
 .button.button-back:before { content: '\f053'; font-family: FontAwesome; padding: 0 10px 0 0; position: relative; top: 1px; }

@@ -267,6 +267,7 @@ label.inline:not(:last-of-type) { margin-right: 30px; }
 select { min-width: 110px; height: 42px; }
 
 .form-group { padding: 0 20px 0 0; }
+@media screen and (max-width: 480px) { .form-group { padding: 0; } }
 .form-group:first-of-type { margin-top: 28px; }
 
 .form-group:first-of-type { margin-top: 28px; }

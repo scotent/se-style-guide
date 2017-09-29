@@ -1,9 +1,9 @@
-/* ==========================================================================
-   SE Custom styles for navbar
-   ========================================================================== */
+// ==========================================================================
+// SE Custom styles for navbar
+// ==========================================================================
 
 .navbar {
-    border-bottom: 1px solid #ebebeb;
+    border-bottom: 1px solid $se-light-grey;
     background: white;
     margin-bottom: 20px;
     .navbar-brand {
@@ -61,5 +61,26 @@
                 width: auto;
             }
         }
+    }
+}
+
+
+.banner {
+    a {
+        text-decoration: none;
+        &:hover {
+            color: $se-white;
+            text-decoration: underline;
+        }
+    }
+    .beta {
+        font-size: 1.125em;
+        background-color: $se-beta;
+        padding: 3px 7px;
+        text-transform: uppercase;
+        margin: 0 5px 0 0;
+    }
+    .pull-right {
+        padding: 6px 0 0;
     }
 }

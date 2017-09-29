@@ -1,6 +1,6 @@
-/* ==========================================================================
-   Mixins
-   ========================================================================== */
+// ==========================================================================
+// Mixins
+// ==========================================================================
 
 @mixin Opacity($value) {
     $IEValue: $value*100;
@@ -8,10 +8,10 @@
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity="+$IEValue+")";
     filter: alpha(opacity=$IEValue);
 }
+// Usage ..
+//  @include Opacity(0);
+//
 
-/* Usage ..
-@include Opacity(0);
- */
 
 // This accepts multiple args //
 @mixin transition($transition...) {
@@ -21,16 +21,17 @@
     -o-transition: $transition;
     transition: $transition;
 }
+// Usage ..
+// @include transition(background-color 0.5s, color 0.5s);
+//
 
-/* Usage ..
-@include transition(background-color 0.5s, color 0.5s);
- */
 
 @mixin unselectable() {
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
 }
+
 
 // Sets the border radius for all 4 corners
 // The site uses no border-radius so this is
@@ -41,7 +42,6 @@
     border-radius: $radius;
     background-clip: padding-box; /* stops bg color from leaking outside the border: */
 }
-
-/* Usage ..
-@include border-radius(0);
- */
+// Usage ..
+// @include border-radius(0);
+//

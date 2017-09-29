@@ -65,11 +65,13 @@
         top: -2px;
         display: inline-block;
     }
-    
-    @media screen and (max-width: $screen-xs-min) {
+}
+
+.button {
+    @media all and (max-width: $screen-xxs-max) {
         width: 100% !important;
         margin-right: 0 !important;
-    }    
+    }
 }
 
 .button {
@@ -84,7 +86,6 @@
             position: relative;
             top: 1px;
         }
-        
         @media all and (max-width: $screen-xxs-max) {
             text-align: left;
         }

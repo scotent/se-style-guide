@@ -1,16 +1,28 @@
 @import 'mixins.scss';
 @import 'variables.scss';
 
-/* ==========================================================================
-   SE dot com Custom styles 
-   ========================================================================== */
+// ==========================================================================
+// SE dot com Custom styles
+// ==========================================================================
 
 body {
     margin-bottom: 0;
+    .error {
+        text-align: center;
+    }
 }
 
 #main {
     padding-bottom: 50px;
+}
+
+a {
+    color: $se-blue;
+    @include transition(color 0.5s, text-decoration 0.5s);
+    &:hover {
+        color: $se-light-blue;
+        @include transition(color 0.5s, text-decoration 0.5s);
+    }
 }
 
 footer {

@@ -1,7 +1,6 @@
-
-/* ==========================================================================
-   SE Custom styles for tables
-   ========================================================================== */
+// ==========================================================================
+// SE Custom styles for tables
+// ==========================================================================
 
 
 
@@ -30,6 +29,7 @@ table.table-striped tbody tr {
 
 table.plain {
     margin: 0;
+    color: $se-dark-grey;
     tr:first-child td:first-child {
         padding: 8px 15px 8px 0;
         @media all and (max-width: $screen-sm-max) {

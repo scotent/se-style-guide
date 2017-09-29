@@ -1,6 +1,7 @@
-//  ==========================================================================
-//  SE Custom styles for File upload
-//  ==========================================================================
+
+// ==========================================================================
+// SE Custom styles for File upload
+// ==========================================================================
 
 .file-upload-list {
     .file-upload-wrapper {
@@ -37,13 +38,31 @@
         &.empty {
             color: $se-mid-grey;
             border-top: none;
-            padding: 0 0 10px 0;
+            padding: 0 0 10px;
         }
         &.failed {
             .failed-text {
                 color: $se-red;
                 display: block;
                 padding-left: 35px;
+            }
+        }
+    }
+
+    .file-upload-wrapper {
+        .form-file {
+            label {
+                font-weight: 300;
+                font-style: italic;
+                font-size: 16px;
+            }
+            input {
+                background-color: $se-white;
+                height: auto;
+                border: 1px solid $se-blue;
+                width: 100%;
+                padding: 9px 15px;
+                @include border-radius(0);
             }
         }
     }
@@ -143,72 +162,3 @@
     margin: 0 0 5px 15px;
 }
 
-#fileupload {
-    display: none;
-}
-
-.file-upload-inner {
-    padding: 10px 0;
-    label {
-        display: inline;
-    }
-    form {
-        display: table-row;
-    }
-    span[role=button] {
-        display: table-cell;
-        margin: 0;
-        width: 130px;
-        height: 48px;
-        font-family: din-mediumregular;
-        font-size: 17px;
-        font-weight: 400;
-        line-height: 20px;
-        padding: 12px 9px;
-        border: 2px solid $se-blue;
-        color: $se-white;
-        cursor: pointer;
-        background-color: $se-blue;
-        outline: none;
-        border-collapse: collapse;
-        @include transition(background-color 0.5s);
-        &:hover,
-        &:focus {
-            background-color: $se-white;
-            border-color: $se-blue;
-            color: $se-blue;
-            outline: 2px solid transparent;
-        }
-    }
-    .hide {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        padding: 0;
-        margin: -1px;
-        overflow: hidden;
-        clip: rect(0,0,0,0);
-        border: 0;
-    }
-    input[type=text] {
-        display: table-cell;
-        margin: 0 0 0 -5px;
-        width: calc(100% - 130px);
-        height: 48px;
-        font-family: din-mediumregular;
-        font-size: 17px;
-        font-weight: 400;
-        line-height: 20px;
-        padding: 12px 15px;
-        border: 2px solid  $se-blue;
-        border-left: none;
-        color: $se-black;
-        background-color: $se-white;
-        outline: none;
-        border-collapse: collapse;
-        &:focus {
-            border-color: $se-blue;
-            outline: 2px solid transparent;
-        }
-    }
-}

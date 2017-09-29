@@ -282,6 +282,8 @@ select { min-width: 110px; height: 42px; }
 
 .current-errors li { list-style: none; }
 
+.form-errors ul li:before, .current-errors li:before, .server-side-errors li:before, .field-errors li:before { content: none; font-size: 12px; line-height: 13px; vertical-align: middle; }
+
 textarea { margin-bottom: 0; -webkit-border-radius: 0; border-radius: 0; background-clip: padding-box; /* stops bg color from leaking outside the border: */ }
 
 .input-wrapper label { display: inline-block; font-weight: normal; margin-right: 30px; line-height: 22px; }

@@ -111,6 +111,15 @@ select {
     }
 }
 
+.form-errors ul li:before, .current-errors li:before, .server-side-errors li:before, .field-errors li:before {
+    content: none;
+    font-size: 12px;
+    line-height: 13px;
+    vertical-align: middle;
+}
+
+
+
 textarea {
     margin-bottom: 0;
     @include border-radius(0);

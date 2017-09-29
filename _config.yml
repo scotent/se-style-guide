@@ -40,33 +40,35 @@ permalink: pretty
 highlighter: rouge
   
 collections:
-  buttons:
-    output: true
-  datas:
-    output: true
-  errors-validation:
-    output: true
-  typography:
-    output: true
-  page-templates:
-    output: true
-  elements:
-    output: true
-  page-patterns:
-    output: true
-  colour-palettes:
-    output: true
-  form-elements:
-    output: true
-  components:
-    output: true
-  grid:
-    output: true
-  structure:
-    output: true
-  colours:
-    output: true
-  content-nav:
-    output: true
+    buttons:
+        output: true
+    datas:
+        output: true
+    errors-validation:
+        output: true
+    typography:
+        output: true
+    page-templates:
+        output: true
+    elements:
+        output: true
+    page-patterns:
+        output: true
+    colour-palettes:
+        output: true
+    form-elements:
+        output: true
+    components:
+        output: true
+    grid:
+        output: true
+    structure:
+        output: true
+    colours:
+        output: true
+    content-nav:
+        output: true
+    images:
+        output: true
     
 github: [metadata]

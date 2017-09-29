@@ -42,6 +42,6 @@ layout: home
 <div class="row">
   <div class="link-block col-md-4">
     <h2><a href="components/">Components</a></h2>
-    <p><a href="components/tables">Tables</a> / <a href="">Accordions</a> / <a href="">Calendar</a> / <a href="">Tabs</a> / <a href="">Tooltips</a> / <a href="form-elements/">Pre-loaders</a> / <a href="components/progress-indicator/">Progress indicator</a> / <a href="components/application-progress-indicator/">Application progress indicator</a></p>
+    <p><a href="components/tables">Tables</a> / <a href="components/accordions">Accordions</a> / <a href="components/calendar">Calendar</a> / <a href="components/tabs">Tabs</a> / <a href="components/tooltips">Tooltips</a> / <a href="components/pre-loaders">Pre-loaders</a> / <a href="components/progress-indicator/">Progress indicator</a> / <a href="components/application-progress-indicator/">Application progress indicator</a></p>
   </div>
 </div>

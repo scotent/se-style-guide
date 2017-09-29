@@ -19,7 +19,7 @@ layout: home
     <p>Colours used across the portal.</p>
   </div>
   <div class="link-block col-md-4">
-    <h2><a href="Typography/">Typography</a></h2>
+    <h2><a href="typography/">Typography</a></h2>
     <p><a href="typography/body-copy">Body</a> / <a href="typography/h1-h6">Headings</a> / <a href="typography/fonts">Fonts</a> / <a href="typography/icons">Icons</a> / <a href="typography/info-notes">Info notes</a> / <a href="typography/Ordered-list">Ordered lists</a> / <a href="typography/Unordered-list">Unordered lists</a> / <a href="typography/inline-split-definition-list/">Inline lists</a></p>
   </div>
 </div>

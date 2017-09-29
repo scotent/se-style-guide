@@ -2,42 +2,78 @@
 layout: code-examples
 title: Tables
 usage: 
---- 
+---
 
-<table>
+<h2>Table striped visible header</h2>
+<table class="table table-striped">
+  <thead>
   <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
+    <th><span class="sr-only">column title</span></th>
+    <th><span class="sr-only">column details</span></th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>Claim due</td>
+    <td>25 Sep 2017</td>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
+    <td>Claim amount</td>
+    <td>£2000</td>
   </tr>
-  <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
-  </tr>
-  <tr>
-    <td>Ernst Handel</td>
-    <td>Roland Mendel</td>
-    <td>Austria</td>
-  </tr>
-  <tr>
-    <td>Island Trading</td>
-    <td>Helen Bennett</td>
-    <td>UK</td>
-  </tr>
-  <tr>
-    <td>Laughing Bacchus Winecellars</td>
-    <td>Yoshi Tannamuri</td>
-    <td>Canada</td>
-  </tr>
-  <tr>
-    <td>Magazzini Alimentari Riuniti</td>
-    <td>Giovanni Rovelli</td>
-    <td>Italy</td>
-  </tr>
+  </tbody>
 </table>
+
+<h2>Table striped hidden header</h2>
+<table class="table table-striped">
+  <thead>
+  <tr>
+    <th>column title</th>
+    <th>column details</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>Claim due</td>
+    <td>25 Sep 2017</td>
+  </tr>
+  <tr>
+    <td>Claim amount</td>
+    <td>£2000</td>
+  </tr>
+  </tbody>
+</table>
+
+<h2>Table plain hidden header</h2>
+<div class="card-view">
+<table class="plain">
+  <thead>
+  <tr>
+    <th><span class="sr-only">column title</span></th>
+    <th><span class="sr-only">column details</span></th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>First name</td>
+    <td>David</td>
+  </tr>
+  <tr>
+    <td>Last name</td>
+    <td>Jones</td>
+  </tr>
+  <tr>
+    <td>Company name</td>
+    <td>Jones Company Limited</td>
+  </tr>
+  <tr>
+    <td>Email address</td>
+    <td>david.jones@jonescompny.com</td>
+  </tr>
+  <tr>
+    <td>Phone number</td>
+    <td>0141 246 1301</td>
+  </tr>
+  </tbody>
+</table>
+</div>

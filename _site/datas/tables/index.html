@@ -74,43 +74,80 @@
             <div class="col-sm-12">            
                
                 <div class="demo-box">
-                    <span class="example">Example</span> <table>
+                    <span class="example">Example</span> <h2>Table striped visible header</h2>
+<table class="table table-striped">
+  <thead>
   <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
+    <th><span class="sr-only">column title</span></th>
+    <th><span class="sr-only">column details</span></th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>Claim due</td>
+    <td>25 Sep 2017</td>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
+    <td>Claim amount</td>
+    <td>£2000</td>
   </tr>
-  <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
-  </tr>
-  <tr>
-    <td>Ernst Handel</td>
-    <td>Roland Mendel</td>
-    <td>Austria</td>
-  </tr>
-  <tr>
-    <td>Island Trading</td>
-    <td>Helen Bennett</td>
-    <td>UK</td>
-  </tr>
-  <tr>
-    <td>Laughing Bacchus Winecellars</td>
-    <td>Yoshi Tannamuri</td>
-    <td>Canada</td>
-  </tr>
-  <tr>
-    <td>Magazzini Alimentari Riuniti</td>
-    <td>Giovanni Rovelli</td>
-    <td>Italy</td>
-  </tr>
+  </tbody>
 </table>
+
+<h2>Table striped hidden header</h2>
+<table class="table table-striped">
+  <thead>
+  <tr>
+    <th>column title</th>
+    <th>column details</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>Claim due</td>
+    <td>25 Sep 2017</td>
+  </tr>
+  <tr>
+    <td>Claim amount</td>
+    <td>£2000</td>
+  </tr>
+  </tbody>
+</table>
+
+<h2>Table plain hidden header</h2>
+<div class="card-view">
+<table class="plain">
+  <thead>
+  <tr>
+    <th><span class="sr-only">column title</span></th>
+    <th><span class="sr-only">column details</span></th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>First name</td>
+    <td>David</td>
+  </tr>
+  <tr>
+    <td>Last name</td>
+    <td>Jones</td>
+  </tr>
+  <tr>
+    <td>Company name</td>
+    <td>Jones Company Limited</td>
+  </tr>
+  <tr>
+    <td>Email address</td>
+    <td>david.jones@jonescompny.com</td>
+  </tr>
+  <tr>
+    <td>Phone number</td>
+    <td>0141 246 1301</td>
+  </tr>
+  </tbody>
+</table>
+</div>
+
                 </div>
                 
                 <button class="btn btn-primary margin-bottom" onclick="copyToClipboard('#code-snippet')">Copy to clipboard</button>
@@ -118,43 +155,80 @@
                 <!--html code snippet-->
                 <div id="code-snippet">          
                     <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">                    
-                        <span class="o">&lt;</span><span class="n">table</span><span class="o">&gt;</span>
-  <span class="o">&lt;</span><span class="n">tr</span><span class="o">&gt;</span>
-    <span class="o">&lt;</span><span class="n">th</span><span class="o">&gt;</span><span class="no">Company</span><span class="o">&lt;</span><span class="sr">/th&gt;
-    &lt;th&gt;Contact&lt;/</span><span class="n">th</span><span class="o">&gt;</span>
-    <span class="o">&lt;</span><span class="n">th</span><span class="o">&gt;</span><span class="no">Country</span><span class="o">&lt;</span><span class="sr">/th&gt;
+                        <span class="o">&lt;</span><span class="n">h2</span><span class="o">&gt;</span><span class="no">Table</span> <span class="n">striped</span> <span class="n">visible</span> <span class="n">header</span><span class="o">&lt;</span><span class="sr">/h2&gt;
+&lt;table class="table table-striped"&gt;
+  &lt;thead&gt;
+  &lt;tr&gt;
+    &lt;th&gt;&lt;span class="sr-only"&gt;column title&lt;/s</span><span class="n">pan</span><span class="o">&gt;&lt;</span><span class="sr">/th&gt;
+    &lt;th&gt;&lt;span class="sr-only"&gt;column details&lt;/s</span><span class="n">pan</span><span class="o">&gt;&lt;</span><span class="sr">/th&gt;
+  &lt;/</span><span class="n">tr</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="sr">/thead&gt;
+  &lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Claim due&lt;/</span><span class="n">td</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="mi">25</span> <span class="no">Sep</span> <span class="mi">2017</span><span class="o">&lt;</span><span class="sr">/td&gt;
   &lt;/</span><span class="n">tr</span><span class="o">&gt;</span>
   <span class="o">&lt;</span><span class="n">tr</span><span class="o">&gt;</span>
-    <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="no">Alfreds</span> <span class="no">Futterkiste</span><span class="o">&lt;</span><span class="sr">/td&gt;
-    &lt;td&gt;Maria Anders&lt;/</span><span class="n">td</span><span class="o">&gt;</span>
-    <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="no">Germany</span><span class="o">&lt;</span><span class="sr">/td&gt;
-  &lt;/</span><span class="n">tr</span><span class="o">&gt;</span>
-  <span class="o">&lt;</span><span class="n">tr</span><span class="o">&gt;</span>
-    <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="no">Centro</span> <span class="n">comercial</span> <span class="no">Moctezuma</span><span class="o">&lt;</span><span class="sr">/td&gt;
-    &lt;td&gt;Francisco Chang&lt;/</span><span class="n">td</span><span class="o">&gt;</span>
-    <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="no">Mexico</span><span class="o">&lt;</span><span class="sr">/td&gt;
-  &lt;/</span><span class="n">tr</span><span class="o">&gt;</span>
-  <span class="o">&lt;</span><span class="n">tr</span><span class="o">&gt;</span>
-    <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="no">Ernst</span> <span class="no">Handel</span><span class="o">&lt;</span><span class="sr">/td&gt;
-    &lt;td&gt;Roland Mendel&lt;/</span><span class="n">td</span><span class="o">&gt;</span>
-    <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="no">Austria</span><span class="o">&lt;</span><span class="sr">/td&gt;
-  &lt;/</span><span class="n">tr</span><span class="o">&gt;</span>
-  <span class="o">&lt;</span><span class="n">tr</span><span class="o">&gt;</span>
-    <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="no">Island</span> <span class="no">Trading</span><span class="o">&lt;</span><span class="sr">/td&gt;
-    &lt;td&gt;Helen Bennett&lt;/</span><span class="n">td</span><span class="o">&gt;</span>
-    <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="no">UK</span><span class="o">&lt;</span><span class="sr">/td&gt;
-  &lt;/</span><span class="n">tr</span><span class="o">&gt;</span>
-  <span class="o">&lt;</span><span class="n">tr</span><span class="o">&gt;</span>
-    <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="no">Laughing</span> <span class="no">Bacchus</span> <span class="no">Winecellars</span><span class="o">&lt;</span><span class="sr">/td&gt;
-    &lt;td&gt;Yoshi Tannamuri&lt;/</span><span class="n">td</span><span class="o">&gt;</span>
-    <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="no">Canada</span><span class="o">&lt;</span><span class="sr">/td&gt;
-  &lt;/</span><span class="n">tr</span><span class="o">&gt;</span>
-  <span class="o">&lt;</span><span class="n">tr</span><span class="o">&gt;</span>
-    <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="no">Magazzini</span> <span class="no">Alimentari</span> <span class="no">Riuniti</span><span class="o">&lt;</span><span class="sr">/td&gt;
-    &lt;td&gt;Giovanni Rovelli&lt;/</span><span class="n">td</span><span class="o">&gt;</span>
-    <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="no">Italy</span><span class="o">&lt;</span><span class="sr">/td&gt;
-  &lt;/</span><span class="n">tr</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="no">Claim</span> <span class="n">amount</span><span class="o">&lt;</span><span class="sr">/td&gt;
+    &lt;td&gt;£2000&lt;/</span><span class="n">td</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="sr">/tr&gt;
+  &lt;/</span><span class="n">tbody</span><span class="o">&gt;</span>
 <span class="o">&lt;</span><span class="sr">/table&gt;
+
+&lt;h2&gt;Table striped hidden header&lt;/</span><span class="n">h2</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="n">table</span> <span class="k">class</span><span class="o">=</span><span class="s2">"table table-striped"</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="n">thead</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="n">tr</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">th</span><span class="o">&gt;</span><span class="n">column</span> <span class="n">title</span><span class="o">&lt;</span><span class="sr">/th&gt;
+    &lt;th&gt;column details&lt;/</span><span class="n">th</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="sr">/tr&gt;
+  &lt;/</span><span class="n">thead</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="n">tbody</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="n">tr</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="no">Claim</span> <span class="n">due</span><span class="o">&lt;</span><span class="sr">/td&gt;
+    &lt;td&gt;25 Sep 2017&lt;/</span><span class="n">td</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="sr">/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Claim amount&lt;/</span><span class="n">td</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="err">£</span><span class="mi">2000</span><span class="o">&lt;</span><span class="sr">/td&gt;
+  &lt;/</span><span class="n">tr</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="sr">/tbody&gt;
+&lt;/</span><span class="n">table</span><span class="o">&gt;</span>
+
+<span class="o">&lt;</span><span class="n">h2</span><span class="o">&gt;</span><span class="no">Table</span> <span class="n">plain</span> <span class="n">hidden</span> <span class="n">header</span><span class="o">&lt;</span><span class="sr">/h2&gt;
+&lt;div class="card-view"&gt;
+&lt;table class="plain"&gt;
+  &lt;thead&gt;
+  &lt;tr&gt;
+    &lt;th&gt;&lt;span class="sr-only"&gt;column title&lt;/s</span><span class="n">pan</span><span class="o">&gt;&lt;</span><span class="sr">/th&gt;
+    &lt;th&gt;&lt;span class="sr-only"&gt;column details&lt;/s</span><span class="n">pan</span><span class="o">&gt;&lt;</span><span class="sr">/th&gt;
+  &lt;/</span><span class="n">tr</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="sr">/thead&gt;
+  &lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td&gt;First name&lt;/</span><span class="n">td</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="no">David</span><span class="o">&lt;</span><span class="sr">/td&gt;
+  &lt;/</span><span class="n">tr</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="n">tr</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="no">Last</span> <span class="nb">name</span><span class="o">&lt;</span><span class="sr">/td&gt;
+    &lt;td&gt;Jones&lt;/</span><span class="n">td</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="sr">/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Company name&lt;/</span><span class="n">td</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="no">Jones</span> <span class="no">Company</span> <span class="no">Limited</span><span class="o">&lt;</span><span class="sr">/td&gt;
+  &lt;/</span><span class="n">tr</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="n">tr</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="no">Email</span> <span class="n">address</span><span class="o">&lt;</span><span class="sr">/td&gt;
+    &lt;td&gt;david.jones@jonescompny.com&lt;/</span><span class="n">td</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="sr">/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Phone number&lt;/</span><span class="n">td</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="mo">0141</span> <span class="mi">246</span> <span class="mi">1301</span><span class="o">&lt;</span><span class="sr">/td&gt;
+  &lt;/</span><span class="n">tr</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="sr">/tbody&gt;
+&lt;/</span><span class="n">table</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="sr">/div&gt;
+
                     </span></code></pre></figure>
                 </div>
 

@@ -31,7 +31,7 @@ layout: home
   </div>
   <div class="link-block col-md-4">
     <h2><a href="form-elements/">Form elements</a></h2>
-    <p><a href="form-elements/fieldsets/">Fieldsets</a> / <a href="form-elements/labels">Labels</a> / <a href="form-elements/checkboxes">Checkboxes</a> / <a href="form-elements/radio-buttons">Radios</a> / <a href="form-elements/file-upload">File upload</a> / <a href="form-elements/help-text">Help text</a> / <a href="form-elements/input-fields">Input fields</a> / <a href="form-elements/errors">Errors</a> / <a href="form-elements/input-validation">Validation</a> / <a href="form-elements/select-menu">Select</a> / <a href="form-elements/dropdowns">Dropdowns</a> / <a href="form-elements/text-area">Textarea</a></p>
+    <p><a href="form-elements/fieldsets/">Fieldsets</a> / <a href="form-elements/labels">Labels</a> / <a href="form-elements/checkboxes">Checkboxes</a> / <a href="form-elements/radio-buttons">Radios</a> / <a href="form-elements/file-upload">File upload</a> / <a href="form-elements/help-text">Help text</a> / <a href="form-elements/input-fields">Input fields</a> / <a href="form-elements/-errors">Errors</a> / <a href="form-elements/input-validation">Validation</a> / <a href="form-elements/select-menu">Select</a> / <a href="form-elements/-dropdowns">Dropdowns</a> / <a href="form-elements/text-area">Textarea</a></p>
   </div>
   <div class="link-block col-md-4">
     <h2><a href="use-of-images/">-Use of Images</a></h2>
@@ -42,6 +42,6 @@ layout: home
 <div class="row">
   <div class="link-block col-md-4">
     <h2><a href="components/">Components</a></h2>
-    <p><a href="components/tables">Tables</a> / <a href="components/accordions">Accordions</a> / <a href="components/calendar">Calendar</a> / <a href="components/tabs">Tabs</a> / <a href="components/tooltips">Tooltips</a> / <a href="components/pre-loaders">Pre-loaders</a> / <a href="components/progress-indicator/">Progress indicator</a> / <a href="components/application-progress-indicator/">Application progress indicator</a></p>
+    <p><a href="components/tables">Tables</a> / <a href="components/accordions">Accordions</a> / <a href="components/calendar">Calendar</a> / <a href="components/tabs">Tabs</a> / <a href="components/tooltips">Tooltips</a> / <a href="components/-pre-loaders">Pre-loaders</a> / <a href="components/progress-indicator/">Progress indicator</a> / <a href="components/application-progress-indicator/">Application progress indicator</a></p>
   </div>
 </div>

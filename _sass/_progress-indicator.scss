@@ -7,7 +7,7 @@
 
 ol#progress--indicator {
   padding: 1em;
-  font-size: 1.1em; 
+  font-size: 1.063em;
   background: white;
   
   li {
@@ -53,7 +53,7 @@ ol#progress--indicator {
         &::after {
           font-family: FontAwesome;
           content: "\f00c";
-          font-size: 11px;
+          font-size: 0.688em;
           color: white;
           position: absolute;
           top: -3px;

@@ -7,15 +7,19 @@
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
 
+
+// We are using a base font size of 16px
+// across the site will use 'em' where possible.
+
 body {
     font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
-    line-height: 23px;
+    line-height: 1.438em;
     font-weight: normal;
     -­webkit­font­smoothing: antialiased;
     @media all and (max-width: $screen-xxs-max) {
-        font-size: 15px;
-        line-height: 21px;
+        font-size: 0.938em;
+        line-height: 1.313em;
     }
 }
 

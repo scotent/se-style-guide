@@ -10,7 +10,7 @@ body.component-library {
             li {
                 list-style-position: inside;
                 a {
-                    font-size: 16px !important;
+                    font-size: 1em !important;
                 }
             }
         }
@@ -44,7 +44,7 @@ body.component-library {
             left: 0;
             background: #f7f7f7;
             padding: 0.25em 1em;;
-            font-size: 0.8em;
+            font-size: 0.813em;
         }
     }
 
@@ -67,7 +67,7 @@ body.component-library {
         padding-top: 12.5px;
         margin: 0 10px;
         border-radius: 100%;
-        line-height: 37.5px;
+        line-height: 2.344em;
         color: #fff;
         content: "";
     }
@@ -81,7 +81,7 @@ body.component-library {
         margin: 16px 10px;
         border-radius: 100%;
         border: 1px solid black;
-        line-height: 37.5px;
+        line-height: 2.344em;
         color: #000;
         content: "";
     }

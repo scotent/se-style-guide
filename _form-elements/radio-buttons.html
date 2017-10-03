@@ -6,15 +6,15 @@ usage: Radio buttons let a user select ONE of a limited number of choices
 --- 
 
 <div class="form-group relative" id="radio">
-    <fieldset aria-required="true" id="radio-link">
+    <fieldset role="radiogroup" aria-required="true" required="true" id="radio-link">
         <legend>
           Do you wish to subscribe to our newsletter?
         </legend>
         <div>
-            <input required="true" id="yes" name="newsletter" class="grey form-control fancy-radio" type="radio">
             <label for="yes" class="inline fancy-radio">Yes</label>
-            <input required="true" id="no" name="newsletter" class="grey form-control fancy-radio" type="radio">
+            <input type="radio" id="yes" value="yes" name="newsletter" class="grey form-control fancy-radio">
             <label for="no" class="inline fancy-radio">No</label>
+            <input type="radio" id="no" value="no" name="newsletter" class="grey form-control fancy-radio">
             <ul class="current-errors"></ul>
         </div>
     </fieldset>

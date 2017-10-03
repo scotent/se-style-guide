@@ -74,8 +74,12 @@
             <div class="col-sm-12">            
                
                 <div class="demo-box">
-                    <span class="example">Example</span> <p>Breadcrumbs</p>
-
+                    <span class="example">Example</span>  <nav class="breadcrumbs" aria-label="Breadcrumb">   
+   <ol id="breadcrumbs">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">Next link</a></li>
+    </ol>
+</nav>
                 </div>
                 
                 <button class="btn btn-primary margin-bottom" onclick="copyToClipboard('#code-snippet')">Copy to clipboard</button>
@@ -83,9 +87,13 @@
                 <!--html code snippet-->
                 <div id="code-snippet">          
                     <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">                    
-                        <span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span><span class="no">Breadcrumbs</span><span class="o">&lt;</span><span class="sr">/p&gt;
-
-                    </span></code></pre></figure>
+                         <span class="o">&lt;</span><span class="n">nav</span> <span class="k">class</span><span class="o">=</span><span class="s2">"breadcrumbs"</span> <span class="n">aria</span><span class="o">-</span><span class="n">label</span><span class="o">=</span><span class="s2">"Breadcrumb"</span><span class="o">&gt;</span>   
+   <span class="o">&lt;</span><span class="n">ol</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"breadcrumbs"</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="n">li</span> <span class="k">class</span><span class="o">=</span><span class="s2">"breadcrumb-item"</span><span class="o">&gt;&lt;</span><span class="n">a</span> <span class="n">href</span><span class="o">=</span><span class="s2">"#"</span><span class="o">&gt;</span><span class="no">Home</span><span class="o">&lt;</span><span class="sr">/a&gt;&lt;/</span><span class="n">li</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="n">li</span> <span class="k">class</span><span class="o">=</span><span class="s2">"breadcrumb-item"</span><span class="o">&gt;&lt;</span><span class="n">a</span> <span class="n">href</span><span class="o">=</span><span class="s2">"#"</span><span class="o">&gt;</span><span class="no">Next</span> <span class="n">link</span><span class="o">&lt;</span><span class="sr">/a&gt;&lt;/</span><span class="n">li</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="sr">/ol&gt;
+&lt;/n</span><span class="n">av</span><span class="o">&gt;</span>
+                    </code></pre></figure>
                 </div>
 
                 <div class="usage-notes">

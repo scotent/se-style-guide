@@ -322,6 +322,8 @@ input + label.fancy-checkbox::before { top: -4px; }
 
 .margin-bottom { margin-bottom: 20px; }
 
+.margin-top { margin-top: 20px; }
+
 /* ========================================================================== SE Custom styles for tables ========================================================================== */
 table.table-striped tbody tr td a { display: block; }
 table.table-striped tbody tr thead + tbody tr:nth-child(2n-1) td { background: #ecf0f1; }

@@ -1,9 +1,6 @@
-
-
 /* ==========================================================================
    SE Custom styles for the progress indicator 
    ========================================================================== */
-
 
 ol#progress--indicator {
   padding: 1em;
@@ -69,3 +66,20 @@ ol#progress--indicator {
     }
   }  
 }
+
+
+//styling for the progress tag
+progress {
+    color: $se-light-blue;
+    font-size: 12px;
+    line-height: 13px;
+    //text-indent: .5em;
+    width: 100%;
+    padding: 0 1px 0 0;
+    height: 13px;
+    border: 1px solid $se-light-blue;
+    background: #fff;
+}
+
+progress::-webkit-progress-bar { background: #fff; }
+progress::-webkit-progress-value { background: #0063a6; }

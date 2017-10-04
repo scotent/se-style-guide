@@ -406,6 +406,12 @@ ol#progress--indicator li.complete .light::after { font-family: FontAwesome; con
 ol#progress--indicator li.incomplete { color: #666; }
 ol#progress--indicator li.incomplete .light { background: orange; }
 
+progress { color: #2A7CB2; font-size: 12px; line-height: 13px; width: 100%; padding: 0 1px 0 0; height: 13px; border: 1px solid #2A7CB2; background: #fff; }
+
+progress::-webkit-progress-bar { background: #fff; }
+
+progress::-webkit-progress-value { background: #0063a6; }
+
 /* ========================================================================== Mixins ========================================================================== */
 /* Usage ..
 @include Opacity(0); */

@@ -324,6 +324,8 @@ input + label.fancy-checkbox::before { top: -4px; }
 
 .margin-bottom { margin-bottom: 20px; }
 
+.margin-top { margin-top: 20px; }
+
 /* ========================================================================== SE Custom styles for tables ========================================================================== */
 table.table-striped tbody tr td a { display: block; }
 table.table-striped tbody tr thead + tbody tr:nth-child(2n-1) td { background: #ecf0f1; }
@@ -405,6 +407,12 @@ ol#progress--indicator li.complete .light { background: #128512; }
 ol#progress--indicator li.complete .light::after { font-family: FontAwesome; content: "\f00c"; font-size: 0.688em; color: white; position: absolute; top: -3px; left: 3px; }
 ol#progress--indicator li.incomplete { color: #666; }
 ol#progress--indicator li.incomplete .light { background: orange; }
+
+progress { color: #2A7CB2; font-size: 12px; line-height: 13px; width: 100%; padding: 0 1px 0 0; height: 13px; border: 1px solid #2A7CB2; background: #fff; }
+
+progress::-webkit-progress-bar { background: #fff; }
+
+progress::-webkit-progress-value { background: #0063a6; }
 
 /* ========================================================================== Mixins ========================================================================== */
 /* Usage ..

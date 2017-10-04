@@ -74,8 +74,21 @@
             <div class="col-sm-12">            
                
                 <div class="demo-box">
-                    <span class="example">Example</span> <p>Links</p>
+                    <span class="example">Example</span> <div>
 
+    <p>
+        This is text and .. <a href="#" class="">This is a link</a>
+    </p>
+
+    <br/><br/>
+    <p>
+        This is text and .. <a href="https://" class="">This is an external link <i class="fa fa-external-link"></i></a>
+    </p>
+    <p>
+        This is text and .. <a href="#" class="external-link">This is an external link</a>
+    </p>
+
+</div>
                 </div>
                 
                 <button class="btn btn-primary margin-bottom" onclick="copyToClipboard('#code-snippet')">Copy to clipboard</button>
@@ -83,14 +96,27 @@
                 <!--html code snippet-->
                 <div id="code-snippet">          
                     <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">                    
-                        <span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span><span class="no">Links</span><span class="o">&lt;</span><span class="sr">/p&gt;
+                        <span class="o">&lt;</span><span class="n">div</span><span class="o">&gt;</span>
 
-                    </span></code></pre></figure>
+    <span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span>
+        <span class="no">This</span> <span class="n">is</span> <span class="n">text</span> <span class="n">and</span> <span class="p">.</span><span class="nf">.</span> <span class="o">&lt;</span><span class="n">a</span> <span class="n">href</span><span class="o">=</span><span class="s2">"#"</span> <span class="k">class</span><span class="o">=</span><span class="s2">""</span><span class="o">&gt;</span><span class="no">This</span> <span class="n">is</span> <span class="n">a</span> <span class="n">link</span><span class="o">&lt;</span><span class="sr">/a&gt;
+    &lt;/</span><span class="nb">p</span><span class="o">&gt;</span>
+
+    <span class="o">&lt;</span><span class="n">br</span><span class="o">/&gt;&lt;</span><span class="n">br</span><span class="o">/&gt;</span>
+    <span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span>
+        <span class="no">This</span> <span class="n">is</span> <span class="n">text</span> <span class="n">and</span> <span class="p">.</span><span class="nf">.</span> <span class="o">&lt;</span><span class="n">a</span> <span class="n">href</span><span class="o">=</span><span class="s2">"https://"</span> <span class="k">class</span><span class="o">=</span><span class="s2">""</span><span class="o">&gt;</span><span class="no">This</span> <span class="n">is</span> <span class="n">an</span> <span class="n">external</span> <span class="n">link</span> <span class="o">&lt;</span><span class="n">i</span> <span class="k">class</span><span class="o">=</span><span class="s2">"fa fa-external-link"</span><span class="o">&gt;&lt;</span><span class="sr">/i&gt;&lt;/</span><span class="n">a</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="sr">/p&gt;
+    &lt;p&gt;
+        This is text and .. &lt;a href="#" class="external-link"&gt;This is an external link&lt;/</span><span class="n">a</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="sr">/p&gt;
+
+&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+                    </code></pre></figure>
                 </div>
 
                 <div class="usage-notes">
                     <h2>Usage notes</h2>
-                    Links
+                    Note - for an external link, please add &lt;i class="fa fa-external-link"&gt;&lt;/i&gt; at the end of your link - within the &lt;a&gt;&lt;/a&gt; tags.
                 </div>
 
             </div>

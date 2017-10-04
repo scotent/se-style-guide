@@ -110,3 +110,10 @@ input[type="button"],
 input[type="submit"] {
     padding: 1em 40px;
 }
+
+.external-link {
+    &:after {
+        content: 'FFF';
+        color: red;
+    }
+}

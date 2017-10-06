@@ -1,7 +1,7 @@
 {% capture url_parts %} {{ page.url | remove: "/index.html" | replace:'/'," " }}{% endcapture %}
 {% capture num_parts %}{{ url_parts | number_of_words | minus: 1 }}{% endcapture %}
 {% assign previous="" %}
-<ol id="breadcrumbs" role="navigation" class="breadcrumbs">
+<ol id="breadcrumbs" class="breadcrumbs">
     {% if num_parts == "0" or num_parts == "-1" %}
     <li class="breadcrumb-item"><a href="{{ site.baseurl}}/">Home</a></li>
     {% else %}

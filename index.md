@@ -15,7 +15,7 @@ layout: home
     <p><a href="structure/grid/">Grid</a> / <a href="structure/header/">Header</a> / <a href="structure/footer/">Footer</a> / <a href="structure/content/">Content</a></p>
   </div>
   <div class="link-block col-md-4">
-    <h2><a href="colours/colours">Colours</a></h2>
+    <h2><a href="colours/colours-se">Colours</a></h2>
     <p>Colours used across the portal.</p>
   </div>
   <div class="link-block col-md-4">

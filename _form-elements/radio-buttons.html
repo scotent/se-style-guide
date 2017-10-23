@@ -3,18 +3,31 @@ layout: code-examples
 collection-name: Form Elements 
 title: Radio buttons
 usage: Radio buttons let a user select ONE of a limited number of choices 
---- 
+---
 
 <div class="form-group relative" id="radio">
-    <fieldset role="radiogroup" aria-required="true" required="true" id="radio-link">
+    <fieldset aria-required="true" required="true" id="radio-link" role="radiogroup">
         <legend>
-          Do you wish to subscribe to our newsletter?
+            This is the label for the buttons
         </legend>
-        <div>
+        <div class="radio-wrapper">
+            <input
+                    type="radio"
+                    name="date-cascade"
+                    id="yes"
+                    value="Yes"
+                    class="grey form-control fancy-radio">
             <label for="yes" class="inline fancy-radio">Yes</label>
-            <input type="radio" id="yes" value="yes" name="newsletter" class="grey form-control fancy-radio">
+
+            <input
+                    type="radio"
+                    name="date-cascade"
+                    checked="checked"
+                    id="no"
+                    value="No"
+                    class="grey form-control fancy-radio">
             <label for="no" class="inline fancy-radio">No</label>
-            <input type="radio" id="no" value="no" name="newsletter" class="grey form-control fancy-radio">
+
             <ul class="current-errors"></ul>
         </div>
     </fieldset>

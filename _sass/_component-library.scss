@@ -101,13 +101,48 @@ body.component-library {
         margin: 1em;
     }
 
+    .color-block__color.se-purple {
+        background-color: $se-purple;
+        margin: 1em;
+    }
+
+    .color-block__color.se-turquoise {
+        background-color: $se-turquoise;
+        margin: 1em;
+    }
+
     .color-block__color.se-dark-green {
         background-color: $se-dark-green;
         margin: 1em;
     }
 
+    .color-block__color.accessible-green {
+        background-color: $accessible-green;
+        margin: 1em;
+    }
+
     .color-block__color.se-orange {
         background-color: $se-orange;
+        margin: 1em;
+    }
+
+    .color-block__color.se-dark-orange {
+        background-color: $se-dark-orange;
+        margin: 1em;
+    }
+
+    .color-block__color.se-red {
+        background-color: $se-red;
+        margin: 1em;
+    }
+
+    .color-block__color.se-amber {
+        background-color: $se-amber;
+        margin: 1em;
+    }
+
+    .color-block__color.se-yellow {
+        background-color: $se-yellow;
         margin: 1em;
     }
 

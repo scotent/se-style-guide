@@ -75,19 +75,33 @@
                
                 <div class="demo-box">
                     <span class="example">Example</span> <div class="form-group relative" id="radio">
-    <fieldset role="radiogroup" aria-required="true" required="true" id="radio-link">
+    <fieldset aria-required="true" required="true" id="radio-link" role="radiogroup">
         <legend>
-          Do you wish to subscribe to our newsletter?
+            This is the label for the buttons
         </legend>
-        <div>
+        <div class="radio-wrapper">
+            <input
+                    type="radio"
+                    name="date-cascade"
+                    id="yes"
+                    value="Yes"
+                    class="grey form-control fancy-radio">
             <label for="yes" class="inline fancy-radio">Yes</label>
-            <input type="radio" id="yes" value="yes" name="newsletter" class="grey form-control fancy-radio">
+
+            <input
+                    type="radio"
+                    name="date-cascade"
+                    checked="checked"
+                    id="no"
+                    value="No"
+                    class="grey form-control fancy-radio">
             <label for="no" class="inline fancy-radio">No</label>
-            <input type="radio" id="no" value="no" name="newsletter" class="grey form-control fancy-radio">
+
             <ul class="current-errors"></ul>
         </div>
     </fieldset>
 </div>
+
                 </div>
                 
                 <button class="btn btn-primary margin-bottom" onclick="copyToClipboard('#code-snippet')">Copy to clipboard</button>
@@ -96,19 +110,33 @@
                 <div id="code-snippet">          
                     <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">                    
                         <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"form-group relative"</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"radio"</span><span class="o">&gt;</span>
-    <span class="o">&lt;</span><span class="n">fieldset</span> <span class="n">role</span><span class="o">=</span><span class="s2">"radiogroup"</span> <span class="n">aria</span><span class="o">-</span><span class="n">required</span><span class="o">=</span><span class="s2">"true"</span> <span class="n">required</span><span class="o">=</span><span class="s2">"true"</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"radio-link"</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">fieldset</span> <span class="n">aria</span><span class="o">-</span><span class="n">required</span><span class="o">=</span><span class="s2">"true"</span> <span class="n">required</span><span class="o">=</span><span class="s2">"true"</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"radio-link"</span> <span class="n">role</span><span class="o">=</span><span class="s2">"radiogroup"</span><span class="o">&gt;</span>
         <span class="o">&lt;</span><span class="n">legend</span><span class="o">&gt;</span>
-          <span class="no">Do</span> <span class="n">you</span> <span class="n">wish</span> <span class="n">to</span> <span class="n">subscribe</span> <span class="n">to</span> <span class="n">our</span> <span class="n">newsletter?</span>
+            <span class="no">This</span> <span class="n">is</span> <span class="n">the</span> <span class="n">label</span> <span class="k">for</span> <span class="n">the</span> <span class="n">buttons</span>
         <span class="o">&lt;</span><span class="sr">/legend&gt;
-        &lt;div&gt;
+        &lt;div class="radio-wrapper"&gt;
+            &lt;input
+                    type="radio"
+                    name="date-cascade"
+                    id="yes"
+                    value="Yes"
+                    class="grey form-control fancy-radio"&gt;
             &lt;label for="yes" class="inline fancy-radio"&gt;Yes&lt;/</span><span class="n">label</span><span class="o">&gt;</span>
-            <span class="o">&lt;</span><span class="n">input</span> <span class="n">type</span><span class="o">=</span><span class="s2">"radio"</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"yes"</span> <span class="n">value</span><span class="o">=</span><span class="s2">"yes"</span> <span class="nb">name</span><span class="o">=</span><span class="s2">"newsletter"</span> <span class="k">class</span><span class="o">=</span><span class="s2">"grey form-control fancy-radio"</span><span class="o">&gt;</span>
+
+            <span class="o">&lt;</span><span class="n">input</span>
+                    <span class="n">type</span><span class="o">=</span><span class="s2">"radio"</span>
+                    <span class="nb">name</span><span class="o">=</span><span class="s2">"date-cascade"</span>
+                    <span class="n">checked</span><span class="o">=</span><span class="s2">"checked"</span>
+                    <span class="nb">id</span><span class="o">=</span><span class="s2">"no"</span>
+                    <span class="n">value</span><span class="o">=</span><span class="s2">"No"</span>
+                    <span class="k">class</span><span class="o">=</span><span class="s2">"grey form-control fancy-radio"</span><span class="o">&gt;</span>
             <span class="o">&lt;</span><span class="n">label</span> <span class="k">for</span><span class="o">=</span><span class="s2">"no"</span> <span class="k">class</span><span class="o">=</span><span class="s2">"inline fancy-radio"</span><span class="o">&gt;</span><span class="no">No</span><span class="o">&lt;</span><span class="sr">/label&gt;
-            &lt;input type="radio" id="no" value="no" name="newsletter" class="grey form-control fancy-radio"&gt;
+
             &lt;ul class="current-errors"&gt;&lt;/u</span><span class="n">l</span><span class="o">&gt;</span>
         <span class="o">&lt;</span><span class="sr">/div&gt;
     &lt;/</span><span class="n">fieldset</span><span class="o">&gt;</span>
 <span class="o">&lt;</span><span class="sr">/div&gt;
+
                     </span></code></pre></figure>
                 </div>
 

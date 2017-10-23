@@ -25,7 +25,7 @@ usage: A form example used for accessibility, cross-browser and rwd testing
             <label for="registration-date" class="filters_">Date of session</label>
             <p>Use DD/MM/YYYY format.</p>
             <div class="date-entry__input-group input-group input-wrapper registration-date">
-                <input aria-required="true" required="" type="text" id="registration-date" placeholder="e.g. 01/02/2017" class="grey form-control input__datepicker">
+                <input required type="text" id="registration-date" placeholder="e.g. 01/02/2017" class="grey form-control input__datepicker">
                 <button id="date-start-trigger" type="button" class="date-entry__trigger button button-primary js-show-calendar">Choose date</button>
                 <ul class="current-errors"></ul>
             </div>
@@ -111,7 +111,7 @@ usage: A form example used for accessibility, cross-browser and rwd testing
                 <div class="input-wrapper">
                     <label for="registration-time-hours" class="inline">Hours<br>
                                     <span class="create-select__arrow">
-                                        <select aria-required="true" required="" id="registration-time-hours" class="create-select">
+                                        <select  required id="registration-time-hours" class="create-select">
                                             <option selected="" disabled="" value="">HH</option>
                                             <option>1</option>
                                             <option>2</option>
@@ -214,7 +214,7 @@ usage: A form example used for accessibility, cross-browser and rwd testing
             <label for="name">
                               <span>*</span> Full name
                             </label>
-            <input aria-required="true" required="" id="name" class="grey form-control input--large" type="text">
+            <input required id="name" class="grey form-control input--large" type="text">
             <ul class="current-errors"></ul>
         </div>
 
@@ -227,7 +227,7 @@ usage: A form example used for accessibility, cross-browser and rwd testing
 
                 <div class="birthdate">
                     <div class="create-select__arrow">
-                        <select aria-required="true" required="" id="birthdate-day" class="create-select" title="Day">
+                        <select  required id="birthdate-day" class="create-select" title="Day">
                                             <option selected="" disabled="" value="">Day</option>
                                             <option value="01">1</option>
                                             <option value="02">2</option>
@@ -299,7 +299,7 @@ usage: A form example used for accessibility, cross-browser and rwd testing
                               <span>*</span>
                               Email address
                             </label>
-            <input aria-required="true" required="" id="email" class="grey form-control" type="email">
+            <input required id="email" class="grey form-control" type="email">
             <ul class="current-errors"></ul>
             <ul class="server-side-errors"></ul>
         </div>
@@ -319,7 +319,7 @@ usage: A form example used for accessibility, cross-browser and rwd testing
                               <span>*</span>
                               Address line 1
                             </label>
-            <input aria-required="true" required="" id="address-1" class="grey form-control" type="text">
+            <input required id="address-1" class="grey form-control" type="text">
             <ul class="current-errors"></ul>
         </div>
 
@@ -339,13 +339,13 @@ usage: A form example used for accessibility, cross-browser and rwd testing
                               <span>*</span>
                               Postcode
                             </label>
-            <input aria-required="true" required="" id="postcode" class="grey form-control input--small" type="text">
+            <input required id="postcode" class="grey form-control input--small" type="text">
             <ul class="current-errors"></ul>
         </div>
 
         <h2>Online activity</h2>
         <div class="form-group relative" id="smartphone-radio">
-            <fieldset aria-required="true" id="smartphone-radio-link">
+            <fieldset  id="smartphone-radio-link">
                 <legend>
                     <span>*</span> Do you use a smartphone or tablet to access the internet?
                 </legend>
@@ -427,7 +427,7 @@ usage: A form example used for accessibility, cross-browser and rwd testing
                     <span>*</span> Tell us how you have found this form so far
                 </legend>
                 <ul class="current-errors"></ul>
-                <div class="input-wrapper" aria-required="true">
+                <div class="input-wrapper" >
                     <div>
                         <input required="true" name="form-difficulty" id="very-difficult" class="fancy-radio" type="radio">
                         <label for="very-difficult" class="fancy-radio">Very difficult</label>
@@ -463,7 +463,7 @@ usage: A form example used for accessibility, cross-browser and rwd testing
         <h2>Confirmation</h2>
 
         <div class="form-group relative date-entry" id="confirm-date">
-            <fieldset id="confirm-date-link" aria-required="true">
+            <fieldset id="confirm-date-link" >
                 <legend class="filters_">
                     <span>*</span> Confirm date of session
                 </legend>
@@ -557,7 +557,7 @@ usage: A form example used for accessibility, cross-browser and rwd testing
                     <span>*</span> Confirm your time slot
                 </legend>
 
-                <div class="input-wrapper" role="group" aria-required="true">
+                <div class="input-wrapper" role="group" >
                     <label for="confirm-time-hours" class="inline">Hours<br>
                                         <input maxlength="2" type="text" pattern="[0-9]*" id="confirm-time-hours" class="grey" placeholder="HH">
                                     </label>

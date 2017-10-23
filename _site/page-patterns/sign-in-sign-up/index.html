@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SE Pattern Library</title>
+    <title>SE Pattern Library - Sign in and Registration pages</title>
     <meta name="description" content="Scottish Enterprise - Visual Style Guide">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://resources.mygov.scot/assets/css/bootstrap.min.css">
@@ -28,7 +28,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/se-style-guide/"><img src="/se-style-guide/assets/img/scottish-enterprise.svg" alt="Scottish Enterprise"></a> 
+      <a class="navbar-brand" href="/se-style-guide/"><img src="/se-style-guide/images/se-logo.jpg" alt="Scottish Enterprise"></a> 
     </div>
     
     <div id="navbar" class="navbar-collapse collapse">
@@ -49,7 +49,7 @@
         
 
 
-<ol id="breadcrumbs" role="navigation" class="breadcrumbs">
+<ol id="breadcrumbs" class="breadcrumbs">
     
     <li class="breadcrumb-item"><a href="/se-style-guide/">Home</a></li>
 
@@ -83,14 +83,14 @@
           <label for="email">
             Email address
           </label>
-          <input aria-required="true" required="" id="email" class="form-control input--large" type="email">
+          <input required id="email" class="form-control input--large" type="email">
           <ul class="current-errors"></ul>
       </div>
       <div class="form-group relative">
           <label for="password">
             Password
           </label>
-          <input aria-required="true" required="" id="password" class="form-control input--large" type="password">
+          <input required id="password" class="form-control input--large" type="password">
           <ul class="current-errors"></ul>
           <a href="forgotten-password.html">Forgotten your password?</a>
       </div>
@@ -117,14 +117,14 @@
           <span class="o">&lt;</span><span class="n">label</span> <span class="k">for</span><span class="o">=</span><span class="s2">"email"</span><span class="o">&gt;</span>
             <span class="no">Email</span> <span class="n">address</span>
           <span class="o">&lt;</span><span class="sr">/label&gt;
-          &lt;input aria-required="true" required="" id="email" class="form-control input--large" type="email"&gt;
+          &lt;input required id="email" class="form-control input--large" type="email"&gt;
           &lt;ul class="current-errors"&gt;&lt;/u</span><span class="n">l</span><span class="o">&gt;</span>
       <span class="o">&lt;</span><span class="sr">/div&gt;
       &lt;div class="form-group relative"&gt;
           &lt;label for="password"&gt;
             Password
           &lt;/</span><span class="n">label</span><span class="o">&gt;</span>
-          <span class="o">&lt;</span><span class="n">input</span> <span class="n">aria</span><span class="o">-</span><span class="n">required</span><span class="o">=</span><span class="s2">"true"</span> <span class="n">required</span><span class="o">=</span><span class="s2">""</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"password"</span> <span class="k">class</span><span class="o">=</span><span class="s2">"form-control input--large"</span> <span class="n">type</span><span class="o">=</span><span class="s2">"password"</span><span class="o">&gt;</span>
+          <span class="o">&lt;</span><span class="n">input</span> <span class="n">required</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"password"</span> <span class="k">class</span><span class="o">=</span><span class="s2">"form-control input--large"</span> <span class="n">type</span><span class="o">=</span><span class="s2">"password"</span><span class="o">&gt;</span>
           <span class="o">&lt;</span><span class="n">ul</span> <span class="k">class</span><span class="o">=</span><span class="s2">"current-errors"</span><span class="o">&gt;&lt;</span><span class="sr">/ul&gt;
           &lt;a href="forgotten-password.html"&gt;Forgotten your password?&lt;/</span><span class="n">a</span><span class="o">&gt;</span>
       <span class="o">&lt;</span><span class="sr">/div&gt;
@@ -148,41 +148,37 @@
 
     </div>
 
-    <footer id="se-footer" class="footer" role="contentinfo">
+    <footer id="se-footer" class="footer">
 
-    <section class="social-footer">
+    <div class="social-footer">
         <div class="container">
 
             <div class="row">
 
                 <!-- Social Links // Twitter & LinkedIn -->
-                <nav class="col-md-12 social-links" role="navigation">
+                <nav class="col-md-12 social-links">
                     <ul>
 
                         <li>
-                            <a id="ctl03_lstSocialLinks_lnkSocial_0" class="twitter" data-dms="BEEFC09C-1745-49C6-A465-AFAD6682E607" data-dms-event="twitter"
-                               data-dms-pageurl="https://www.scottish-enterprise.com/" href="http://twitter.com/scotent" target="_blank">Follow @scotent
+                            <a id="ctl03_lstSocialLinks_lnkSocial_0" class="twitter" data-dms="BEEFC09C-1745-49C6-A465-AFAD6682E607" data-dms-event="twitter" data-dms-pageurl="https://www.scottish-enterprise.com/" href="http://twitter.com/scotent" target="_blank">Follow @scotent
                                 <span class="vh"></span>
                             </a>
                         </li>
 
                         <li>
-                            <a id="ctl03_lstSocialLinks_lnkSocial_1" class="linkedin" data-dms="BEEFC09C-1745-49C6-A465-AFAD6682E607" data-dms-event="linkedin"
-                               data-dms-pageurl="https://www.scottish-enterprise.com/" href="https://www.linkedin.com/company/scottish-enterprise" target="_blank">Follow us
+                            <a id="ctl03_lstSocialLinks_lnkSocial_1" class="linkedin" data-dms="BEEFC09C-1745-49C6-A465-AFAD6682E607" data-dms-event="linkedin" data-dms-pageurl="https://www.scottish-enterprise.com/" href="https://www.linkedin.com/company/scottish-enterprise" target="_blank">Follow us
                                 <span class="vh"></span>
                             </a>
                         </li>
 
                         <li>
-                            <a id="ctl03_lstSocialLinks_lnkSocial_2" class="facebook" data-dms="BEEFC09C-1745-49C6-A465-AFAD6682E607" data-dms-event="facebook"
-                               data-dms-pageurl="https://www.scottish-enterprise.com/" href="https://www.facebook.com/scottishenterprise" target="_blank">Like us
+                            <a id="ctl03_lstSocialLinks_lnkSocial_2" class="facebook" data-dms="BEEFC09C-1745-49C6-A465-AFAD6682E607" data-dms-event="facebook" data-dms-pageurl="https://www.scottish-enterprise.com/" href="https://www.facebook.com/scottishenterprise" target="_blank">Like us
                                 <span class="vh"></span>
                             </a>
                         </li>
 
                         <li>
-                            <a id="ctl03_lstSocialLinks_lnkSocial_3" class="google" data-dms="BEEFC09C-1745-49C6-A465-AFAD6682E607" data-dms-event="google"
-                               data-dms-pageurl="https://www.scottish-enterprise.com/" href="https://plus.google.com/+scottishenterprise/" target="_blank">Follow us
+                            <a id="ctl03_lstSocialLinks_lnkSocial_3" class="google" data-dms="BEEFC09C-1745-49C6-A465-AFAD6682E607" data-dms-event="google" data-dms-pageurl="https://www.scottish-enterprise.com/" href="https://plus.google.com/+scottishenterprise/" target="_blank">Follow us
                                 <span class="vh"></span>
                             </a>
                         </li>
@@ -198,12 +194,12 @@
             </div>
         </div>
 
-    </section>
+    </div>
 
-    <section class="main-footer">
+    <div class="main-footer">
         <div class="container">
             <div class="row">
-                <nav class="col-md-8" role="navigation">
+                <nav class="col-md-8">
                     <!-- More About Scottish Enterpise -->
                     <ul class="footer-top-nav">
                         <li><a href="https://www.scottish-enterprise.com/about-us">About us</a></li>
@@ -226,42 +222,21 @@
                     </div>
                 </nav>
 
-                <!--
-                <nav class="mobile-link">
-                    <ul>
-                        <li><a href="#">Mobile version</a></li>
-                    </ul>
-                </nav>
-                -->
-
-                <!--
-                <nav class="mobile-link">-->
-                    <!--<ul>-->
-                        <!--&lt;!&ndash; Links to Mobile Version of Scottish Enterpise &ndash;&gt;-->
-                        <!--<li><a href="https://www.scottish-enterprise.com:443/?usedevice=m" id="ctl03_btnSwitchToMobile">Mobile version</a></li>-->
-                    <!--</ul>-->
-                <!--</nav>
-                -->
-
-
                 <div class="col-md-4 footer-logo">
-                    <img src="/se-style-guide/assets/img/SE-logo-landscape-trans.png" alt="Scottish Enterprise logo"/>
+                    <img src="/se-style-guide/assets/img/SE-logo-landscape-trans.png" alt="Scottish Enterprise logo" />
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
 </footer>
 
 
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"
-        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
 
 <script src="/se-style-guide/assets/javascripts/bootstrap.min.js"></script>
 <script src="/se-style-guide/assets/javascripts/main.js"></script>
-
 
 </body>
 

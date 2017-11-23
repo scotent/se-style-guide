@@ -31,7 +31,7 @@ footer {
 }
 
 a {
-    color: $se-blue;
+    color: $se-links-color;
     text-decoration: none;
     @include transition(color 0.5s);
     &:hover {
@@ -81,7 +81,7 @@ a {
         margin-top: 20px;
         .col-inner {
             background-color: $se-dis-secondary;
-            border: 1px solid $se-blue;
+            border: 1px solid $se-primary-color;
             text-align: center;
             margin: 5px 0;
         }

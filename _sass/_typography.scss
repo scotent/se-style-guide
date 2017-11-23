@@ -115,7 +115,7 @@ h2, h3, h4, h5, h6 {
     position: relative;
     margin: 20px 0 15px;
     &:before {
-        background-color: $se-blue;
+        background-color: $se-primary-color;
         border-radius: 8px;
         content: '';
         height: 7px;
@@ -186,7 +186,7 @@ h2, h3, h4, h5, h6 {
 }
 
 a[href^="tel:"] {
-    color: $se-blue;
+    color: $se-links-color;
     text-decoration: none;
 }
 
@@ -232,7 +232,7 @@ caption {
             font-family: FontAwesome;
             padding: 0 5px 0 0;
             font-size: 1.875em;
-            color: $se-blue;
+            color: $se-primary-color;
             @media all and (max-width: $screen-md-min) {
                 top: 25px;
             }

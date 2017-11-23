@@ -1,37 +1,31 @@
-
-/* ==========================================================================
-   Variables 
-   ========================================================================== */
-
 //variables we will move to variables.scss
 $main-font: 'Roboto', sans-serif;
 
 // Colours
-$white:             #FFFFFF;
-$grey-bg:           #F2F2F2;
-$grey-borders:      #ebebeb;
-$error-red:         #d32205;
-$se-dis-primary:    #7E9FBE;
-$se-dis-secondary:  #93BFBD;
-$black:             #000000;
+$white:                 #FFFFFF;
+$grey-bg:               #F2F2F2;
+$grey-borders:          #ebebeb;
+$error-red:             #d32205;
+$se-dis-primary:        #7E9FBE;
+$se-dis-secondary:      #93BFBD;
+$black:                 #000000;
 
 // SE Colour Pallette
-$se-dark-orange:    #BF3A27;
-$se-red:            #D60000;
-$se-orange:         #D65811;
-$se-amber:          #FF9900;
-$se-yellow:         #FDB813;
-$se-dark-green:     #03634D;
-$accessible-green:  #128512;
-$se-bright-green:   #00CC00;
-$se-turquoise:      #00AAAD;
-$se-light-blue:     #2A7CB2;
-$se-blue:           #00427F;
-$se-purple:         #610e6c;
+$se-dark-orange:        #BF3A27;
+$se-red:                #D60000;
+$se-orange:             #D65811;
+$se-amber:              #FF9900;
+$se-yellow:             #FDB813;
+$se-dark-green:         #03634D;
+$accessible-green:      #128512;
+$se-bright-green:       #00CC00;
+$se-turquoise:          #00AAAD;
+$se-light-blue:         #2A7CB2;
+$se-blue:               #00427F;
+$se-purple:             #610e6c;
 
 // SE Secondary colours
-$highlight-blue:    #00B4FF;
-
+$highlight-blue:        #00B4FF;
 
 // SE Greyscale
 $se-white:              #ffffff;
@@ -45,12 +39,21 @@ $se-body-grey:          #666666;
 $se-dark-grey:          #333333;
 $se-black:              #2F3E44;
 
+
+$se-primary-color: $se-blue;
+//$se-secondary-color: $se-blue-light;
+//$se-tertiary-color: $se-light-grey;
+
+$se-links-color: $se-blue;
+$se-inputs-color: red;
+
+
+
 $alert-padding: 0 0 0 7px;
 $line-height-computed: 10px 0 0 0;
 
 
 // Defining Breakpoints
-
 $screen-lg-min: 1170px;
 $screen-md-max: ($screen-lg-min - 1);
 

@@ -1,0 +1,26 @@
+.gstest { color: #000; }
+
+/*  Global Scot Custom styles  */
+body.globalscot { padding-top: 100px !important; padding-bottom: 20px !important; }
+
+body.globalscot .navbar-brand img { max-width: 100%; height: auto; max-height: 46px; }
+
+body.globalscot footer ul { margin-left: 0; }
+
+body.globalscot footer #logo-block { text-align: center; padding: 2em 0; }
+
+body.globalscot footer #logo-block p { margin: 1em 0; }
+
+#steps-block { margin: 2em 0; }
+
+#steps-block .step span { font-weight: bold; font-size: 1.5em; vertical-align: baseline; padding-right: 0.25em; margin-left: -15px; }
+
+.adjust-height-service { min-height: 220px; }
+
+.adjust-height-case-study { min-height: 610px; }
+
+#gs-main-banner-top { height: 50px; background-color: grey; padding: 10px 0 0 30px; }
+
+#gs-main-banner-top p { color: white; font-size: 2em; }
+
+#gs-main-banner-bottom p { color: white; font-size: 3.5em; font-weight: 700; }

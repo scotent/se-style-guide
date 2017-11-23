@@ -13,15 +13,15 @@
     margin-bottom : 15px;
     @include transition(background-color 0.5s, color 0.5s);
     &.button-primary {
-        background-color: $se-blue;
+        background-color: $se-primary-color;
         &.disabled {
             background-color: $se-dis-primary;
         }
         &:not(.disabled):hover {
             background-color: $se-white;
-            color: $se-blue;
-            -webkit-box-shadow:inset 0 0 0 3px $se-blue;
-            -moz-box-shadow:inset 0 0 0 3px $se-blue;
+            color: $se-primary-color;
+            -webkit-box-shadow:inset 0 0 0 3px $se-primary-color;
+            -moz-box-shadow:inset 0 0 0 3px $se-primary-color;
             @include transition(background-color 0.5s, color 0.5s);
         }
         &:active,
@@ -53,7 +53,7 @@
     }
     &.button-tertiary {
         background-color: transparent;
-        color: $se-blue;
+        color: $se-primary-color;
         padding: 0.5em 0;
         &:not(.disabled):hover {
             color: $se-light-blue;
@@ -75,7 +75,7 @@
 .button {
     &.button-back {
         background: none;
-        color: $se-blue;
+        color: $se-primary-color;
         padding-left: 0;
         &:before {
             content:'\f053';

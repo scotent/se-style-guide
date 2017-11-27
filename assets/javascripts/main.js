@@ -1,4 +1,4 @@
-console.log('calendar.js loaded');
+console.log('main.js loaded');
 
 function copyToClipboard(element) {
   var $temp = $("<input>");

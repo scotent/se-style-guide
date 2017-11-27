@@ -1,0 +1,24 @@
+{
+  "name": "se-style-guide",
+  "version": "1.0.0",
+  "description": "SE Style guide ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scotent/se-style-guide.git"
+  },
+  "author": "UX Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scotent/se-style-guide/issues"
+  },
+  "homepage": "https://github.com/scotent/se-style-guide#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.6.3"
+  }
+}

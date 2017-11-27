@@ -1,22 +1,23 @@
-{% capture url_parts %} {{ page.url | remove: "/index.html" | replace:'/'," " }}{% endcapture %}
-{% capture num_parts %}{{ url_parts | number_of_words | minus: 1 }}{% endcapture %}
-{% assign previous="" %}
-<ol id="breadcrumbs" class="breadcrumbs">
-    {% if num_parts == "0" or num_parts == "-1" %}
-    <li class="breadcrumb-item"><a href="{{ site.baseurl}}/">Home</a></li>
-    {% else %}
-    <li class="breadcrumb-item"><a href="{{ site.baseurl}}/">Home</a></li>
+<!--{% capture url_parts %} {{ page.url | remove: "/index.html" | replace:'/'," " }}{% endcapture %}-->
+<!--{% capture num_parts %}{{ url_parts | number_of_words | minus: 1 }}{% endcapture %}-->
+<!--{% assign previous="" %}-->
+<!--<ol id="breadcrumbs" class="breadcrumbs">-->
+    <!--{% if num_parts == "0" or num_parts == "-1" %}-->
+    <!--<li class="breadcrumb-item"><a href="{{ site.baseurl}}/">Home</a></li>-->
+    <!--{% else %}-->
+    <!--<li class="breadcrumb-item"><a href="{{ site.baseurl}}/">Home</a></li>-->
 
-    {% for unused in page.content limit:num_parts %}
-    {% capture first_word %}{{ url_parts | truncatewords:1 | remove:"..."}}{% endcapture %}
-    {% capture previous %}{{ previous }}/{{ first_word }}{% endcapture %}
+    <!--{% for unused in page.content limit:num_parts %}-->
+    <!--{% capture first_word %}{{ url_parts | truncatewords:1 | remove:"..."}}{% endcapture %}-->
+    <!--{% capture previous %}{{ previous }}/{{ first_word }}{% endcapture %}-->
 
-    <li class="breadcrumb-item"><a href="/se-style-guide{{previous}}">{{ first_word }}</a></li>
+    <!--<li class="breadcrumb-item"><a href="/se-style-guide{{previous}}">{{ first_word }}</a></li>-->
 
-    {% capture url_parts %}{{ url_parts | remove_first:first_word }}{% endcapture %}
-    {% endfor %}
-    {% endif %}
-    <li class="breadcrumb-item" itemprop="url">
-        <span class="breadcrumbs__title" itemprop="title">{{ page.title }}</span>
-    </li>
-</ol>
+    <!--{% capture url_parts %}{{ url_parts | remove_first:first_word }}{% endcapture %}-->
+    <!--{% endfor %}-->
+    <!--{% endif %}-->
+    <!--<li class="breadcrumb-item" itemprop="url">-->
+        <!--<span class="breadcrumbs__title" itemprop="title">{{ page.title }}</span>-->
+    <!--</li>-->
+<!--</ol>-->
+

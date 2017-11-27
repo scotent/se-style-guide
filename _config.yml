@@ -31,14 +31,14 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
+exclude: [Gemfile, Gemifile.lock, node_modules, gulpfile.js]
+
 gems:
   - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
+
 permalink: pretty
 highlighter: rouge
-  
+
 collections:
     buttons:
         output: true

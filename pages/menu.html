@@ -16,7 +16,7 @@ permalink: /menu/
                       <!--Form elements-->
                         <ul role="menu" class="">
                           {% for cookie in site.form-elements %}
-                          <li><a href="{{ site.baseurl}}{{ cookie.url }}">{{ cookie.title }}</a></li>
+                          <li><a href="{{ cookie.url }}">{{ cookie.title }}</a></li>
                           {% endfor %}
                         </ul>
                    </div>
@@ -35,7 +35,7 @@ permalink: /menu/
                   <h4>Components</h4>
                   <ul role="menu">
                     {% for cookie in site.se-components %}
-                    <li><a href="{{ site.baseurl}}{{ cookie.url }}">{{ cookie.title }}</a></li>
+                    <li><a href="{{ cookie.url }}">{{ cookie.title }}</a></li>
                     {% endfor %}
                   </ul>
                 </div>

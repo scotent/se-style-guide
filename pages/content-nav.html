@@ -12,7 +12,7 @@ permalink: /content-nav/
 <div class="row">
   {% for cookie in site.content-nav %}
   <div class="link-block col-md-4">
-    <h2><a href="{{ site.baseurl}}{{ cookie.url }}">{{ cookie.title }}</a></h2>
+    <h2><a href="{{ cookie.url }}">{{ cookie.title }}</a></h2>
     {{ cookie.sub-title }}
   </div>
   {% endfor %}

@@ -11,7 +11,7 @@ permalink: /form-elements/
 <div class="row">
   {% for cookie in site.form-elements %}
   <div class="link-block col-md-4">
-    <h2><a href="{{ site.baseurl}}{{ cookie.url }}">{{ cookie.title }}</a></h2>
+    <h2><a href="{{ cookie.url }}">{{ cookie.title }}</a></h2>
     <p>Headings, body text, links, lists, inset text, hidden text.</p>
   </div>
   {% endfor %}

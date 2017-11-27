@@ -5,98 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a5868d-a00a-4e33-860f-8833cc08f7fe" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/page-patterns/index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/nav.html" afterPath="$PROJECT_DIR$/_includes/nav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/page.html" afterPath="$PROJECT_DIR$/_layouts/page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about/index.html" afterPath="$PROJECT_DIR$/_site/about/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/buttons/index.html" afterPath="$PROJECT_DIR$/_site/buttons/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/buttons/links/index.html" afterPath="$PROJECT_DIR$/_site/buttons/links/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/buttons/main-buttons/index.html" afterPath="$PROJECT_DIR$/_site/buttons/main-buttons/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/colour-palettes/colours/index.html" afterPath="$PROJECT_DIR$/_site/colour-palettes/colours/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/colour-palettes/index.html" afterPath="$PROJECT_DIR$/_site/colour-palettes/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/colour-palettes/typography-colours/index.html" afterPath="$PROJECT_DIR$/_site/colour-palettes/typography-colours/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/colours/colours-se/index.html" afterPath="$PROJECT_DIR$/_site/colours/colours-se/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/colours/index.html" afterPath="$PROJECT_DIR$/_site/colours/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/-pre-loaders/index.html" afterPath="$PROJECT_DIR$/_site/components/-pre-loaders/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/accordions/index.html" afterPath="$PROJECT_DIR$/_site/components/accordions/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/application-progress-indicator/index.html" afterPath="$PROJECT_DIR$/_site/components/application-progress-indicator/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/calendar/index.html" afterPath="$PROJECT_DIR$/_site/components/calendar/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/index.html" afterPath="$PROJECT_DIR$/_site/components/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/progress-indicator/index.html" afterPath="$PROJECT_DIR$/_site/components/progress-indicator/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/tables/index.html" afterPath="$PROJECT_DIR$/_site/components/tables/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/tabs/index.html" afterPath="$PROJECT_DIR$/_site/components/tabs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/tooltips/index.html" afterPath="$PROJECT_DIR$/_site/components/tooltips/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/content-nav/breadcrumbs/index.html" afterPath="$PROJECT_DIR$/_site/content-nav/breadcrumbs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/content-nav/buttons/index.html" afterPath="$PROJECT_DIR$/_site/content-nav/buttons/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/content-nav/index.html" afterPath="$PROJECT_DIR$/_site/content-nav/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/content-nav/links/index.html" afterPath="$PROJECT_DIR$/_site/content-nav/links/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/content-nav/pagination/index.html" afterPath="$PROJECT_DIR$/_site/content-nav/pagination/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/data/index.html" afterPath="$PROJECT_DIR$/_site/data/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/errors-validation/index.html" afterPath="$PROJECT_DIR$/_site/errors-validation/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/errors-validation/input-validation copy/index.html" afterPath="$PROJECT_DIR$/_site/errors-validation/input-validation copy/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/errors-validation/input-validation/index.html" afterPath="$PROJECT_DIR$/_site/errors-validation/input-validation/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/-dropdowns/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/-dropdowns/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/-errors/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/-errors/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/checkboxes/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/checkboxes/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/fieldsets/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/fieldsets/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/file-upload/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/file-upload/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/help-text/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/help-text/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/input-fields/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/input-fields/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/input-validation/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/input-validation/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/labels/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/labels/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/radio-buttons/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/radio-buttons/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/select-menu/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/select-menu/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/text-area/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/text-area/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/grid/grid/index.html" afterPath="$PROJECT_DIR$/_site/grid/grid/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/grid/index.html" afterPath="$PROJECT_DIR$/_site/grid/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/jekyll/update/2017/05/15/welcome-to-jekyll/index.html" afterPath="$PROJECT_DIR$/_site/jekyll/update/2017/05/15/welcome-to-jekyll/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/menu/index.html" afterPath="$PROJECT_DIR$/_site/menu/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page-patterns/application-form/index.html" afterPath="$PROJECT_DIR$/_site/page-patterns/application-form/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page-patterns/footer/index.html" afterPath="$PROJECT_DIR$/_site/page-patterns/footer/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page-patterns/form-example/index.html" afterPath="$PROJECT_DIR$/_site/page-patterns/form-example/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page-patterns/grid/index.html" afterPath="$PROJECT_DIR$/_site/page-patterns/grid/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page-patterns/navigation-header/index.html" afterPath="$PROJECT_DIR$/_site/page-patterns/navigation-header/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page-patterns/page-header/index.html" afterPath="$PROJECT_DIR$/_site/page-patterns/page-header/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page-patterns/sign-in-sign-up/index.html" afterPath="$PROJECT_DIR$/_site/page-patterns/sign-in-sign-up/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page-templates/login/index.html" afterPath="$PROJECT_DIR$/_site/page-templates/login/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/se-buttons/buttons/index.html" afterPath="$PROJECT_DIR$/_site/se-buttons/buttons/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/se-elements/index.html" afterPath="$PROJECT_DIR$/_site/se-elements/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/se-page-patterns/index.html" afterPath="$PROJECT_DIR$/_site/se-page-patterns/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/se-templates/index.html" afterPath="$PROJECT_DIR$/_site/se-templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/se-visual-language/index.html" afterPath="$PROJECT_DIR$/_site/se-visual-language/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/structure/content/index.html" afterPath="$PROJECT_DIR$/_site/structure/content/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/structure/footer/index.html" afterPath="$PROJECT_DIR$/_site/structure/footer/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/structure/grid/index.html" afterPath="$PROJECT_DIR$/_site/structure/grid/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/structure/header/index.html" afterPath="$PROJECT_DIR$/_site/structure/header/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/structure/index.html" afterPath="$PROJECT_DIR$/_site/structure/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/typography/body-copy/index.html" afterPath="$PROJECT_DIR$/_site/typography/body-copy/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/typography/fonts/index.html" afterPath="$PROJECT_DIR$/_site/typography/fonts/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/typography/h1-h6/index.html" afterPath="$PROJECT_DIR$/_site/typography/h1-h6/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/typography/icons/index.html" afterPath="$PROJECT_DIR$/_site/typography/icons/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/typography/index.html" afterPath="$PROJECT_DIR$/_site/typography/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/typography/info-notes/index.html" afterPath="$PROJECT_DIR$/_site/typography/info-notes/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/typography/inline-split-definition-list/index.html" afterPath="$PROJECT_DIR$/_site/typography/inline-split-definition-list/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/typography/ordered-list/index.html" afterPath="$PROJECT_DIR$/_site/typography/ordered-list/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/typography/unordered-list/index.html" afterPath="$PROJECT_DIR$/_site/typography/unordered-list/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/use-of-images/index.html" afterPath="$PROJECT_DIR$/_site/use-of-images/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/buttons.html" afterPath="$PROJECT_DIR$/pages/buttons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/colour-palettes.html" afterPath="$PROJECT_DIR$/pages/colour-palettes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/colours.html" afterPath="$PROJECT_DIR$/pages/colours.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/components.html" afterPath="$PROJECT_DIR$/pages/components.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/content-nav.html" afterPath="$PROJECT_DIR$/pages/content-nav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/data.html" afterPath="$PROJECT_DIR$/pages/data.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/errors-validation.html" afterPath="$PROJECT_DIR$/pages/errors-validation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/form-elements.html" afterPath="$PROJECT_DIR$/pages/form-elements.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/grid.html" afterPath="$PROJECT_DIR$/pages/grid.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/menu.html" afterPath="$PROJECT_DIR$/pages/menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/page-patterns.html" afterPath="$PROJECT_DIR$/pages/page-patterns.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/structure.html" afterPath="$PROJECT_DIR$/pages/structure.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/typography.html" afterPath="$PROJECT_DIR$/pages/typography.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/use-of-images.html" afterPath="$PROJECT_DIR$/pages/use-of-images.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -113,16 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="form-elements.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/form-elements.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="errors-validation.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/errors-validation.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -186,28 +85,38 @@
       <file leaf-file-name="buttons.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/buttons.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="180">
               <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+            <state relative-caret-position="285">
+              <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="grid.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/grid.html">
+      <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/head.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+              <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nav.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/nav.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -271,12 +180,10 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/pages/page-patterns.html" />
-        <option value="$PROJECT_DIR$/pages/about.html" />
         <option value="$PROJECT_DIR$/_layouts/page.html" />
         <option value="$PROJECT_DIR$/pages/structure.html" />
         <option value="$PROJECT_DIR$/pages/typography.html" />
         <option value="$PROJECT_DIR$/pages/use-of-images.html" />
-        <option value="$PROJECT_DIR$/_includes/nav.html" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/pages/menu.html" />
         <option value="$PROJECT_DIR$/pages/form-elements.html" />
@@ -288,6 +195,8 @@
         <option value="$PROJECT_DIR$/pages/colours.html" />
         <option value="$PROJECT_DIR$/pages/colour-palettes.html" />
         <option value="$PROJECT_DIR$/pages/buttons.html" />
+        <option value="$PROJECT_DIR$/pages/about.html" />
+        <option value="$PROJECT_DIR$/_includes/nav.html" />
       </list>
     </option>
   </component>
@@ -385,6 +294,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="se-style-guide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="se-style-guide" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="se-style-guide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="se-style-guide" type="462c0819:PsiDirectoryNode" />
+              <item name="_includes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="se-style-guide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="se-style-guide" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Changed Files">
           <expand>
@@ -429,28 +360,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="se-style-guide" type="b2602c69:ProjectViewProjectNode" />
-              <item name="se-style-guide" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="se-style-guide" type="b2602c69:ProjectViewProjectNode" />
-              <item name="se-style-guide" type="462c0819:PsiDirectoryNode" />
-              <item name="_includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="se-style-guide" type="b2602c69:ProjectViewProjectNode" />
-              <item name="se-style-guide" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -530,6 +439,7 @@
       <workItem from="1511777600281" duration="5305000" />
       <workItem from="1511784529604" duration="304000" />
       <workItem from="1511785360086" duration="3678000" />
+      <workItem from="1511801101720" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="fixes to links&#10;commit from webstorm (?)">
       <created>1511791704937</created>
@@ -542,7 +452,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26313000" />
+    <option name="totallyTimeSpent" value="26333000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -555,18 +465,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25369978" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277635" sideWeight="0.50528544" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3277635" sideWeight="0.4947146" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3277635" sideWeight="0.4947146" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18123393" sideWeight="0.49612403" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5154242" sideWeight="0.49746192" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -708,7 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -716,7 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -724,14 +633,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="719">
           <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-320">
             <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-            <folding />
           </first_editor>
           <second_editor>
             <js_state />
@@ -743,7 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
           <caret line="76" column="30" lean-forward="false" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -751,7 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -759,7 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -767,7 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -775,7 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -783,23 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -807,7 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" column="14" lean-forward="false" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -815,7 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -823,7 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -831,7 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -839,7 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
           <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -909,7 +789,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/buttons.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="180">
           <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding />
         </state>
@@ -917,8 +797,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        <state relative-caret-position="285">
+          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
           <folding />
         </state>
       </provider>

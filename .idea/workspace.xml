@@ -4,21 +4,61 @@
     <option name="CUSTOM_SCOPE_NAME" value="_sass folder" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4a5868d-a00a-4e33-860f-8833cc08f7fe" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/pages/page-patterns/index.html" afterPath="" />
+    <list default="true" id="b4a5868d-a00a-4e33-860f-8833cc08f7fe" name="Default" comment="fixes to links&#10;commit from webstorm (?)">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_components/anchor-navigation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_components/article-nav.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_components/card-blocks.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_components/modals.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_components/notifications.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_components/responsive-tables.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_components/search.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_components/stepper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_components/video.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_form-elements/conditional-fields.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_form-elements/dropdowns.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_form-elements/form-navigation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_page-sections/confirmation-email.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_structure/main_navigation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_structure/preloader-spinner.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_form-elements/-dropdowns.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/components/-pre-loaders/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/form-elements/-dropdowns/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/form-elements/-errors/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/page-patterns/application-form/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/page-patterns/footer/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/page-patterns/form-example/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/page-patterns/grid/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/page-patterns/navigation-header/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/page-patterns/page-header/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/page-patterns/sign-in-sign-up/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/se-page-patterns/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/typography/body-copy/index.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_components/-pre-loaders.html" afterPath="$PROJECT_DIR$/_components/pre-loaders.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_form-elements/-errors.html" afterPath="$PROJECT_DIR$/_form-elements/errors.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_page-patterns/application-form.html" afterPath="$PROJECT_DIR$/_page-sections/application-form.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_page-patterns/footer.html" afterPath="$PROJECT_DIR$/_page-sections/footer.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_page-patterns/form-example.html" afterPath="$PROJECT_DIR$/_page-sections/form-example.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_page-patterns/grid.html" afterPath="$PROJECT_DIR$/_page-sections/grid.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_page-patterns/navigation-header.html" afterPath="$PROJECT_DIR$/_page-sections/navigation-header.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_page-patterns/page-header.html" afterPath="$PROJECT_DIR$/_page-sections/page-header.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_page-patterns/sign-in-sign-up.html" afterPath="$PROJECT_DIR$/_page-sections/sign-in-sign-up.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_typography/body-copy.html" afterPath="$PROJECT_DIR$/_typography/paragraphs-and-text-styles.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/se-page-patterns.html" afterPath="$PROJECT_DIR$/se-page-sections.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_fonts.scss" afterPath="$PROJECT_DIR$/_sass/_fonts.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about/index.html" afterPath="$PROJECT_DIR$/_site/about/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/assets/css/styles.css" afterPath="$PROJECT_DIR$/_site/assets/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/buttons/index.html" afterPath="$PROJECT_DIR$/_site/buttons/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_components/accordions.html" afterPath="$PROJECT_DIR$/_components/accordions.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_components/application-progress-indicator.html" afterPath="$PROJECT_DIR$/_components/application-progress-indicator.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_components/calendar.html" afterPath="$PROJECT_DIR$/_components/calendar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_components/progress-indicator.html" afterPath="$PROJECT_DIR$/_components/progress-indicator.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_components/tables.html" afterPath="$PROJECT_DIR$/_components/tables.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_components/tabs.html" afterPath="$PROJECT_DIR$/_components/tabs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_components/tooltips.html" afterPath="$PROJECT_DIR$/_components/tooltips.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_form-elements/checkboxes.html" afterPath="$PROJECT_DIR$/_form-elements/checkboxes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_form-elements/fieldsets.html" afterPath="$PROJECT_DIR$/_form-elements/fieldsets.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/code-examples.html" afterPath="$PROJECT_DIR$/_layouts/code-examples.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/buttons/links/index.html" afterPath="$PROJECT_DIR$/_site/buttons/links/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/buttons/main-buttons/index.html" afterPath="$PROJECT_DIR$/_site/buttons/main-buttons/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/colour-palettes/colours/index.html" afterPath="$PROJECT_DIR$/_site/colour-palettes/colours/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/colour-palettes/index.html" afterPath="$PROJECT_DIR$/_site/colour-palettes/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/colour-palettes/typography-colours/index.html" afterPath="$PROJECT_DIR$/_site/colour-palettes/typography-colours/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/colours/colours-se/index.html" afterPath="$PROJECT_DIR$/_site/colours/colours-se/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/colours/index.html" afterPath="$PROJECT_DIR$/_site/colours/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/-pre-loaders/index.html" afterPath="$PROJECT_DIR$/_site/components/-pre-loaders/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/accordions/index.html" afterPath="$PROJECT_DIR$/_site/components/accordions/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/application-progress-indicator/index.html" afterPath="$PROJECT_DIR$/_site/components/application-progress-indicator/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/calendar/index.html" afterPath="$PROJECT_DIR$/_site/components/calendar/index.html" />
@@ -29,15 +69,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/tooltips/index.html" afterPath="$PROJECT_DIR$/_site/components/tooltips/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/content-nav/breadcrumbs/index.html" afterPath="$PROJECT_DIR$/_site/content-nav/breadcrumbs/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/content-nav/buttons/index.html" afterPath="$PROJECT_DIR$/_site/content-nav/buttons/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/content-nav/index.html" afterPath="$PROJECT_DIR$/_site/content-nav/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/content-nav/links/index.html" afterPath="$PROJECT_DIR$/_site/content-nav/links/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/content-nav/pagination/index.html" afterPath="$PROJECT_DIR$/_site/content-nav/pagination/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/data/index.html" afterPath="$PROJECT_DIR$/_site/data/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/errors-validation/index.html" afterPath="$PROJECT_DIR$/_site/errors-validation/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/errors-validation/input-validation copy/index.html" afterPath="$PROJECT_DIR$/_site/errors-validation/input-validation copy/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/errors-validation/input-validation/index.html" afterPath="$PROJECT_DIR$/_site/errors-validation/input-validation/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/-dropdowns/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/-dropdowns/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/-errors/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/-errors/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/checkboxes/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/checkboxes/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/fieldsets/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/fieldsets/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/file-upload/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/file-upload/index.html" />
@@ -50,30 +85,17 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/select-menu/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/select-menu/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/text-area/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/text-area/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/grid/grid/index.html" afterPath="$PROJECT_DIR$/_site/grid/grid/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/grid/index.html" afterPath="$PROJECT_DIR$/_site/grid/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/jekyll/update/2017/05/15/welcome-to-jekyll/index.html" afterPath="$PROJECT_DIR$/_site/jekyll/update/2017/05/15/welcome-to-jekyll/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/menu/index.html" afterPath="$PROJECT_DIR$/_site/menu/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page-patterns/application-form/index.html" afterPath="$PROJECT_DIR$/_site/page-patterns/application-form/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page-patterns/footer/index.html" afterPath="$PROJECT_DIR$/_site/page-patterns/footer/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page-patterns/form-example/index.html" afterPath="$PROJECT_DIR$/_site/page-patterns/form-example/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page-patterns/grid/index.html" afterPath="$PROJECT_DIR$/_site/page-patterns/grid/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page-patterns/index.html" afterPath="$PROJECT_DIR$/_site/page-patterns/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page-patterns/navigation-header/index.html" afterPath="$PROJECT_DIR$/_site/page-patterns/navigation-header/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page-patterns/page-header/index.html" afterPath="$PROJECT_DIR$/_site/page-patterns/page-header/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page-patterns/sign-in-sign-up/index.html" afterPath="$PROJECT_DIR$/_site/page-patterns/sign-in-sign-up/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page-templates/login/index.html" afterPath="$PROJECT_DIR$/_site/page-templates/login/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/se-buttons/buttons/index.html" afterPath="$PROJECT_DIR$/_site/se-buttons/buttons/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/se-elements/index.html" afterPath="$PROJECT_DIR$/_site/se-elements/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/se-page-patterns/index.html" afterPath="$PROJECT_DIR$/_site/se-page-patterns/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/se-templates/index.html" afterPath="$PROJECT_DIR$/_site/se-templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/se-visual-language/index.html" afterPath="$PROJECT_DIR$/_site/se-visual-language/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/structure/content/index.html" afterPath="$PROJECT_DIR$/_site/structure/content/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/structure/footer/index.html" afterPath="$PROJECT_DIR$/_site/structure/footer/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/structure/grid/index.html" afterPath="$PROJECT_DIR$/_site/structure/grid/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/structure/header/index.html" afterPath="$PROJECT_DIR$/_site/structure/header/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/structure/index.html" afterPath="$PROJECT_DIR$/_site/structure/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/typography/body-copy/index.html" afterPath="$PROJECT_DIR$/_site/typography/body-copy/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/typography/fonts/index.html" afterPath="$PROJECT_DIR$/_site/typography/fonts/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/typography/h1-h6/index.html" afterPath="$PROJECT_DIR$/_site/typography/h1-h6/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/typography/icons/index.html" afterPath="$PROJECT_DIR$/_site/typography/icons/index.html" />
@@ -82,7 +104,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/typography/inline-split-definition-list/index.html" afterPath="$PROJECT_DIR$/_site/typography/inline-split-definition-list/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/typography/ordered-list/index.html" afterPath="$PROJECT_DIR$/_site/typography/ordered-list/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/typography/unordered-list/index.html" afterPath="$PROJECT_DIR$/_site/typography/unordered-list/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/use-of-images/index.html" afterPath="$PROJECT_DIR$/_site/use-of-images/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -99,101 +121,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="components.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/components.html">
+      <file leaf-file-name="se-elements.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/se-elements.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="anchor-navigation.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_components/anchor-navigation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="19" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stepper.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_components/stepper.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="true" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1590">
+              <caret line="106" column="48" lean-forward="false" selection-start-line="106" selection-start-column="48" selection-end-line="106" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="code-examples.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/code-examples.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="no-code.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/no-code.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/page.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="colours.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/colours.html">
+      <file leaf-file-name="se-templates.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/se-templates.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="colour-palettes.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/colour-palettes.html">
+      <file leaf-file-name="confirmation-email.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_page-sections/confirmation-email.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="buttons.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/buttons.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/head.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="75" column="46" lean-forward="false" selection-start-line="75" selection-start-column="46" selection-end-line="75" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_fonts.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_sass/_fonts.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nav.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/nav.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/styles.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+            <state relative-caret-position="120">
+              <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -206,6 +228,7 @@
       <list>
         <option value="Sass File" />
         <option value="SCSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -215,6 +238,8 @@
       <find>info-note.note:before</find>
       <find>blockquote:before</find>
       <find>calendar.js loa</find>
+      <find>structrue</find>
+      <find>Headings, body text</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -229,35 +254,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_sass/_gov-forms.scss" />
-        <option value="$PROJECT_DIR$/assets/css/brand.sass" />
-        <option value="$PROJECT_DIR$/assets/css/styles.scss" />
-        <option value="$PROJECT_DIR$/_sass/brand.scss" />
-        <option value="$PROJECT_DIR$/assets/css/brand.css" />
-        <option value="$PROJECT_DIR$/assets/css/brand.scss" />
-        <option value="$PROJECT_DIR$/_sass/_brand.scss" />
-        <option value="$PROJECT_DIR$/_site/assets/css/brand.css" />
-        <option value="$PROJECT_DIR$/_sass/_variables.scss" />
-        <option value="chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/third_party/require/require.js" />
-        <option value="$PROJECT_DIR$/_sass/_gov-forms-cleaned.scss" />
-        <option value="$PROJECT_DIR$/assets/css/_fonts.scss" />
-        <option value="$PROJECT_DIR$/_sass/_gov-main_forms.scss" />
-        <option value="$PROJECT_DIR$/_sass/_cards.scss" />
-        <option value="$PROJECT_DIR$/_sass/_buttons.scss" />
-        <option value="$PROJECT_DIR$/_layouts/code-examples.md" />
-        <option value="$PROJECT_DIR$/_layouts/code-examples.html" />
-        <option value="$PROJECT_DIR$/_site/assets/css/styles.css" />
-        <option value="$PROJECT_DIR$/assets/javascripts/main.js" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/_config.yml" />
-        <option value="$PROJECT_DIR$/assets/css/se-custom-styles.css" />
-        <option value="$PROJECT_DIR$/_site/index.html" />
-        <option value="$PROJECT_DIR$/_includes/code-page-breadcrumbs.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/_includes/footer.html" />
-        <option value="$PROJECT_DIR$/pages/page-patterns.html" />
-        <option value="$PROJECT_DIR$/_layouts/page.html" />
-        <option value="$PROJECT_DIR$/pages/structure.html" />
         <option value="$PROJECT_DIR$/pages/typography.html" />
         <option value="$PROJECT_DIR$/pages/use-of-images.html" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
@@ -274,6 +270,41 @@
         <option value="$PROJECT_DIR$/pages/about.html" />
         <option value="$PROJECT_DIR$/_includes/nav.html" />
         <option value="$PROJECT_DIR$/_sass/_fonts.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/_structure/main_navigation.html" />
+        <option value="$PROJECT_DIR$/_layouts/code-examples.html" />
+        <option value="$PROJECT_DIR$/_typography/paragraphs.html" />
+        <option value="$PROJECT_DIR$/_structure/preloader-spinner.html" />
+        <option value="$PROJECT_DIR$/_components/-pre-loaders.html" />
+        <option value="$PROJECT_DIR$/_components/pre-loaders.html" />
+        <option value="$PROJECT_DIR$/_components/tables.html" />
+        <option value="$PROJECT_DIR$/_components/responsive-tables.html" />
+        <option value="$PROJECT_DIR$/_components/search.html" />
+        <option value="$PROJECT_DIR$/_components/video.html" />
+        <option value="$PROJECT_DIR$/_components/accordions.html" />
+        <option value="$PROJECT_DIR$/_components/application-progress-indicator.html" />
+        <option value="$PROJECT_DIR$/_components/calendar.html" />
+        <option value="$PROJECT_DIR$/_components/progress-indicator.html" />
+        <option value="$PROJECT_DIR$/_components/tabs.html" />
+        <option value="$PROJECT_DIR$/_components/tooltips.html" />
+        <option value="$PROJECT_DIR$/_components/card-blocks.html" />
+        <option value="$PROJECT_DIR$/_form-elements/fieldsets.html" />
+        <option value="$PROJECT_DIR$/_form-elements/form-navigation.html" />
+        <option value="$PROJECT_DIR$/_components/article-nav.html" />
+        <option value="$PROJECT_DIR$/_form-elements/-dropdowns.html" />
+        <option value="$PROJECT_DIR$/_form-elements/-errors.html" />
+        <option value="$PROJECT_DIR$/_form-elements/conditional-fields.html" />
+        <option value="$PROJECT_DIR$/_components/notifications.html" />
+        <option value="$PROJECT_DIR$/_page-patterns/footer.html" />
+        <option value="$PROJECT_DIR$/_components/modals.html" />
+        <option value="$PROJECT_DIR$/_form-elements/checkboxes.html" />
+        <option value="$PROJECT_DIR$/_form-elements/dropdowns.html" />
+        <option value="$PROJECT_DIR$/_page-sections/form-example.html" />
+        <option value="$PROJECT_DIR$/_page-sections/confirmation-email.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/_components/anchor-navigation.html" />
+        <option value="$PROJECT_DIR$/_components/stepper.html" />
       </list>
     </option>
   </component>
@@ -371,6 +402,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -381,34 +413,32 @@
             <path>
               <item name="se-style-guide" type="b2602c69:ProjectViewProjectNode" />
               <item name="se-style-guide" type="462c0819:PsiDirectoryNode" />
-              <item name="_includes" type="462c0819:PsiDirectoryNode" />
+              <item name="_components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="se-style-guide" type="b2602c69:ProjectViewProjectNode" />
               <item name="se-style-guide" type="462c0819:PsiDirectoryNode" />
-              <item name="_sass" type="462c0819:PsiDirectoryNode" />
+              <item name="_layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="se-style-guide" type="b2602c69:ProjectViewProjectNode" />
               <item name="se-style-guide" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="_page-sections" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="se-style-guide" type="b2602c69:ProjectViewProjectNode" />
               <item name="se-style-guide" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="_page-templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="se-style-guide" type="b2602c69:ProjectViewProjectNode" />
               <item name="se-style-guide" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="_structure" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Changed Files">
           <expand>
@@ -419,7 +449,7 @@
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="se-style-guide" type="cbb8eebc:String" user="se-style-guide" />
-              <item name="_colour-palettes" type="cbb8eebc:String" user="_colour-palettes" />
+              <item name=".idea" type="cbb8eebc:String" user=".idea" />
             </path>
           </expand>
           <select />
@@ -466,6 +496,7 @@
     <property name="node.js.path.for.package.stylelint" value="/usr/local/bin/node" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.selected.package.stylelint" value="$USER_HOME$/node_modules/stylelint" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -533,6 +564,11 @@
       <workItem from="1511784529604" duration="304000" />
       <workItem from="1511785360086" duration="3678000" />
       <workItem from="1511801101720" duration="20000" />
+      <workItem from="1516097713172" duration="23000" />
+      <workItem from="1516097763369" duration="695000" />
+      <workItem from="1516181388228" duration="14000" />
+      <workItem from="1516285781748" duration="7124000" />
+      <workItem from="1516363482168" duration="363000" />
     </task>
     <task id="LOCAL-00001" summary="fixes to links&#10;commit from webstorm (?)">
       <created>1511791704937</created>
@@ -541,11 +577,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511791704937</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added workspace.xml to .gitignore">
+      <created>1516097948195</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1516097948195</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26392000" />
+    <option name="totallyTimeSpent" value="34995000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -558,36 +601,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25369978" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277635" sideWeight="0.50528544" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.49753347" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3277635" sideWeight="0.5109232" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3277635" sideWeight="0.48907682" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18123393" sideWeight="0.49612403" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277635" sideWeight="0.4947146" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5154242" sideWeight="0.49746192" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25449872" sideWeight="0.68851304" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277635" sideWeight="0.50528544" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3277635" sideWeight="0.4947146" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18123393" sideWeight="0.49612403" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5154242" sideWeight="0.49746192" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CSS Styles" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.49541932" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25369978" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -643,93 +676,324 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="fixes to links&#10;commit from webstorm (?)" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes to links&#10;commit from webstorm (?)" />
+    <MESSAGE value="added workspace.xml to .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="added workspace.xml to .gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_site/index.html">
+    <entry file="file://$PROJECT_DIR$/_structure/content.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="71" lean-forward="false" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_structure/preloader-spinner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_typography/paragraphs-and-text-styles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="71" lean-forward="false" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_structure/main_navigation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="5" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="5">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_fonts.scss">
+    <entry file="file://$PROJECT_DIR$/_components/accordions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/code-page-breadcrumbs.html">
+    <entry file="file://$PROJECT_DIR$/_components/application-progress-indicator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_components/calendar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_components/pre-loaders.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_components/progress-indicator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_components/responsive-tables.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_components/tables.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_components/tabs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_components/tooltips.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_components/video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_components/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/se-visual-language.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_gov-forms.scss">
+    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        <state relative-caret-position="120">
+          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_gov-main_forms.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="987" column="36" lean-forward="false" selection-start-line="987" selection-start-column="36" selection-end-line="987" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/.bin/dev-ip" />
-    <entry file="file://$PROJECT_DIR$/node_modules/.bin/express" />
-    <entry file="file://$PROJECT_DIR$/node_modules/.bin/lt" />
-    <entry file="file://$PROJECT_DIR$/node_modules/.bin/mkdirp" />
-    <entry file="file://$PROJECT_DIR$/node_modules/.bin/nopt" />
-    <entry file="file://$PROJECT_DIR$/node_modules/.bin/semver" />
-    <entry file="file://$PROJECT_DIR$/node_modules/.bin/sshpk-conv" />
-    <entry file="file://$PROJECT_DIR$/node_modules/.bin/sshpk-sign" />
-    <entry file="file://$PROJECT_DIR$/node_modules/.bin/sshpk-verify" />
-    <entry file="file://$PROJECT_DIR$/node_modules/.bin/strip-bom" />
-    <entry file="file://$PROJECT_DIR$/node_modules/.bin/throttleproxy" />
-    <entry file="file://$PROJECT_DIR$/node_modules/.bin/user-home" />
-    <entry file="file://$PROJECT_DIR$/node_modules/.bin/uuid" />
-    <entry file="file://$PROJECT_DIR$/node_modules/.bin/weinre" />
-    <entry file="file://$PROJECT_DIR$/node_modules/.bin/which" />
-    <entry file="file://$PROJECT_DIR$/node_modules/.bin/window-size" />
-    <entry file="file://$PROJECT_DIR$/node_modules/.bin/gulp" />
-    <entry file="file://$PROJECT_DIR$/node_modules/.bin/browser-sync" />
-    <entry file="file://$PROJECT_DIR$/node_modules/browser-sync/bin/browser-sync.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="3" lean-forward="false" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_site/assets/main.css">
+    <entry file="file://$PROJECT_DIR$/_errors-validation/input-validation copy.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
+    <entry file="file://$PROJECT_DIR$/_errors-validation/input-validation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_form-elements/fieldsets.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_components/card-blocks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_form-elements/errors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_components/article-nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_typography/icons.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_page-sections/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_page-sections/grid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_page-sections/navigation-header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_page-sections/page-header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_page-sections/sign-in-sign-up.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-140">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_components/notifications.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_components/modals.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_form-elements/input-fields.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_form-elements/conditional-fields.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_form-elements/checkboxes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_form-elements/dropdowns.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_page-sections/form-example.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/se-page-sections.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_page-sections/application-form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_form-elements/form-navigation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_page-sections/confirmation-email.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/se-templates.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/se-elements.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -745,179 +1009,56 @@
         </state>
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="719">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="75" column="46" lean-forward="false" selection-start-line="75" selection-start-column="46" selection-end-line="75" selection-end-column="46" />
+        <state relative-caret-position="1590">
+          <caret line="106" column="48" lean-forward="false" selection-start-line="106" selection-start-column="48" selection-end-line="106" selection-end-column="48" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_site/about/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/page-patterns.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/typography.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/use-of-images.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/structure.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/code-examples.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="14" lean-forward="false" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+        <state relative-caret-position="90">
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_page-patterns/application-form.html">
+    <entry file="file://$PROJECT_DIR$/_layouts/no-code.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/grid.html">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/form-elements.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/errors-validation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/data.html">
+    <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="208">
+          <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/content-nav.html">
+    <entry file="file://$PROJECT_DIR$/_components/anchor-navigation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="120">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/components.html">
+    <entry file="file://$PROJECT_DIR$/_components/stepper.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/colours.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/colour-palettes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/buttons.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state relative-caret-position="120">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
           <folding />
         </state>
       </provider>

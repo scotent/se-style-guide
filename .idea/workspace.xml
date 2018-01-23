@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a5868d-a00a-4e33-860f-8833cc08f7fe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_components/block-quote.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_components/callout.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_components/section-heading.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_components/timeline-indicator.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_form-elements/checkbox-and-declaration.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/components/accordions/index.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_components/accordions.html" afterPath="$PROJECT_DIR$/_components/accordion.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_components/article-nav.html" afterPath="$PROJECT_DIR$/_components/article-nav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_content-nav/breadcrumbs.html" afterPath="$PROJECT_DIR$/_content-nav/breadcrumbs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/article-nav/index.html" afterPath="$PROJECT_DIR$/_site/components/article-nav/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/index.html" afterPath="$PROJECT_DIR$/_site/components/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/content-nav/breadcrumbs/index.html" afterPath="$PROJECT_DIR$/_site/content-nav/breadcrumbs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -437,7 +423,7 @@
       <workItem from="1516097763369" duration="695000" />
       <workItem from="1516181388228" duration="14000" />
       <workItem from="1516285781748" duration="7124000" />
-      <workItem from="1516363482168" duration="2216000" />
+      <workItem from="1516363482168" duration="2296000" />
     </task>
     <task id="LOCAL-00001" summary="fixes to links&#10;commit from webstorm (?)">
       <created>1511791704937</created>
@@ -460,11 +446,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516364549142</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added missing holding pages; nav updates">
+      <created>1516715248104</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1516715248104</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36848000" />
+    <option name="totallyTimeSpent" value="36928000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -480,8 +473,8 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25369978" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.49753347" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25449872" sideWeight="0.41437632" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3277635" sideWeight="0.48907682" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3277635" sideWeight="0.46159267" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3277635" sideWeight="0.5384073" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18123393" sideWeight="0.49612403" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25449872" sideWeight="0.5856237" order="7" side_tool="false" content_ui="tabs" />
@@ -554,7 +547,8 @@
     <MESSAGE value="fixes to links&#10;commit from webstorm (?)" />
     <MESSAGE value="added workspace.xml to .gitignore" />
     <MESSAGE value="added missing pages for GDL components" />
-    <option name="LAST_COMMIT_MESSAGE" value="added missing pages for GDL components" />
+    <MESSAGE value="added missing holding pages; nav updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="added missing holding pages; nav updates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

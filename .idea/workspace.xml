@@ -4,109 +4,8 @@
     <option name="CUSTOM_SCOPE_NAME" value="_sass folder" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4a5868d-a00a-4e33-860f-8833cc08f7fe" name="Default" comment="commit+">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/css/brand.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/css/styles.css" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_sass/_brand.scss" afterPath="$PROJECT_DIR$/_sass/_brand.1.0.0.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/css/brand.scss" afterPath="$PROJECT_DIR$/assets/css/brand.1.0.0.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/css/styles.scss" afterPath="$PROJECT_DIR$/assets/css/main-core.1.0.0.scss" />
+    <list default="true" id="b4a5868d-a00a-4e33-860f-8833cc08f7fe" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_components/callout.html" afterPath="$PROJECT_DIR$/_components/callout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_form-elements/form-navigation.html" afterPath="$PROJECT_DIR$/_form-elements/form-navigation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_forms.scss" afterPath="$PROJECT_DIR$/_sass/_forms.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about/index.html" afterPath="$PROJECT_DIR$/_site/about/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/buttons/index.html" afterPath="$PROJECT_DIR$/_site/buttons/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/buttons/links/index.html" afterPath="$PROJECT_DIR$/_site/buttons/links/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/buttons/main-buttons/index.html" afterPath="$PROJECT_DIR$/_site/buttons/main-buttons/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/colour-palettes/colours/index.html" afterPath="$PROJECT_DIR$/_site/colour-palettes/colours/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/colour-palettes/index.html" afterPath="$PROJECT_DIR$/_site/colour-palettes/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/colour-palettes/typography-colours/index.html" afterPath="$PROJECT_DIR$/_site/colour-palettes/typography-colours/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/colours/colours-se/index.html" afterPath="$PROJECT_DIR$/_site/colours/colours-se/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/colours/index.html" afterPath="$PROJECT_DIR$/_site/colours/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/accordion/index.html" afterPath="$PROJECT_DIR$/_site/components/accordion/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/anchor-navigation/index.html" afterPath="$PROJECT_DIR$/_site/components/anchor-navigation/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/application-progress-indicator/index.html" afterPath="$PROJECT_DIR$/_site/components/application-progress-indicator/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/article-nav/index.html" afterPath="$PROJECT_DIR$/_site/components/article-nav/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/block-quote/index.html" afterPath="$PROJECT_DIR$/_site/components/block-quote/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/calendar/index.html" afterPath="$PROJECT_DIR$/_site/components/calendar/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/callout/index.html" afterPath="$PROJECT_DIR$/_site/components/callout/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/card-blocks/index.html" afterPath="$PROJECT_DIR$/_site/components/card-blocks/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/index.html" afterPath="$PROJECT_DIR$/_site/components/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/modals/index.html" afterPath="$PROJECT_DIR$/_site/components/modals/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/notifications/index.html" afterPath="$PROJECT_DIR$/_site/components/notifications/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/pre-loaders/index.html" afterPath="$PROJECT_DIR$/_site/components/pre-loaders/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/progress-indicator/index.html" afterPath="$PROJECT_DIR$/_site/components/progress-indicator/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/responsive-tables/index.html" afterPath="$PROJECT_DIR$/_site/components/responsive-tables/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/search/index.html" afterPath="$PROJECT_DIR$/_site/components/search/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/section-heading/index.html" afterPath="$PROJECT_DIR$/_site/components/section-heading/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/stepper/index.html" afterPath="$PROJECT_DIR$/_site/components/stepper/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/tables/index.html" afterPath="$PROJECT_DIR$/_site/components/tables/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/tabs/index.html" afterPath="$PROJECT_DIR$/_site/components/tabs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/timeline-indicator/index.html" afterPath="$PROJECT_DIR$/_site/components/timeline-indicator/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/tooltips/index.html" afterPath="$PROJECT_DIR$/_site/components/tooltips/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/components/video/index.html" afterPath="$PROJECT_DIR$/_site/components/video/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/content-nav/breadcrumbs/index.html" afterPath="$PROJECT_DIR$/_site/content-nav/breadcrumbs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/content-nav/buttons/index.html" afterPath="$PROJECT_DIR$/_site/content-nav/buttons/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/content-nav/index.html" afterPath="$PROJECT_DIR$/_site/content-nav/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/content-nav/links/index.html" afterPath="$PROJECT_DIR$/_site/content-nav/links/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/content-nav/pagination/index.html" afterPath="$PROJECT_DIR$/_site/content-nav/pagination/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/data/index.html" afterPath="$PROJECT_DIR$/_site/data/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/errors-validation/index.html" afterPath="$PROJECT_DIR$/_site/errors-validation/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/errors-validation/input-validation copy/index.html" afterPath="$PROJECT_DIR$/_site/errors-validation/input-validation copy/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/errors-validation/input-validation/index.html" afterPath="$PROJECT_DIR$/_site/errors-validation/input-validation/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/checkboxes/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/checkboxes/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/conditional-fields/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/conditional-fields/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/dropdowns/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/dropdowns/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/errors/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/errors/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/fieldsets/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/fieldsets/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/file-upload/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/file-upload/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/form-navigation/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/form-navigation/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/help-text/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/help-text/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/input-fields/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/input-fields/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/input-validation/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/input-validation/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/labels/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/labels/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/radio-buttons/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/radio-buttons/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/select-menu/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/select-menu/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/form-elements/text-area/index.html" afterPath="$PROJECT_DIR$/_site/form-elements/text-area/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/grid/grid/index.html" afterPath="$PROJECT_DIR$/_site/grid/grid/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/grid/index.html" afterPath="$PROJECT_DIR$/_site/grid/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/jekyll/update/2017/05/15/welcome-to-jekyll/index.html" afterPath="$PROJECT_DIR$/_site/jekyll/update/2017/05/15/welcome-to-jekyll/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/menu/index.html" afterPath="$PROJECT_DIR$/_site/menu/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page-patterns/index.html" afterPath="$PROJECT_DIR$/_site/page-patterns/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page-sections/application-form/index.html" afterPath="$PROJECT_DIR$/_site/page-sections/application-form/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page-sections/confirmation-email/index.html" afterPath="$PROJECT_DIR$/_site/page-sections/confirmation-email/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page-sections/footer/index.html" afterPath="$PROJECT_DIR$/_site/page-sections/footer/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page-sections/form-example/index.html" afterPath="$PROJECT_DIR$/_site/page-sections/form-example/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page-sections/grid/index.html" afterPath="$PROJECT_DIR$/_site/page-sections/grid/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page-sections/navigation-header/index.html" afterPath="$PROJECT_DIR$/_site/page-sections/navigation-header/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page-sections/page-header/index.html" afterPath="$PROJECT_DIR$/_site/page-sections/page-header/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page-sections/sign-in-sign-up/index.html" afterPath="$PROJECT_DIR$/_site/page-sections/sign-in-sign-up/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page-templates/login/index.html" afterPath="$PROJECT_DIR$/_site/page-templates/login/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/se-buttons/buttons/index.html" afterPath="$PROJECT_DIR$/_site/se-buttons/buttons/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/se-elements/index.html" afterPath="$PROJECT_DIR$/_site/se-elements/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/se-page-sections/index.html" afterPath="$PROJECT_DIR$/_site/se-page-sections/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/se-templates/index.html" afterPath="$PROJECT_DIR$/_site/se-templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/se-visual-language/index.html" afterPath="$PROJECT_DIR$/_site/se-visual-language/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/structure/content/index.html" afterPath="$PROJECT_DIR$/_site/structure/content/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/structure/footer/index.html" afterPath="$PROJECT_DIR$/_site/structure/footer/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/structure/grid/index.html" afterPath="$PROJECT_DIR$/_site/structure/grid/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/structure/header/index.html" afterPath="$PROJECT_DIR$/_site/structure/header/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/structure/index.html" afterPath="$PROJECT_DIR$/_site/structure/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/structure/main_navigation/index.html" afterPath="$PROJECT_DIR$/_site/structure/main_navigation/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/structure/preloader-spinner/index.html" afterPath="$PROJECT_DIR$/_site/structure/preloader-spinner/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/typography/fonts/index.html" afterPath="$PROJECT_DIR$/_site/typography/fonts/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/typography/h1-h6/index.html" afterPath="$PROJECT_DIR$/_site/typography/h1-h6/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/typography/icons/index.html" afterPath="$PROJECT_DIR$/_site/typography/icons/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/typography/index.html" afterPath="$PROJECT_DIR$/_site/typography/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/typography/info-notes/index.html" afterPath="$PROJECT_DIR$/_site/typography/info-notes/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/typography/inline-split-definition-list/index.html" afterPath="$PROJECT_DIR$/_site/typography/inline-split-definition-list/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/typography/ordered-list/index.html" afterPath="$PROJECT_DIR$/_site/typography/ordered-list/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/typography/paragraphs-and-text-styles/index.html" afterPath="$PROJECT_DIR$/_site/typography/paragraphs-and-text-styles/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/typography/unordered-list/index.html" afterPath="$PROJECT_DIR$/_site/typography/unordered-list/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/use-of-images/index.html" afterPath="$PROJECT_DIR$/_site/use-of-images/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -544,7 +443,7 @@
       <workItem from="1516285781748" duration="7124000" />
       <workItem from="1516363482168" duration="3074000" />
       <workItem from="1516717124380" duration="1339000" />
-      <workItem from="1517484389184" duration="526000" />
+      <workItem from="1517484389184" duration="618000" />
     </task>
     <task id="LOCAL-00001" summary="fixes to links&#10;commit from webstorm (?)">
       <created>1511791704937</created>
@@ -595,11 +494,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516715507440</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="bootstrap.min.css replaced; links for css changed style.css -&gt; main-core.1.0.0; brand.css -&gt; brand.1.0.0.css">
+      <created>1517484995915</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1517484995915</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39571000" />
+    <option name="totallyTimeSpent" value="39663000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -691,7 +597,8 @@
     <MESSAGE value="added missing pages for GDL components" />
     <MESSAGE value="added missing holding pages; nav updates" />
     <MESSAGE value="commit+" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit+" />
+    <MESSAGE value="bootstrap.min.css replaced; links for css changed style.css -&gt; main-core.1.0.0; brand.css -&gt; brand.1.0.0.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="bootstrap.min.css replaced; links for css changed style.css -&gt; main-core.1.0.0; brand.css -&gt; brand.1.0.0.css" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

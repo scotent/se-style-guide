@@ -1,0 +1,30 @@
+---
+
+---
+
+.test{
+  color:white;
+}
+
+@import "variables.scss";
+@import "mixins.scss";
+
+@import "gov-main_forms.scss";
+@import "gov-forms.scss";
+
+@import "footer.scss";
+@import "fonts.scss";
+@import "typography.scss";
+@import "buttons.scss";
+@import "cards.scss";
+@import "component-library.scss";
+@import "components.scss";
+@import "file-upload.scss";
+@import "forms.scss";
+@import "images.scss";
+@import "layout.scss";
+@import "tables.scss";
+@import "misc.scss";
+@import "navbar.scss";
+@import "progress-indicator.scss";
+@import "se-styles.scss";

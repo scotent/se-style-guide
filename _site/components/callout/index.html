@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SE Pattern Library - Callout</title>
     <meta name="description" content="Scottish Enterprise - Visual Style Guide">
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">-->
-    <link rel="stylesheet" href="https://resources.mygov.scot/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/se-style-guide/assets/css/styles.css">
-    <link rel="stylesheet" href="/se-style-guide/assets/css/brand.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/se-style-guide/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/se-style-guide/assets/css/main-core.1.0.0.css">
+    <link rel="stylesheet" href="/se-style-guide/assets/css/brand.1.0.0.css">
     <link rel="alternate" type="application/rss+xml" title="SE Pattern Library" href="/feed.xml">
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
 </head>
@@ -73,7 +73,14 @@
 
                 <div class="demo-box">
                     <span class="example">Example</span>
-                    Content to be added
+                    <div class="callout-left wide">
+
+	<h3>Box Headline</h3>
+
+	<p>YOUR TEXT GOES HERE</p>
+
+</div>Content to be added
+
                 </div>
                 
                 <button class="btn btn-primary margin-bottom" onclick="copyToClipboard('#code-snippet')">Copy to clipboard</button>
@@ -81,8 +88,15 @@
                 <!--html code snippet-->
                 <div id="code-snippet">          
                     <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">                    
-                        <span class="no">Content</span> <span class="n">to</span> <span class="n">be</span> <span class="n">added</span>
-                    </code></pre></figure>
+                        <span class="o">&lt;</span><span class="n">div</span> <span class="k">class</span><span class="o">=</span><span class="s2">"callout-left wide"</span><span class="o">&gt;</span>
+
+	<span class="o">&lt;</span><span class="n">h3</span><span class="o">&gt;</span><span class="no">Box</span> <span class="no">Headline</span><span class="o">&lt;</span><span class="sr">/h3&gt;
+
+	&lt;p&gt;YOUR TEXT GOES HERE&lt;/</span><span class="nb">p</span><span class="o">&gt;</span>
+
+<span class="o">&lt;</span><span class="sr">/div&gt;Content to be added
+
+                    </span></code></pre></figure>
                 </div>
 
                 <div class="usage-notes">

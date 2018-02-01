@@ -182,3 +182,22 @@ input + label.fancy-checkbox::before {
         margin-left: 0;
     }
 }
+
+.controls {
+    height: 50px;
+    position: relative;
+}
+
+.pagination-button.left {
+    margin-left: 10px;
+    bottom: inherit;
+}
+.pagination-button.right {
+    right: 20px;
+    bottom: inherit;
+    position: absolute;
+}
+
+.pagination-button.right .description, .pagination-button.right .textual {
+    text-align: right;
+}
